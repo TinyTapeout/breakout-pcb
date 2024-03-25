@@ -1,0 +1,3 @@
+[submodule "breakout-tt4-qfn/tinytapeout-kicad-libs"]
+	path = breakout-tt4-qfn/tinytapeout-kicad-libs
+	url = https://github.com/TinyTapeout/tinytapeout-kicad-libs.git
