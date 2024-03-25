@@ -14,7 +14,7 @@ The PCBs are keyed such that direction of insertion onto hosts is made clear.
 
 The breakout-tt3-qfn directory holds a QFN breakout suitable for TT02 and TT03 chips.
 
-![TT03 QFN](https://raw.githubusercontent.com/TinyTapeout/breakout-pcb/main/images/tt3-breakout.jpg)
+![TT03 QFN](images/tt3-breakout.jpg)
 
 It provides access to the project inputs, outputs, select pins etc, though the naming on the PCB refers to the caravel mprj_io pin numbers.
 
@@ -25,7 +25,7 @@ The pin headers used up to this point have been dual entry (access from both top
 
 The breakout-tt4-qfn directory holds a QFN breakout suitable for TT04 chips.  To date, we've been using it with the TT03p5 trial run (hence the markings), though the pinout remains constant for TT04. 
 
-![TT04 QFN](https://raw.githubusercontent.com/TinyTapeout/breakout-pcb/main/images/tt4-breakout.jpg)
+![TT04 QFN](images/tt4-breakout.jpg)
 
 We've now moved to more easily sourced standard 100 mil pin headers, placed on the bottom of the PCB.  Markings on top are Tiny Tapeout names of the pins (in0 is input 0, ot5 is output 5, etc).
 
