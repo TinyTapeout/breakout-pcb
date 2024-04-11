@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "Caravel QFN Breakout")
-		(date "2024-03-22")
-		(rev "3.2")
+		(date "2024-04-10")
+		(rev "3.3")
 		(company "Psychogenic Technologies")
 		(comment 1 "(C) 2023 Pat Deegan")
 	)
