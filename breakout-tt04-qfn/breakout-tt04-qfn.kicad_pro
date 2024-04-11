@@ -464,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "breakout-tt4-qfn.kicad_pro",
+    "filename": "breakout-tt04-qfn.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -562,7 +562,7 @@
       "plot": "pcba/v3p3/gerber/",
       "pos_files": "/tmp/",
       "specctra_dsn": "",
-      "step": "breakout-tt4-qfn.step",
+      "step": "breakout-tt04-qfn.step",
       "svg": "",
       "vrml": ""
     },
