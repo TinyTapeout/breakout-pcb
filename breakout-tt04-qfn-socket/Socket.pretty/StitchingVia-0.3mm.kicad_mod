@@ -1,0 +1,77 @@
+(footprint "StitchingVia-0.3mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "stitching via")
+	(property "Reference" "STITCH17"
+		(at 0.508 1.016 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "88ec8e57-bd9d-4f71-8006-5081708fe2cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "StitchingVia-0.3mm"
+		(at 0 -1.016 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8205d10b-f858-4048-9bc6-04448d99a60d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c98e0942-5b5a-4fba-8fb8-3471e20457ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76a2f462-882f-459c-b68a-41dffa458567")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44b83f01-7f80-421f-828d-42414f1d0ea0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 0.62 0.62)
+		(drill 0.3)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "1bfe409f-4d88-4fb3-a705-0eb01f9da120")
+	)
+)
