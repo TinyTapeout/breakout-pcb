@@ -1,8 +1,8 @@
 [submodule "breakout-tt04-qfn/tinytapeout-kicad-libs"]
 	path = breakout-tt04-qfn/tinytapeout-kicad-libs
 	url = https://github.com/TinyTapeout/tinytapeout-kicad-libs.git
-[submodule "ASIC-simulator/tt3-fpga-ICE40UP5k/tinytapeout-kicad-libs"]
-	path = ASIC-simulator/tt3-fpga-ICE40UP5k/tinytapeout-kicad-libs
+[submodule "ASIC-simulator/tt03-fpga-ICE40UP5k/tinytapeout-kicad-libs"]
+	path = ASIC-simulator/tt03-fpga-ICE40UP5k/tinytapeout-kicad-libs
 	url = https://github.com/TinyTapeout/tinytapeout-kicad-libs.git
 [submodule "ASIC-simulator/tt04-fpga-ICE40UP5k/tinytapeout-kicad-libs"]
 	path = ASIC-simulator/tt04-fpga-ICE40UP5k/tinytapeout-kicad-libs
