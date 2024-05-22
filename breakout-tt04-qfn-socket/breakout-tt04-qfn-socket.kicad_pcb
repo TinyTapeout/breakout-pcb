@@ -16541,6 +16541,18 @@
 		(layer "F.SilkS")
 		(uuid "0b7a8bde-5a09-485e-ac08-d5eed5bd85d2")
 	)
+	(gr_poly
+		(pts
+			(xy 78.982529 26.396539) (xy 79.393472 25.621539) (xy 78.543472 25.621539)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1b61eb90-6a36-45e8-a005-7b5971c7df91")
+	)
 	(gr_rect
 		(start 48.67744 18.77256)
 		(end 56.25 69.3)
@@ -19725,6 +19737,18 @@
 					(xy 90.901507 65.330265) (xy 90.901507 65.158318) (xy 91.075213 65.158318)
 				)
 			)
+		)
+	)
+	(gr_text "PIN1"
+		(at 79.518472 26.521539 0)
+		(layer "F.SilkS")
+		(uuid "7d69c375-d7dd-41b2-bb5a-4820928c6504")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "GPIO"
