@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "TT04+ FPGA ASIC Simulator ")
-		(date "2024-04-06")
-		(rev "1.0")
+		(date "2024-04-24")
+		(rev "1.1")
 		(company "Psychogenic Technologies ")
 		(comment 1 "(C) 2024 Pat Deegan")
 		(comment 2 "Beta Release")
@@ -22822,7 +22822,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "11e64861-504c-49fe-bc34-0e098c4e57ac")
 		(property "Reference" "R30"
@@ -22907,6 +22907,15 @@
 			)
 		)
 		(property "Characteristics" "0603 0R JUMPER"
+			(at 205.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Variant" ""
 			(at 205.74 36.83 0)
 			(effects
 				(font
@@ -24040,7 +24049,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1cb51838-24c8-436f-a4ee-d8d9945a9060")
 		(property "Reference" "R17"
@@ -29359,7 +29368,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6c7c508e-56b6-4855-9c56-03a5d3b2662e")
 		(property "Reference" "C23"
@@ -34425,7 +34434,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c1100e4b-b839-446a-9a15-86b08853aea1")
 		(property "Reference" "R20"
@@ -34508,6 +34517,15 @@
 			)
 		)
 		(property "Characteristics" "0402 1k5"
+			(at 243.84 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Variant" ""
 			(at 243.84 231.14 0)
 			(effects
 				(font
@@ -35753,7 +35771,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d55e0b4d-c858-40ce-bcb7-1a8e5c405ec9")
 		(property "Reference" "R28"
@@ -39028,7 +39046,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fe9ad4a5-cde8-48a2-b399-612f9e2cb51a")
 		(property "Reference" "SW3"
 			(at 234.95 221.996 90)
