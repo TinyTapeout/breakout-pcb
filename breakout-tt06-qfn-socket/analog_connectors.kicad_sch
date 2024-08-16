@@ -1,0 +1,3094 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "62418554-7534-4d91-b459-0fa86b88d427")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Jumper:Jumper_2_Small_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Bridged"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_1"
+				(arc
+					(start 0.762 0.254)
+					(mid 0 0.5696)
+					(end -0.762 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "psysnapeda:RSP-122811-01"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.032 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RSP-122811-01"
+				(at -4.064 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "psysnapeda:SAMTEC_RSP-122811-01"
+				(at 1.778 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6210/rsp-122811-01-mkt.pdf"
+				(at 3.048 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "U.FL (UMCC), IPEX MHFI Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
+				(at 2.54 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RSP-122811-01"
+				(at 0.508 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN_ALT" "U.FL-R-SMT-1(80)"
+				(at -0.508 -5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C88374"
+				(at -0.762 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigikeyPN" "612-RSP-122811-01CT-ND"
+				(at 1.778 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "u.fl ipex "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RSP-122811-01_0_0"
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy 0 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.762) (xy -1.27 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy -0.508 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.762) (xy 0.254 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RSP-122811-01_1_0"
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 68.58 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09eb50a1-1ae9-4e0b-bab7-3f30a38dcc00")
+	)
+	(junction
+		(at 68.58 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ba2ae94-e106-47f4-9939-048e9dbb893d")
+	)
+	(junction
+		(at 68.58 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5df42258-966d-4f18-ab4b-15c79ce8e485")
+	)
+	(junction
+		(at 68.58 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c99287c5-e0ea-4f07-9428-3e3e9016609e")
+	)
+	(junction
+		(at 68.58 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e41fb248-a308-410a-9da7-53fb010d03d7")
+	)
+	(junction
+		(at 68.58 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe7601c8-46dd-4f54-bf50-27c02e8a84d8")
+	)
+	(bus_entry
+		(at 91.44 62.23)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae7691f-7859-4c7e-8dfe-1d1204571e67")
+	)
+	(bus_entry
+		(at 91.44 72.39)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b9388cf-0a9a-4888-ba94-59a5ca9ec417")
+	)
+	(bus_entry
+		(at 53.34 67.31)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa2174f-01fb-4e0f-b98a-9c68cbc3d254")
+	)
+	(bus_entry
+		(at 91.44 40.64)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51319175-6471-415a-bb46-d11fd2438357")
+	)
+	(bus_entry
+		(at 53.34 45.72)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b787358-ed9c-4081-8888-cb3acb19f9b8")
+	)
+	(bus_entry
+		(at 91.44 50.8)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7e038d-ac11-4ead-8f52-e56388db4c90")
+	)
+	(bus_entry
+		(at 91.44 82.55)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c6bedb-3b65-4ebe-a86d-266d73337f7d")
+	)
+	(bus_entry
+		(at 53.34 35.56)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f88adf-92d1-40cd-a26c-cd157a85d925")
+	)
+	(bus_entry
+		(at 53.34 77.47)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25cf757-d713-46f9-b75d-ec102119fdad")
+	)
+	(bus_entry
+		(at 91.44 30.48)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db19b2f3-fe79-4ea2-b74f-bf003f1ecbff")
+	)
+	(bus_entry
+		(at 53.34 55.88)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc905094-a5ac-4460-88f2-1d535a911fa8")
+	)
+	(bus_entry
+		(at 53.34 87.63)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee90b81d-e717-4daa-8bad-a6a95bad9c16")
+	)
+	(wire
+		(pts
+			(xy 55.88 74.93) (xy 68.58 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03659664-9827-4029-af84-e86cdae54dba")
+	)
+	(bus
+		(pts
+			(xy 91.44 25.4) (xy 91.44 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ab9186-3b50-4257-82f7-879119340eb4")
+	)
+	(wire
+		(pts
+			(xy 76.2 33.02) (xy 88.9 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2f58eb-8b37-457a-956a-bb156218aafa")
+	)
+	(wire
+		(pts
+			(xy 55.88 53.34) (xy 68.58 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7f8fbf-f57a-461a-b3c2-d286b3aa3735")
+	)
+	(bus
+		(pts
+			(xy 91.44 25.4) (xy 101.6 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106737b6-8c4c-496d-a03a-2653c17b92bd")
+	)
+	(wire
+		(pts
+			(xy 68.58 33.02) (xy 68.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12886ab2-d87c-4ff3-b4d5-4083f571e04a")
+	)
+	(wire
+		(pts
+			(xy 88.9 43.18) (xy 76.2 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e264ee-77d8-473f-9b86-34e0e3656612")
+	)
+	(bus
+		(pts
+			(xy 91.44 72.39) (xy 91.44 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be38140-777e-4c3a-867c-196863fd088c")
+	)
+	(bus
+		(pts
+			(xy 53.34 26.67) (xy 53.34 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3388291d-b425-4d48-b604-90d165a8debc")
+	)
+	(wire
+		(pts
+			(xy 88.9 64.77) (xy 76.2 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b00d76-e4ba-4250-b98d-30869cec9d71")
+	)
+	(wire
+		(pts
+			(xy 68.58 88.9) (xy 69.85 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a291cb9-19d6-424d-b6d1-0f66e3150c44")
+	)
+	(wire
+		(pts
+			(xy 68.58 64.77) (xy 71.12 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8e5374-b87a-43d8-8882-0db65a76ad3a")
+	)
+	(wire
+		(pts
+			(xy 55.88 85.09) (xy 68.58 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dae73af-09ac-449b-8bbe-507634676908")
+	)
+	(wire
+		(pts
+			(xy 88.9 74.93) (xy 76.2 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "464e9b01-71be-413a-9500-ee36ef588cff")
+	)
+	(wire
+		(pts
+			(xy 55.88 64.77) (xy 68.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47fe6722-2922-4dfa-a575-f95d2be891dc")
+	)
+	(wire
+		(pts
+			(xy 68.58 53.34) (xy 71.12 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48450584-5d03-4458-86c8-217666ccb709")
+	)
+	(wire
+		(pts
+			(xy 68.58 74.93) (xy 68.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5005b016-5e8c-42fa-af4e-11b3039f8547")
+	)
+	(wire
+		(pts
+			(xy 68.58 78.74) (xy 69.85 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c3111b-fb45-4f26-9e89-bfc0723c0d41")
+	)
+	(bus
+		(pts
+			(xy 53.34 35.56) (xy 53.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662a2914-675e-4bdb-9927-5ff6e26fd3d2")
+	)
+	(wire
+		(pts
+			(xy 68.58 43.18) (xy 71.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688f6b12-50da-4b45-8f35-b0c70caa5b83")
+	)
+	(bus
+		(pts
+			(xy 91.44 50.8) (xy 91.44 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7423c7a1-4fc5-4886-98bc-e76b25f1da93")
+	)
+	(bus
+		(pts
+			(xy 35.56 26.67) (xy 53.34 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753b1cae-c503-46b2-ae9e-ea2e524ee9e8")
+	)
+	(wire
+		(pts
+			(xy 88.9 53.34) (xy 76.2 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755aab6f-19e5-4df1-9e24-6537df51deef")
+	)
+	(wire
+		(pts
+			(xy 88.9 85.09) (xy 76.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794d68e5-2d47-4b17-a7c7-7cd5cb901f6e")
+	)
+	(wire
+		(pts
+			(xy 68.58 57.15) (xy 69.85 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c72a303-f89f-4d6c-b358-1d6d1e583814")
+	)
+	(wire
+		(pts
+			(xy 68.58 64.77) (xy 68.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b15d6a6-115d-43e3-b61c-bb3fcefc0b1f")
+	)
+	(bus
+		(pts
+			(xy 91.44 40.64) (xy 91.44 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9749d3aa-10f3-4815-8de3-fb9659b78019")
+	)
+	(bus
+		(pts
+			(xy 91.44 62.23) (xy 91.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980c35d4-fa39-478d-b577-a9103b42c84c")
+	)
+	(wire
+		(pts
+			(xy 68.58 46.99) (xy 69.85 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31b1396-4c46-4bcc-95a5-43af3fa2f595")
+	)
+	(wire
+		(pts
+			(xy 68.58 36.83) (xy 69.85 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40c4de1-8b0a-46d7-9062-a5430d07f925")
+	)
+	(wire
+		(pts
+			(xy 68.58 53.34) (xy 68.58 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f20436-1e85-47e4-8c6e-ab2f7dbc5a01")
+	)
+	(bus
+		(pts
+			(xy 53.34 55.88) (xy 53.34 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b294ef9d-fe5b-4a5c-9d8c-859a23cb7002")
+	)
+	(wire
+		(pts
+			(xy 68.58 85.09) (xy 71.12 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcd6cad0-5cc0-4953-bfce-d7cc9b678006")
+	)
+	(bus
+		(pts
+			(xy 53.34 87.63) (xy 53.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c023131d-3d73-41b4-8803-4b9c53283395")
+	)
+	(bus
+		(pts
+			(xy 91.44 82.55) (xy 91.44 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd5cb4e9-a970-4932-8660-1a6ef18e621d")
+	)
+	(wire
+		(pts
+			(xy 55.88 43.18) (xy 68.58 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9304be7-ebc1-4b30-9e47-9c6255ce1376")
+	)
+	(wire
+		(pts
+			(xy 68.58 74.93) (xy 71.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2288e71-23fc-4083-8765-89993d73fe68")
+	)
+	(bus
+		(pts
+			(xy 53.34 77.47) (xy 53.34 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71eb552-1b36-4485-947e-01bc4fc567fe")
+	)
+	(bus
+		(pts
+			(xy 53.34 67.31) (xy 53.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf4a74b-f9e1-4b73-8729-cad0e6aac6a0")
+	)
+	(wire
+		(pts
+			(xy 68.58 33.02) (xy 71.12 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0dd6ebf-284b-4167-9d2a-df21065fa8d8")
+	)
+	(wire
+		(pts
+			(xy 68.58 68.58) (xy 69.85 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24549dc-a27d-4649-ad94-bf643288e0e2")
+	)
+	(wire
+		(pts
+			(xy 55.88 33.02) (xy 68.58 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f323ece8-0127-4d62-b1e2-dba17ca6dd26")
+	)
+	(bus
+		(pts
+			(xy 53.34 45.72) (xy 53.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3aab0e5-6d1d-4942-875f-04fa75440b50")
+	)
+	(wire
+		(pts
+			(xy 68.58 43.18) (xy 68.58 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f666bb99-4bb6-4f69-8b2d-1c14c96f7795")
+	)
+	(wire
+		(pts
+			(xy 68.58 85.09) (xy 68.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f87f2e3a-05cd-4889-909b-c062cb099c5a")
+	)
+	(label "AnPout5"
+		(at 78.74 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14d0aa59-6686-4a0b-8159-255edffa0fb6")
+	)
+	(label "AnPin5"
+		(at 66.04 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2474ce71-a9d3-47c0-b330-fab410741354")
+	)
+	(label "AnPin2"
+		(at 66.04 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "274dea06-c64d-420f-8986-f9a7b46275b8")
+	)
+	(label "AnPout2"
+		(at 78.74 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c84d52e-0e0a-411d-b5e1-c4d6c0cc6732")
+	)
+	(label "AnPin1"
+		(at 66.04 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "630fd327-b9b5-4b97-bd31-47eb949e59a6")
+	)
+	(label "AnPin3"
+		(at 66.04 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "659f6e7c-f9fa-4f5c-bb11-d014453d1470")
+	)
+	(label "AnPout3"
+		(at 78.74 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e1680fb-43c2-45b8-9a30-652161223319")
+	)
+	(label "AnPin4"
+		(at 66.04 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ecec9a8-f242-4099-b6c7-f009ebaaef11")
+	)
+	(label "AnPin0"
+		(at 66.04 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8354976f-7a96-4e2f-950d-62cfb6c4f42e")
+	)
+	(label "AnPout4"
+		(at 78.74 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84a4c4bd-a134-42b5-912e-b6730db1232d")
+	)
+	(label "AnPout0"
+		(at 81.28 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "874fcc92-7cc5-40d9-b92f-41806aee3179")
+	)
+	(label "AnPout1"
+		(at 78.74 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e676a2f1-291d-4ef3-ba88-c4a8395335d1")
+	)
+	(hierarchical_label "AnPout[0..5]"
+		(shape passive)
+		(at 101.6 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "abddb15c-10ed-46f4-9da3-edc379aa16f0")
+	)
+	(hierarchical_label "AnPin[0..5]"
+		(shape passive)
+		(at 35.56 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right)
+		)
+		(uuid "e88b798a-957e-4448-a7b0-89541862c403")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0796a5bc-b514-4b91-9160-250cf0776b99")
+		(property "Reference" "#PWR068"
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.025 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caa6b252-bf8a-4f2d-a14d-f70708d39224")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 73.66 74.93 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a20828c-807a-4673-b75b-f6539efb68d1")
+		(property "Reference" "JP11"
+			(at 73.66 72.7673 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 73.66 72.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Characteristics" ""
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Variant" ""
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" ""
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" ""
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cfbc796-5020-475b-9fd0-70e5fc783a6a")
+		)
+		(pin "2"
+			(uuid "71913688-3788-404a-b163-2b86821da962")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "JP11")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "194e955a-8255-4e24-a4bb-96cfb83b804a")
+		(property "Reference" "#PWR072"
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.025 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93c03f7b-6814-4dc7-bca6-668e1f609e71")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a4432db-56ba-41ad-8ae6-b37840d164e4")
+		(property "Reference" "#PWR071"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.025 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19b1e21c-8e62-4f1d-b62e-5f14376ee779")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "psysnapeda:RSP-122811-01")
+		(at 66.04 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "2ecfa943-1700-40e7-93bf-f057c323f7f8")
+		(property "Reference" "J11"
+			(at 61.722 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U.FL"
+			(at 63.754 66.802 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "psysnapeda:SAMTEC_RSP-122811-01"
+			(at 67.818 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6210/rsp-122811-01-mkt.pdf"
+			(at 69.088 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "U.FL (UMCC), IPEX MHFI Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
+			(at 68.58 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RSP-122811-01"
+			(at 66.548 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" "U.FL-R-SMT-1(80)"
+			(at 65.532 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C88374"
+			(at 65.278 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "612-RSP-122811-01CT-ND"
+			(at 67.818 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G2"
+			(uuid "e6034d6e-c3ed-4e57-9eb6-54c64a2ea55a")
+		)
+		(pin "G1"
+			(uuid "ea9be52d-e0fe-4eca-a5d8-e94437454db0")
+		)
+		(pin "1"
+			(uuid "bd1929e9-36e7-4681-95a3-890b7b045c3c")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "J11")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 73.66 53.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f5e5ec3-f73d-4c0e-a40d-7a7e09c43e5c")
+		(property "Reference" "JP9"
+			(at 73.66 51.1773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 73.66 51.1772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Characteristics" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Variant" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92f4c91f-ce36-4274-9c88-2a98e25162ed")
+		)
+		(pin "2"
+			(uuid "9ef75dfd-2e51-4de9-8f1e-17cfac1df029")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "JP9")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 73.66 33.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4192c029-befd-4358-bd70-171ea5cc1559")
+		(property "Reference" "JP7"
+			(at 73.66 30.8573 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 73.66 30.8572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Characteristics" ""
+			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Variant" ""
+			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" ""
+			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" ""
+			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "703568bd-e3ad-481a-827b-dd645bc5f106")
+		)
+		(pin "2"
+			(uuid "c9eef09d-60fe-4d2e-9e1e-ad51aa8a189c")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "JP7")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "psysnapeda:RSP-122811-01")
+		(at 66.04 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "4f3f08a0-d785-497e-b732-7d52a738eef1")
+		(property "Reference" "J13"
+			(at 61.722 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U.FL"
+			(at 63.754 87.122 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "psysnapeda:SAMTEC_RSP-122811-01"
+			(at 67.818 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6210/rsp-122811-01-mkt.pdf"
+			(at 69.088 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "U.FL (UMCC), IPEX MHFI Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
+			(at 68.58 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RSP-122811-01"
+			(at 66.548 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" "U.FL-R-SMT-1(80)"
+			(at 65.532 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C88374"
+			(at 65.278 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "612-RSP-122811-01CT-ND"
+			(at 67.818 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G2"
+			(uuid "d47d0b14-b0f0-454b-91e3-4605b3ba4489")
+		)
+		(pin "G1"
+			(uuid "daf6c1fd-1b70-450f-9b6e-fc79a6328906")
+		)
+		(pin "1"
+			(uuid "17192b7e-9320-4b84-b883-4e93bec613f8")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "J13")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "psysnapeda:RSP-122811-01")
+		(at 66.04 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "516524ad-0691-4711-bcff-dcaff3bc66fd")
+		(property "Reference" "J9"
+			(at 61.722 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U.FL"
+			(at 63.754 45.212 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "psysnapeda:SAMTEC_RSP-122811-01"
+			(at 67.818 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6210/rsp-122811-01-mkt.pdf"
+			(at 69.088 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "U.FL (UMCC), IPEX MHFI Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
+			(at 68.58 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RSP-122811-01"
+			(at 66.548 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" "U.FL-R-SMT-1(80)"
+			(at 65.532 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C88374"
+			(at 65.278 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "612-RSP-122811-01CT-ND"
+			(at 67.818 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G2"
+			(uuid "773e68ea-1c2f-4fad-9774-31a0d781e5bb")
+		)
+		(pin "G1"
+			(uuid "6bce3330-a165-4e7a-b1a6-40d9804053e3")
+		)
+		(pin "1"
+			(uuid "0ca2e702-c5dd-4cc8-8099-7e60fab3a32d")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "J9")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "663a19a4-0523-4bad-9355-76cfef3b7df8")
+		(property "Reference" "#PWR070"
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.025 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "209d3c6c-8a72-49d5-ac49-58ac2ee1c97f")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 73.66 85.09 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e88a890-109f-4611-b351-7f11cca5574e")
+		(property "Reference" "JP12"
+			(at 73.66 82.9273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 73.66 82.9272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 73.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 73.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Characteristics" ""
+			(at 73.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Variant" ""
+			(at 73.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 73.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" ""
+			(at 73.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" ""
+			(at 73.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30151ebf-3f37-482a-ab7f-0877b8cdc74f")
+		)
+		(pin "2"
+			(uuid "332943af-cfdb-4139-b9e9-aeb347c71e87")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "JP12")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 73.66 43.18 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dba2d89-c623-493e-9f6e-364e6ecb523d")
+		(property "Reference" "JP8"
+			(at 73.66 41.0173 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 73.66 41.0172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Characteristics" ""
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Variant" ""
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" ""
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" ""
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dacd91e0-13ba-4c99-9c3b-80ac398ba73c")
+		)
+		(pin "2"
+			(uuid "b44b8680-1058-40e4-b786-4960f5704952")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "JP8")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a20fc04-9e91-464f-8bec-a1384598aa38")
+		(property "Reference" "#PWR073"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.025 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0651edb-6169-4a15-aa63-1c50afeec8e1")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "#PWR073")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 73.66 64.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b36bd468-8489-4602-8742-50789a50adf8")
+		(property "Reference" "JP10"
+			(at 73.66 62.6073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 73.66 62.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Characteristics" ""
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Variant" ""
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" ""
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" ""
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1badcb03-d9a2-492c-bef0-e1e2d481579e")
+		)
+		(pin "2"
+			(uuid "02499a5f-045c-444f-8aa9-5e25da8fa40c")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "JP10")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc4728f0-a0ad-469c-98c7-6091361012ad")
+		(property "Reference" "#PWR069"
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.025 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef77c70a-70b0-4674-a384-2207759bedf7")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "psysnapeda:RSP-122811-01")
+		(at 66.04 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "e0bb712e-e7f4-4cb1-8f8a-c4b06087dc7a")
+		(property "Reference" "J12"
+			(at 61.722 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U.FL"
+			(at 63.754 76.962 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "psysnapeda:SAMTEC_RSP-122811-01"
+			(at 67.818 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6210/rsp-122811-01-mkt.pdf"
+			(at 69.088 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "U.FL (UMCC), IPEX MHFI Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
+			(at 68.58 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RSP-122811-01"
+			(at 66.548 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" "U.FL-R-SMT-1(80)"
+			(at 65.532 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C88374"
+			(at 65.278 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "612-RSP-122811-01CT-ND"
+			(at 67.818 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G2"
+			(uuid "4df6a043-353b-4901-b64e-33d39869f7c4")
+		)
+		(pin "G1"
+			(uuid "c197ae8d-6d9e-43d3-b002-81cbd08180cf")
+		)
+		(pin "1"
+			(uuid "14454971-2715-4827-af70-bb11bc1ce1a4")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "J12")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "psysnapeda:RSP-122811-01")
+		(at 66.04 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "e21ea28c-8324-4c5f-8b98-0fdccf93d513")
+		(property "Reference" "J10"
+			(at 61.722 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U.FL"
+			(at 63.754 55.372 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "psysnapeda:SAMTEC_RSP-122811-01"
+			(at 67.818 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6210/rsp-122811-01-mkt.pdf"
+			(at 69.088 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "U.FL (UMCC), IPEX MHFI Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
+			(at 68.58 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RSP-122811-01"
+			(at 66.548 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" "U.FL-R-SMT-1(80)"
+			(at 65.532 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C88374"
+			(at 65.278 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "612-RSP-122811-01CT-ND"
+			(at 67.818 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G2"
+			(uuid "70067576-24d5-4f5b-b870-a67a94da2d3c")
+		)
+		(pin "G1"
+			(uuid "313686e4-deef-45ad-8a1c-20e567f016cc")
+		)
+		(pin "1"
+			(uuid "5cd61b95-a6da-4561-9344-e0783d5585e1")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "J10")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "psysnapeda:RSP-122811-01")
+		(at 66.04 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "fd5c7b4e-5aa9-4025-83d8-4eddcfc3fa77")
+		(property "Reference" "J8"
+			(at 61.722 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U.FL"
+			(at 63.754 35.052 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "psysnapeda:SAMTEC_RSP-122811-01"
+			(at 67.818 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6210/rsp-122811-01-mkt.pdf"
+			(at 69.088 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "U.FL (UMCC), IPEX MHFI Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
+			(at 68.58 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RSP-122811-01"
+			(at 66.548 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" "U.FL-R-SMT-1(80)"
+			(at 65.532 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C88374"
+			(at 65.278 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "612-RSP-122811-01CT-ND"
+			(at 67.818 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G2"
+			(uuid "cbb15dcc-1f69-435a-9d4d-d8f76e909417")
+		)
+		(pin "G1"
+			(uuid "15e62ab1-8677-4682-88de-0dbffa26727a")
+		)
+		(pin "1"
+			(uuid "3105540e-4f42-4b0f-ae54-ebebd1cfcf36")
+		)
+		(instances
+			(project "breakout-tt06-qfn-socket"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
+					(reference "J8")
+					(unit 1)
+				)
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a9e3bbc3-d5b9-4004-8937-ff9466007a37"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
