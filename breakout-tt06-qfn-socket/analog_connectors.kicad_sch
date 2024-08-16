@@ -1455,6 +1455,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9cfbc796-5020-475b-9fd0-70e5fc783a6a")
 		)
@@ -1706,6 +1724,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "G2"
 			(uuid "e6034d6e-c3ed-4e57-9eb6-54c64a2ea55a")
 		)
@@ -1819,6 +1855,24 @@
 			)
 		)
 		(property "DigikeyPN" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
 			(at 73.66 53.34 0)
 			(effects
 				(font
@@ -1945,6 +1999,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "703568bd-e3ad-481a-827b-dd645bc5f106")
 		)
@@ -2047,6 +2119,24 @@
 		)
 		(property "DigikeyPN" "612-RSP-122811-01CT-ND"
 			(at 67.818 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 66.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,6 +2249,24 @@
 		)
 		(property "DigikeyPN" "612-RSP-122811-01CT-ND"
 			(at 67.818 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 66.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 66.04 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,6 +2466,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 73.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 73.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30151ebf-3f37-482a-ab7f-0877b8cdc74f")
 		)
@@ -2468,6 +2594,24 @@
 			)
 		)
 		(property "DigikeyPN" ""
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
 			(at 73.66 43.18 0)
 			(effects
 				(font
@@ -2665,6 +2809,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1badcb03-d9a2-492c-bef0-e1e2d481579e")
 		)
@@ -2845,6 +3007,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "G2"
 			(uuid "4df6a043-353b-4901-b64e-33d39869f7c4")
 		)
@@ -2957,6 +3137,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 66.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 66.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "G2"
 			(uuid "70067576-24d5-4f5b-b870-a67a94da2d3c")
 		)
@@ -3062,6 +3260,24 @@
 		)
 		(property "DigikeyPN" "612-RSP-122811-01CT-ND"
 			(at 67.818 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 66.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 66.04 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
