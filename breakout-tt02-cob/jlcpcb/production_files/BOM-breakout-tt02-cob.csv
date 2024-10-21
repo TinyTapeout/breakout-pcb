@@ -1,0 +1,6 @@
+Comment,Designator,Footprint,LCSC
+0.1uf,"C1,C2,C3,C4,C5,C6,C7,C8,C9",C_0402_1005Metric,C1525
+Bond_Shield,"U2,U3",Bond_Shield,C2836609
+REF-182665-01,CON2,FH-00339,
+Caravel_Bond,U1,Caravel_Bond,
+REF-182665-01,CON1,FH-00339,

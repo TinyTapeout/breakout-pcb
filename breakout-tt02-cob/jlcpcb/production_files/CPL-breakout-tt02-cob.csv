@@ -1,0 +1,15 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,0.1uf,C_0402_1005Metric,16.7,34.18,-90.0,top
+C2,0.1uf,C_0402_1005Metric,13.52,26.0,0.0,top
+C3,0.1uf,C_0402_1005Metric,16.7,15.92,90.0,top
+C4,0.1uf,C_0402_1005Metric,27.5,16.02,90.0,top
+C5,0.1uf,C_0402_1005Metric,31.62,23.5,180.0,top
+C6,0.1uf,C_0402_1005Metric,31.58,30.9,180.0,top
+C7,0.1uf,C_0402_1005Metric,17.9,34.18,-90.0,top
+C8,0.1uf,C_0402_1005Metric,17.8,15.92,90.0,top
+C9,0.1uf,C_0402_1005Metric,31.58,33.7,180.0,top
+CON1,REF-182665-01,FH-00339,7.6,26.25,-90.0,top
+CON2,REF-182665-01,FH-00339,37.4,26.25,-90.0,top
+U1,Caravel_Bond,Caravel_Bond,22.549946,25.05383,0.0,top
+U2,Bond_Shield,Bond_Shield,22.55,36.9,0.0,top
+U3,Bond_Shield,Bond_Shield,22.55,13.9,0.0,top
