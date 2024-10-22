@@ -1,4 +1,4 @@
-(footprint "Bond_Shield"
+(footprint "Bond_Shield_Clip"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Bond_Shield"
+	(property "Value" "Bond_Shield_Clip"
 		(at 0 3.034 0)
 		(unlocked yes)
 		(layer "F.Fab")

@@ -10,7 +10,7 @@
 		(rev "2.1")
 	)
 	(lib_symbols
-		(symbol "Bond:Bond_Shield"
+		(symbol "Bond:Bond_Shield_Clip"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -22,7 +22,7 @@
 					)
 				)
 			)
-			(property "Value" "Bond_Shield"
+			(property "Value" "Bond_Shield_Clip"
 				(at 0.508 -5.334 0)
 				(effects
 					(font
@@ -30,7 +30,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Bond:Bond_Shield"
+			(property "Footprint" "Bond:Bond_Shield_Clip"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Bond_Shield_0_1"
+			(symbol "Bond_Shield_Clip_0_1"
 				(rectangle
 					(start -3.81 3.81)
 					(end 3.81 -3.81)
@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(symbol "Bond_Shield_1_1"
+			(symbol "Bond_Shield_Clip_1_1"
 				(pin power_in line
 					(at 6.35 0 180)
 					(length 2.54)
@@ -96,6 +96,76 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "Bond:Bond_Shield_Cover"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at 0.508 -7.7582 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Bond_Shield_Cover"
+				(at 0.508 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Bond:Bond_Shield_Cover"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Bond_Shield_Cover_0_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -6788,6 +6858,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 68.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81f4412b-c113-4774-9250-fdfebe6bea03")
 		)
@@ -6947,6 +7026,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 69.85 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35895692-72e8-45b6-892f-f076891a2cc1")
 		)
@@ -7033,6 +7121,15 @@
 			)
 		)
 		(property "SMARTBOM" "0.1u 0402 10% 10V"
+			(at 91.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 91.44 148.59 0)
 			(effects
 				(font
@@ -7265,6 +7362,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 106.68 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "297809e3-ffd7-4e7e-879d-10908af1d92f")
 		)
@@ -7342,6 +7448,15 @@
 			)
 		)
 		(property "MPN_ALT" " REF-182665-01 (or Harwin M20-7812045)"
+			(at 222.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2685112"
 			(at 222.25 52.07 0)
 			(effects
 				(font
@@ -7615,6 +7730,15 @@
 			)
 		)
 		(property "SMARTBOM" "0.1u 0402 10% 10V"
+			(at 76.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 76.2 148.59 0)
 			(effects
 				(font
@@ -7899,7 +8023,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Bond:Bond_Shield")
+		(lib_id "Bond:Bond_Shield_Clip")
 		(at 129.54 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7916,7 +8040,7 @@
 				)
 			)
 		)
-		(property "Value" "Bond_Shield"
+		(property "Value" "Bond_Shield_Clip"
 			(at 129.54 137.16 0)
 			(effects
 				(font
@@ -7924,7 +8048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bond:Bond_Shield"
+		(property "Footprint" "Bond:Bond_Shield_Clip"
 			(at 129.54 143.51 0)
 			(effects
 				(font
@@ -7952,6 +8076,15 @@
 			)
 		)
 		(property "MPN" "C2836609"
+			(at 129.54 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2836609"
 			(at 129.54 143.51 0)
 			(effects
 				(font
@@ -8116,6 +8249,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 83.82 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b7dc708-caf6-4fe8-b66e-7a50cb2a22d1")
 		)
@@ -8262,6 +8404,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Bond:Bond_Shield_Cover")
+		(at 129.54 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "983cf2ad-3e7f-4195-ad5f-02af6487629a")
+		(property "Reference" "U4"
+			(at 129.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Bond_Shield_Cover"
+			(at 129.54 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bond:Bond_Shield_Cover"
+			(at 129.54 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MS233-20C-NS"
+			(at 129.54 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 129.54 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 77.47 176.53 180)
 		(unit 1)
@@ -8340,6 +8562,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 77.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71b8f8a7-3826-4329-a5d5-a10e0fb8f380")
 		)
@@ -8409,6 +8640,15 @@
 			)
 		)
 		(property "MPN" "TT02-BARE-DIE"
+			(at 97.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 97.79 80.01 0)
 			(effects
 				(font
@@ -8779,6 +9019,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 85.09 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c921ed5a-8a98-421c-bc51-b2d4724244db")
 		)
@@ -8860,7 +9109,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Bond:Bond_Shield")
+		(lib_id "Bond:Bond_Shield_Clip")
 		(at 129.54 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8877,7 +9126,7 @@
 				)
 			)
 		)
-		(property "Value" "Bond_Shield"
+		(property "Value" "Bond_Shield_Clip"
 			(at 129.54 156.21 0)
 			(effects
 				(font
@@ -8885,7 +9134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Bond:Bond_Shield"
+		(property "Footprint" "Bond:Bond_Shield_Clip"
 			(at 129.54 162.56 0)
 			(effects
 				(font
@@ -8913,6 +9162,15 @@
 			)
 		)
 		(property "MPN" "C2836609"
+			(at 129.54 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2836609"
 			(at 129.54 162.56 0)
 			(effects
 				(font
@@ -8995,6 +9253,15 @@
 			)
 		)
 		(property "MPN_ALT" " REF-182665-01 (or Harwin M20-7812045)"
+			(at 222.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2685112"
 			(at 222.25 125.73 0)
 			(effects
 				(font
@@ -9268,6 +9535,15 @@
 			)
 		)
 		(property "SMARTBOM" "0.1u 0402 10% 10V"
+			(at 99.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 99.06 148.59 0)
 			(effects
 				(font

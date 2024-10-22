@@ -68,7 +68,6 @@
 			)
 		)
 	)
-	(attr smd)
 	(fp_poly
 		(pts
 			(xy -0.303837 -6.679295) (xy -0.293722 -6.678771) (xy -0.283732 -6.677737) (xy -0.273881 -6.676207)
@@ -1802,18 +1801,21 @@
 		(at -7.65 0.45)
 		(size 0.25 0.25)
 		(layers "B.Cu")
+		(zone_connect 2)
 		(uuid "81c6037e-ddb2-4477-8447-18b8e886ae64")
 	)
 	(pad "1" smd circle
 		(at -6.75 -7.65)
 		(size 0.25 0.25)
 		(layers "B.Cu")
+		(zone_connect 2)
 		(uuid "738ecd74-ff8a-42ef-87c5-fb4a0ced917d")
 	)
 	(pad "1" smd custom
 		(at -6.75 -7.65)
 		(size 0.25 0.25)
 		(layers "B.Cu")
+		(zone_connect 2)
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -1903,12 +1905,14 @@
 		(at -4.05 7.65)
 		(size 0.25 0.25)
 		(layers "B.Cu")
+		(zone_connect 2)
 		(uuid "7c64cc46-a8f2-4d1b-b674-065864088eb0")
 	)
 	(pad "1" smd custom
 		(at -4.05 7.65)
 		(size 0.25 0.25)
 		(layers "B.Cu")
+		(zone_connect 2)
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -2005,6 +2009,7 @@
 		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "3f6505bb-6628-40bf-b200-5a1d1f2b231f")
 	)
 	(pad "1" thru_hole circle
@@ -2013,12 +2018,14 @@
 		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "a692283b-3e25-4ae2-837f-d8fdcaa35236")
 	)
 	(pad "1" smd custom
 		(at -1.748 -3.954)
 		(size 0.25 0.25)
 		(layers "F.Cu")
+		(zone_connect 2)
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -2537,12 +2544,14 @@
 		(at -1.35 7.65)
 		(size 0.25 0.25)
 		(layers "B.Cu")
+		(zone_connect 2)
 		(uuid "58a4aaab-02a5-4423-b8f3-095c83bd989e")
 	)
 	(pad "1" smd circle
 		(at 0.45 -7.65)
 		(size 0.25 0.25)
 		(layers "B.Cu")
+		(zone_connect 2)
 		(uuid "0ca3fe2c-4423-4420-9155-a0102a4716a3")
 	)
 	(pad "1" thru_hole circle
@@ -2551,6 +2560,7 @@
 		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "5f001baa-4d77-4013-8d56-6ee080db5a4a")
 	)
 	(pad "1" thru_hole circle
@@ -2559,12 +2569,14 @@
 		(drill 0.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "eefbcf60-ce40-4f51-8254-ed6c5b3acc52")
 	)
 	(pad "1" smd custom
 		(at 4.046 -7.652)
 		(size 0.25 0.25)
 		(layers "B.Cu")
+		(zone_connect 2)
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -2669,18 +2681,21 @@
 		(at 4.05 -7.65)
 		(size 0.25 0.25)
 		(layers "B.Cu")
+		(zone_connect 2)
 		(uuid "95664d19-f5b2-426a-af87-20e7548d2650")
 	)
 	(pad "1" smd circle
 		(at 4.05 7.65)
 		(size 0.25 0.25)
 		(layers "B.Cu")
+		(zone_connect 2)
 		(uuid "93d5df18-981a-4e39-8cad-8d2146aaf8ae")
 	)
 	(pad "1" smd custom
 		(at 4.05 7.65)
 		(size 0.25 0.25)
 		(layers "B.Cu")
+		(zone_connect 2)
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -2799,12 +2814,14 @@
 		(at 7.65 1.35)
 		(size 0.25 0.25)
 		(layers "B.Cu")
+		(zone_connect 2)
 		(uuid "9529b11c-17aa-4bd4-a271-dd814c948821")
 	)
 	(pad "1" smd circle
 		(at 7.65 2.25)
 		(size 0.25 0.25)
 		(layers "B.Cu")
+		(zone_connect 2)
 		(uuid "29ac28e4-793a-4213-8c9f-fe6a65e300d1")
 	)
 	(pad "2" smd circle
