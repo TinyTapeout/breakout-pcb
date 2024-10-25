@@ -10,6 +10,5 @@ C8,0.1uf,C_0402_1005Metric,18.15,15.92,90.0,top
 C9,0.1uf,C_0402_1005Metric,31.58,33.7,180.0,top
 CON1,REF-182665-01,FH-00339,7.6,26.25,-90.0,top
 CON2,REF-182665-01,FH-00339,37.4,26.25,-90.0,top
-U1,Caravel_Bond,Caravel_Bond,22.550231,25.050164,0.0,top
 U2,Bond_Shield_Clip,Bond_Shield_Clip,22.55,36.125,0.0,top
 U3,Bond_Shield_Clip,Bond_Shield_Clip,22.55,13.125,0.0,top
