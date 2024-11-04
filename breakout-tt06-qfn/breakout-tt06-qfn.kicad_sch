@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "TT06 Openframe breakout")
-		(date "2024-08-10")
-		(rev "1.0")
+		(date "2024-11-04")
+		(rev "1.1")
 		(company "Psychogenic Technologies")
 		(comment 1 "(C) 2024 Pat Deegan")
 	)
@@ -7205,7 +7205,7 @@
 		)
 		(uuid "435ca880-8f57-42d6-afd1-7fff4d7896d9")
 	)
-	(label "c_sel_inc"
+	(label "c_rst_n"
 		(at 130.81 91.44 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7700,7 +7700,7 @@
 		)
 		(uuid "a3c6f04b-6468-4778-94d2-f67053e4d00c")
 	)
-	(label "c_rst_n"
+	(label "c_sel_inc"
 		(at 130.81 93.98 0)
 		(fields_autoplaced yes)
 		(effects

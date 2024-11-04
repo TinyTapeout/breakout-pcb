@@ -560,7 +560,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "pcba/v1p0/gerber/",
+      "plot": "pcba/v1p1/gerber/",
       "pos_files": "/tmp/",
       "specctra_dsn": "",
       "step": "breakout-tt06-qfn.step",
