@@ -7323,7 +7323,7 @@
 		(uuid "435ca880-8f57-42d6-afd1-7fff4d7896d9")
 	)
 	(label "c_sel_inc"
-		(at 130.81 91.44 0)
+		(at 130.81 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7818,7 +7818,7 @@
 		(uuid "a3c6f04b-6468-4778-94d2-f67053e4d00c")
 	)
 	(label "c_rst_n"
-		(at 130.81 93.98 0)
+		(at 130.81 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
