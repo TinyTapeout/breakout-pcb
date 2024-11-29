@@ -8580,7 +8580,7 @@
 		(path "/69fd48bd-5c36-4a2b-b711-591a1eae3cd6")
 		(sheetname "Root")
 		(sheetfile "breakout-tt06-qfn-socket.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.5 1.11)
 			(end 1.5 1.11)
@@ -14224,7 +14224,7 @@
 		(path "/031072a3-d912-4c25-b49e-00f355915d00")
 		(sheetname "Root")
 		(sheetfile "breakout-tt06-qfn-socket.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.33 8.95)
 			(end 1.33 8.95)
@@ -17351,7 +17351,7 @@
 		(path "/89f3e18b-8501-4264-b585-3eda0e7bb006")
 		(sheetname "Root")
 		(sheetfile "breakout-tt06-qfn-socket.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -19505,7 +19505,7 @@
 		(path "/fdeb9375-f4ed-46f1-9ab7-0d584d3bfe6a")
 		(sheetname "Root")
 		(sheetfile "breakout-tt06-qfn-socket.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
