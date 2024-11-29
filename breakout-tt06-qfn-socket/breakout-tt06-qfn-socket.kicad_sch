@@ -8879,7 +8879,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 53.7209 190.4421 0)
 			(effects
 				(font
@@ -8933,7 +8933,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 50.8 189.23 0)
 			(effects
 				(font
@@ -8960,7 +8960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 50.8 189.23 0)
 			(effects
 				(font
@@ -9003,7 +9003,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 76.581 157.4221 0)
 			(effects
 				(font
@@ -9057,7 +9057,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 73.66 156.21 0)
 			(effects
 				(font
@@ -9084,7 +9084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 73.66 156.21 0)
 			(effects
 				(font
@@ -9125,7 +9125,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 44.45 148.59 0)
 			(effects
 				(font
@@ -9178,7 +9178,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 40.64 146.05 0)
 			(effects
 				(font
@@ -9205,7 +9205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 40.64 146.05 0)
 			(effects
 				(font
@@ -9246,7 +9246,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 27.94 148.59 0)
 			(effects
 				(font
@@ -9299,7 +9299,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 33.02 146.05 0)
 			(effects
 				(font
@@ -9326,7 +9326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 33.02 146.05 0)
 			(effects
 				(font
@@ -9368,7 +9368,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 84.201 190.4421 0)
 			(effects
 				(font
@@ -9422,7 +9422,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 81.28 189.23 0)
 			(effects
 				(font
@@ -9449,7 +9449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 81.28 189.23 0)
 			(effects
 				(font
@@ -9492,7 +9492,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 53.721 147.2621 0)
 			(effects
 				(font
@@ -9546,7 +9546,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 50.8 146.05 0)
 			(effects
 				(font
@@ -9573,7 +9573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 50.8 146.05 0)
 			(effects
 				(font
@@ -10363,7 +10363,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 16.51 25.4 0)
 			(effects
 				(font
@@ -10418,7 +10418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 13.5891 24.0721 0)
 			(effects
 				(font
@@ -10454,7 +10454,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 16.51 22.86 0)
 			(effects
 				(font
@@ -10515,7 +10515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 63.881 190.4421 0)
 			(effects
 				(font
@@ -10569,7 +10569,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 60.96 189.23 0)
 			(effects
 				(font
@@ -10596,7 +10596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 60.96 189.23 0)
 			(effects
 				(font
@@ -10965,7 +10965,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 22.86 25.4 0)
 			(effects
 				(font
@@ -11020,7 +11020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 25.781 24.0721 0)
 			(effects
 				(font
@@ -11056,7 +11056,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 22.86 22.86 0)
 			(effects
 				(font
@@ -11180,7 +11180,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 60.96 158.75 0)
 			(effects
 				(font
@@ -11233,7 +11233,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 66.04 156.21 0)
 			(effects
 				(font
@@ -11260,7 +11260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 66.04 156.21 0)
 			(effects
 				(font
@@ -11303,7 +11303,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 38.1 39.37 0)
 			(effects
 				(font
@@ -11358,7 +11358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 41.021 38.0421 0)
 			(effects
 				(font
@@ -11394,7 +11394,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 38.1 36.83 0)
 			(effects
 				(font
@@ -12631,7 +12631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 71.12 39.37 0)
 			(effects
 				(font
@@ -12686,7 +12686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 74.041 38.0421 0)
 			(effects
 				(font
@@ -12722,7 +12722,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 71.12 36.83 0)
 			(effects
 				(font
@@ -12990,7 +12990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 62.23 39.37 0)
 			(effects
 				(font
@@ -13045,7 +13045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 65.151 38.0421 0)
 			(effects
 				(font
@@ -13081,7 +13081,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 62.23 36.83 0)
 			(effects
 				(font
@@ -14897,7 +14897,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 30.48 39.37 0)
 			(effects
 				(font
@@ -14952,7 +14952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 33.401 38.0421 0)
 			(effects
 				(font
@@ -14988,7 +14988,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 30.48 36.83 0)
 			(effects
 				(font
@@ -16551,7 +16551,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 74.041 190.4421 0)
 			(effects
 				(font
@@ -16605,7 +16605,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 71.12 189.23 0)
 			(effects
 				(font
@@ -16632,7 +16632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 71.12 189.23 0)
 			(effects
 				(font
@@ -17071,7 +17071,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 160.02 156.21 0)
 			(effects
 				(font
@@ -17124,7 +17124,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 165.1 153.67 0)
 			(effects
 				(font
@@ -17151,7 +17151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 165.1 153.67 0)
 			(effects
 				(font
@@ -17194,7 +17194,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 80.01 39.37 0)
 			(effects
 				(font
@@ -17249,7 +17249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 82.931 38.0421 0)
 			(effects
 				(font
@@ -17285,7 +17285,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 80.01 36.83 0)
 			(effects
 				(font
@@ -18594,7 +18594,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 22.86 39.37 0)
 			(effects
 				(font
@@ -18649,7 +18649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 25.781 38.0421 0)
 			(effects
 				(font
@@ -18685,7 +18685,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 22.86 36.83 0)
 			(effects
 				(font
@@ -19018,7 +19018,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 45.72 39.37 0)
 			(effects
 				(font
@@ -19073,7 +19073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 48.641 38.0421 0)
 			(effects
 				(font
@@ -19127,7 +19127,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 45.72 36.83 0)
 			(effects
 				(font

@@ -163,7 +163,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 0 1.16 180)
 			(layer "F.Fab")
 			(uuid "56b48e7f-d277-482c-9ee9-d5a25007276c")
@@ -239,7 +239,7 @@
 				)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -278,7 +278,7 @@
 				)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -456,7 +456,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "76991e3c-7eee-4e93-bca6-dc3a1f7bff12")
@@ -532,7 +532,7 @@
 				)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -571,7 +571,7 @@
 				)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -749,7 +749,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "be7ff522-3b60-447f-9d5f-e25196986d30")
@@ -825,7 +825,7 @@
 				)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -864,7 +864,7 @@
 				)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1042,7 +1042,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "e39f0bba-47dd-4604-8ae4-ae4c643a5d2a")
@@ -1118,7 +1118,7 @@
 				)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1157,7 +1157,7 @@
 				)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1335,7 +1335,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "bfab8d6f-691e-4fc7-babf-2dae243a04c0")
@@ -1411,7 +1411,7 @@
 				)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1450,7 +1450,7 @@
 				)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1628,7 +1628,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "69b3bc22-4568-4b25-92c8-a694d4f855be")
@@ -1704,7 +1704,7 @@
 				)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1743,7 +1743,7 @@
 				)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3274,7 +3274,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "5907cc1d-439a-41c9-a78c-f6b50f078b04")
@@ -3350,7 +3350,7 @@
 				)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3402,7 +3402,7 @@
 				)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3605,7 +3605,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(uuid "74e2c440-e0bb-4ec7-b96e-6a87bed7d29e")
@@ -3681,7 +3681,7 @@
 				)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3720,7 +3720,7 @@
 				)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5078,7 +5078,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "941c859b-bc46-42ea-9ff2-d87a5d9b66a0")
@@ -5154,7 +5154,7 @@
 				)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5206,7 +5206,7 @@
 				)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5409,7 +5409,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "d3f4117a-1aed-4301-8696-bccb62cf5360")
@@ -5485,7 +5485,7 @@
 				)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5537,7 +5537,7 @@
 				)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9522,7 +9522,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "7618ffcb-9011-4b1b-99f0-91ebbe08b3b3")
@@ -9598,7 +9598,7 @@
 				)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9637,7 +9637,7 @@
 				)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10564,7 +10564,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "508332b6-35d4-44ae-85dc-46deec44e073")
@@ -10640,7 +10640,7 @@
 				)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10692,7 +10692,7 @@
 				)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11047,7 +11047,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "7e9d5836-8506-47f0-97ec-0ff1277e80b4")
@@ -11123,7 +11123,7 @@
 				)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11175,7 +11175,7 @@
 				)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11454,7 +11454,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "6634fb69-7462-4883-9e05-dcdd95d72cb9")
@@ -11530,7 +11530,7 @@
 				)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11582,7 +11582,7 @@
 				)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14835,7 +14835,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "9037c278-6450-4660-8fa6-aea9d9f4c229")
@@ -14911,7 +14911,7 @@
 				)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14963,7 +14963,7 @@
 				)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15541,7 +15541,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "00c4d3fc-70e6-40a0-8a68-36f76b951d7b")
@@ -15617,7 +15617,7 @@
 				)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15656,7 +15656,7 @@
 				)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19334,7 +19334,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "2b5c02c8-6fbf-4653-82e8-b4f32011fc01")
@@ -19410,7 +19410,7 @@
 				)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19488,7 +19488,7 @@
 				)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19665,7 +19665,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "ccc37a6c-94b0-42ab-9fef-d6e2ce035b2a")
@@ -19741,7 +19741,7 @@
 				)
 			)
 		)
-		(property "JLC" "C52923"
+		(property "JLC" "C1525"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19780,7 +19780,7 @@
 				)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "0.1u"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20559,7 +20559,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "33de0848-d1bd-449d-b65f-511fe280829d")
@@ -20635,7 +20635,7 @@
 				)
 			)
 		)
-		(property "Display Value" "10u"
+		(property "Display Value" "1u"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20687,7 +20687,7 @@
 				)
 			)
 		)
-		(property "JLC" "C19702"
+		(property "JLC" "C15849"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
