@@ -8580,7 +8580,7 @@
 		(path "/69fd48bd-5c36-4a2b-b711-591a1eae3cd6")
 		(sheetname "Root")
 		(sheetfile "breakout-tt06-qfn-socket.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.5 1.11)
 			(end 1.5 1.11)
