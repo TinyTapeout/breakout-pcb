@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "62418554-7534-4d91-b459-0fa86b88d427")
-	(paper "A4")
+	(paper "User" 150 160)
+	(title_block
+		(title "Analog Pin Breakouts")
+		(date "2024-12-10")
+		(rev "2.0")
+	)
 	(lib_symbols
 		(symbol "Jumper:Jumper_2_Small_Bridged"
 			(pin_numbers hide)
@@ -1344,7 +1349,7 @@
 			(uuid "caa6b252-bf8a-4f2d-a14d-f70708d39224")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "#PWR068")
 					(unit 1)
@@ -1480,7 +1485,7 @@
 			(uuid "71913688-3788-404a-b163-2b86821da962")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "JP11")
 					(unit 1)
@@ -1551,7 +1556,7 @@
 			(uuid "93c03f7b-6814-4dc7-bca6-668e1f609e71")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "#PWR072")
 					(unit 1)
@@ -1622,7 +1627,7 @@
 			(uuid "19b1e21c-8e62-4f1d-b62e-5f14376ee779")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "#PWR071")
 					(unit 1)
@@ -1761,7 +1766,7 @@
 			(uuid "bd1929e9-36e7-4681-95a3-890b7b045c3c")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "J11")
 					(unit 1)
@@ -1897,7 +1902,7 @@
 			(uuid "9ef75dfd-2e51-4de9-8f1e-17cfac1df029")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "JP9")
 					(unit 1)
@@ -2033,7 +2038,7 @@
 			(uuid "c9eef09d-60fe-4d2e-9e1e-ad51aa8a189c")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "JP7")
 					(unit 1)
@@ -2172,7 +2177,7 @@
 			(uuid "17192b7e-9320-4b84-b883-4e93bec613f8")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "J13")
 					(unit 1)
@@ -2311,7 +2316,7 @@
 			(uuid "0ca2e702-c5dd-4cc8-8099-7e60fab3a32d")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "J9")
 					(unit 1)
@@ -2382,7 +2387,7 @@
 			(uuid "209d3c6c-8a72-49d5-ac49-58ac2ee1c97f")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "#PWR070")
 					(unit 1)
@@ -2518,7 +2523,7 @@
 			(uuid "332943af-cfdb-4139-b9e9-aeb347c71e87")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "JP12")
 					(unit 1)
@@ -2654,7 +2659,7 @@
 			(uuid "b44b8680-1058-40e4-b786-4960f5704952")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "JP8")
 					(unit 1)
@@ -2725,7 +2730,7 @@
 			(uuid "f0651edb-6169-4a15-aa63-1c50afeec8e1")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "#PWR073")
 					(unit 1)
@@ -2861,7 +2866,7 @@
 			(uuid "02499a5f-045c-444f-8aa9-5e25da8fa40c")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "JP10")
 					(unit 1)
@@ -2932,7 +2937,7 @@
 			(uuid "ef77c70a-70b0-4674-a384-2207759bedf7")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "#PWR069")
 					(unit 1)
@@ -3071,7 +3076,7 @@
 			(uuid "14454971-2715-4827-af70-bb11bc1ce1a4")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "J12")
 					(unit 1)
@@ -3210,7 +3215,7 @@
 			(uuid "5cd61b95-a6da-4561-9344-e0783d5585e1")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "J10")
 					(unit 1)
@@ -3349,7 +3354,7 @@
 			(uuid "3105540e-4f42-4b0f-ae54-ebebd1cfcf36")
 		)
 		(instances
-			(project "breakout-tt06-qfn"
+			(project "breakout-tt07-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/a4870ec5-4ad2-4ab2-a570-743ccf31c608"
 					(reference "J8")
 					(unit 1)
