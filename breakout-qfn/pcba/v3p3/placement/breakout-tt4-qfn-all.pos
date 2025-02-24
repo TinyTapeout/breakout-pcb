@@ -1,0 +1,22 @@
+### Footprint positions - created on 2024-03-22T15:42:56-0400 ###
+### Printed by KiCad version 8.0.1-8.0.1-1~ubuntu22.04.1
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val              Package                                                  PosX       PosY       Rot  Side
+CON1      ~                FH-00148_PinSocket_2x20_P2.54mm                        4.5000    26.0000  180.0000  bottom
+CON2      ~                FH-00148_PinSocket_2x20_P2.54mm                       40.5000    26.0000  180.0000  bottom
+C1        0.1uf            C_0402_1005Metric                                     28.5000    23.0000   90.0000  top
+C2        0.1uf            C_0402_1005Metric                                     22.0000    21.2000  -90.0000  top
+C3        0.1uf            C_0402_1005Metric                                     15.5000    25.0000  180.0000  top
+C4        0.1uf            C_0402_1005Metric                                     16.0000    31.2000    0.0000  top
+C5        0.1uf            C_0402_1005Metric                                     22.2000    34.8000  -90.0000  top
+C6        0.1uf            C_0402_1005Metric                                     16.5000    33.0000  -90.0000  top
+C7        0.1uf            C_0402_1005Metric                                     28.9000    31.7000  180.0000  top
+C8        1u               C_0603_1608Metric                                     12.3500    36.4500  135.0000  top
+C10       0.1uf            C_0402_1005Metric                                     25.9000    21.4000  -90.0000  top
+C11       0.1uf            C_0402_1005Metric                                     28.4000    33.4000  -90.0000  top
+FID1      Fiducial         Fiducial_1mm_Mask2mm                                  11.0000     2.1500    0.0000  top
+FID2      Fiducial         Fiducial_1mm_Mask2mm                                  35.3500    50.7500    0.0000  top
+FID3      Fiducial         Fiducial_1mm_Mask2mm                                  35.0000     2.0000    0.0000  top
+U1        Caravel_QFN_TT4  QFN-64-1EP_9x9mm_P0.5mm_EP7.65x7.65mm_REDUCEDPASTE    22.5000    28.0000  -90.0000  top
+## End
