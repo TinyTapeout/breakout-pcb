@@ -468,7 +468,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "breakout--qfn.kicad_pro",
+    "filename": "breakout-qfn.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -751,14 +751,6 @@
     [
       "b38c65ac-2d57-46f9-9a32-ad09573ee400",
       "Root"
-    ],
-    [
-      "a9e3bbc3-d5b9-4004-8937-ff9466007a37",
-      "Analog_Connectors"
-    ],
-    [
-      "a4870ec5-4ad2-4ab2-a570-743ccf31c608",
-      "Analog_Connectors1"
     ]
   ],
   "text_variables": {}
