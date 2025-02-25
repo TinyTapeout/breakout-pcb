@@ -12362,6 +12362,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TT_ASIC"
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "41"
 			(uuid "e3c246fe-460d-411a-a8fa-a4654be53d6a")
 		)
@@ -14460,7 +14469,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "NPTC202KFMS-RC"
 			(at 180.34 78.74 0)
 			(effects
 				(font
@@ -15224,7 +15233,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402JR-070RL"
 			(at 133.35 187.96 0)
 			(effects
 				(font
@@ -15233,7 +15242,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN_ALT" ""
+		(property "MPN_ALT" "WR04X000 PTL"
 			(at 133.35 187.96 0)
 			(effects
 				(font
@@ -15242,7 +15251,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" ""
+		(property "DigikeyPN" "311-0.0JRCT-ND"
 			(at 133.35 187.96 0)
 			(effects
 				(font
@@ -15261,6 +15270,15 @@
 			)
 		)
 		(property "Vendor" ""
+			(at 133.35 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60485"
 			(at 133.35 187.96 0)
 			(effects
 				(font
@@ -16594,10 +16612,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d874f882-87fb-404d-a904-4367b90c9f62")
+			(uuid "d874f882-87fb-404d-a904-4367b90c9f63")
 		)
 		(pin "2"
-			(uuid "faed4627-8843-4aad-a4ea-be9bb79b3f8e")
+			(uuid "faed4627-8843-4aad-a4ea-be9bb79b3f8f")
 		)
 		(instances
 			(project "breakout-qfn"
@@ -17037,7 +17055,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC1206FR-130RL"
 			(at 121.92 41.91 0)
 			(effects
 				(font
@@ -17046,7 +17064,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN_ALT" ""
+		(property "MPN_ALT" "WR12X000 PTL"
 			(at 121.92 41.91 0)
 			(effects
 				(font
@@ -17055,7 +17073,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" ""
+		(property "DigikeyPN" "13-RC1206FR-130RLCT-ND"
 			(at 121.92 41.91 0)
 			(effects
 				(font
@@ -17074,6 +17092,15 @@
 			)
 		)
 		(property "Vendor" ""
+			(at 121.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C137394"
 			(at 121.92 41.91 0)
 			(effects
 				(font
@@ -18307,7 +18334,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402JR-070RL"
 			(at 133.35 195.58 0)
 			(effects
 				(font
@@ -18316,7 +18343,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN_ALT" ""
+		(property "MPN_ALT" "WR04X000 PTL"
 			(at 133.35 195.58 0)
 			(effects
 				(font
@@ -18325,7 +18352,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" ""
+		(property "DigikeyPN" "311-0.0JRCT-ND"
 			(at 133.35 195.58 0)
 			(effects
 				(font
@@ -18344,6 +18371,15 @@
 			)
 		)
 		(property "Vendor" ""
+			(at 133.35 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60485"
 			(at 133.35 195.58 0)
 			(effects
 				(font
@@ -19402,10 +19438,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d874f882-87fb-404d-a904-4367b90c9f62")
+			(uuid "d874f882-87fb-404d-a904-4367b90c9f64")
 		)
 		(pin "2"
-			(uuid "faed4627-8843-4aad-a4ea-be9bb79b3f8e")
+			(uuid "faed4627-8843-4aad-a4ea-be9bb79b3f90")
 		)
 		(instances
 			(project "breakout-qfn"
@@ -19533,10 +19569,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d874f882-87fb-404d-a904-4367b90c9f62")
+			(uuid "d874f882-87fb-404d-a904-4367b90c9f65")
 		)
 		(pin "2"
-			(uuid "faed4627-8843-4aad-a4ea-be9bb79b3f8e")
+			(uuid "faed4627-8843-4aad-a4ea-be9bb79b3f91")
 		)
 		(instances
 			(project "breakout-qfn"
@@ -20597,10 +20633,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d874f882-87fb-404d-a904-4367b90c9f62")
+			(uuid "d874f882-87fb-404d-a904-4367b90c9f66")
 		)
 		(pin "2"
-			(uuid "faed4627-8843-4aad-a4ea-be9bb79b3f8e")
+			(uuid "faed4627-8843-4aad-a4ea-be9bb79b3f92")
 		)
 		(instances
 			(project "breakout-qfn"
@@ -21613,7 +21649,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC1206FR-130RL"
 			(at 135.89 41.91 0)
 			(effects
 				(font
@@ -21622,7 +21658,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN_ALT" ""
+		(property "MPN_ALT" "WR12X000 PTL"
 			(at 135.89 41.91 0)
 			(effects
 				(font
@@ -21631,7 +21667,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" ""
+		(property "DigikeyPN" "13-RC1206FR-130RLCT-ND"
 			(at 135.89 41.91 0)
 			(effects
 				(font
@@ -21650,6 +21686,15 @@
 			)
 		)
 		(property "Vendor" ""
+			(at 135.89 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C137394"
 			(at 135.89 41.91 0)
 			(effects
 				(font
@@ -22089,7 +22134,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "NPTC202KFMS-RC"
 			(at 241.3 78.74 0)
 			(effects
 				(font
