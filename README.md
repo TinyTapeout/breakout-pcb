@@ -90,7 +90,7 @@ Unfortunately, the production run for those demo boards had very low valued resi
 
 The [breakout-tt04-qfn](https://github.com/TinyTapeout/breakout-pcb/releases/tag/breakout-tt04) is a QFN breakout suitable for TT04 and TT05 chips.  This breakout, with some differences in silk screen, was used for the TT03p5 trial run, as well as TT04 and TT05.
 
-![TT04 QFN](docs/historic/breakout-tt04-qfn-render.png)
+![TT04 QFN](docs/historic/breakout-tt04-qfn-render.jpg)
 
 This PCB moved to more easily sourced standard 100 mil pin headers, placed on the bottom of the PCB.  Markings on top are Tiny Tapeout names of the pins (in0 is input 0, ot5 is output 5, etc).
 
