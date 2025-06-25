@@ -1,0 +1,11 @@
+(version 1)
+
+(rule "net ties"
+(condition "A.Reference == 'NT*'")
+(constraint courtyard_clearance (min -1mm)))
+
+
+(rule "u1 clearance"
+(condition "A.intersectsCourtyard('U1') && A.Type != 'Zone'")
+(constraint clearance (min 0.2mm) (opt 0.2mm))
+)
