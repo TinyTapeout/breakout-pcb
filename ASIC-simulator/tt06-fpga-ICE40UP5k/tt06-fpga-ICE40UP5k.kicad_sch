@@ -26933,7 +26933,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "5019"
 			(at 149.86 177.8 0)
 			(effects
 				(font
@@ -26960,7 +26960,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5199800"
 			(at 149.86 177.8 0)
 			(effects
 				(font
@@ -26983,6 +26983,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Display Value" ""
+			(at 149.86 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display_Value" ""
+			(at 149.86 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -27136,7 +27154,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "5019"
 			(at 116.84 175.26 0)
 			(effects
 				(font
@@ -27163,7 +27181,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5199800"
 			(at 116.84 175.26 0)
 			(effects
 				(font
@@ -27186,6 +27204,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Display Value" ""
+			(at 116.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display_Value" ""
+			(at 116.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -27383,6 +27419,24 @@
 			)
 		)
 		(property "Vendor" ""
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" ""
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display_Value" ""
 			(at 71.12 76.2 0)
 			(effects
 				(font
@@ -27840,6 +27894,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Display Value" ""
+			(at 160.02 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display_Value" ""
+			(at 160.02 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -28303,6 +28375,24 @@
 				)
 			)
 		)
+		(property "Display Value" ""
+			(at 55.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display_Value" ""
+			(at 55.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6c1fce5-2026-4b69-b4ac-c526d3e23db0")
 		)
@@ -28391,7 +28481,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "5019"
 			(at 139.7 175.26 0)
 			(effects
 				(font
@@ -28418,7 +28508,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5199800"
 			(at 139.7 175.26 0)
 			(effects
 				(font
@@ -28441,6 +28531,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Display Value" ""
+			(at 139.7 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display_Value" ""
+			(at 139.7 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -28726,7 +28834,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "5019"
 			(at 124.46 175.26 0)
 			(effects
 				(font
@@ -28753,7 +28861,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5199800"
 			(at 124.46 175.26 0)
 			(effects
 				(font
@@ -28776,6 +28884,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Display Value" ""
+			(at 124.46 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display_Value" ""
+			(at 124.46 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -28913,6 +29039,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Display Value" ""
+			(at 160.02 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display_Value" ""
+			(at 160.02 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -29243,6 +29387,24 @@
 				)
 			)
 		)
+		(property "Display Value" ""
+			(at 86.36 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display_Value" ""
+			(at 86.36 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc2c36f4-dd02-442f-ab45-b9263658fd09")
 		)
@@ -29445,6 +29607,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Display Value" ""
+			(at 53.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display_Value" ""
+			(at 53.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -29667,7 +29847,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "5019"
 			(at 132.08 175.26 0)
 			(effects
 				(font
@@ -29694,7 +29874,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5199800"
 			(at 132.08 175.26 0)
 			(effects
 				(font
@@ -29717,6 +29897,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Display Value" ""
+			(at 132.08 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display_Value" ""
+			(at 132.08 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -30287,7 +30485,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C106235"
 			(at 180.34 124.46 0)
 			(show_name yes)
 			(effects
@@ -30300,6 +30498,24 @@
 		(property "MPN_ALT" ""
 			(at 180.34 124.46 0)
 			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" ""
+			(at 180.34 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display_Value" ""
+			(at 180.34 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30513,6 +30729,24 @@
 				)
 			)
 		)
+		(property "Display Value" ""
+			(at 160.02 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display_Value" ""
+			(at 160.02 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/5f27e142-b8a6-4247-837b-e9330245c956"
@@ -30703,6 +30937,24 @@
 			)
 		)
 		(property "Vendor" ""
+			(at 238.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" ""
+			(at 238.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display_Value" ""
 			(at 238.76 76.2 0)
 			(effects
 				(font

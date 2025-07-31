@@ -5,7 +5,7 @@
 (constraint courtyard_clearance (min -1mm)))
 
 
-(rule "u1 clearance"
+(rule "u1 clearance override"
 (condition "A.intersectsCourtyard('U1') && A.Type != 'Zone'")
 (constraint clearance (min 0.2mm) (opt 0.2mm))
 )

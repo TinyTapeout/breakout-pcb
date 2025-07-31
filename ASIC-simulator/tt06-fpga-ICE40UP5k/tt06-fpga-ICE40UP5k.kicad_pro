@@ -255,7 +255,20 @@
       "mfg": "",
       "mpn": ""
     },
-    "layer_pairs": [],
+    "layer_pairs": [
+      {
+        "bottomLayer": 2,
+        "enabled": true,
+        "name": "Top bot",
+        "topLayer": 0
+      },
+      {
+        "bottomLayer": 6,
+        "enabled": true,
+        "name": "jumpers",
+        "topLayer": 4
+      }
+    ],
     "layer_presets": [],
     "viewports": []
   },
@@ -468,7 +481,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -514,33 +527,33 @@
       {
         "name": "GPBidir",
         "pcb_color": "rgb(1, 166, 122)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(1, 166, 122)"
       },
       {
         "name": "GPInput",
         "pcb_color": "rgb(46, 164, 0)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(46, 164, 0)"
       },
       {
         "name": "GPOutput",
         "pcb_color": "rgb(0, 99, 192)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(0, 99, 192)"
       },
       {
         "clearance": 0.22,
         "name": "HighSpeed",
         "pcb_color": "rgb(237, 130, 0)",
-        "priority": 3,
+        "priority": 2,
         "schematic_color": "rgb(237, 130, 0)",
         "track_width": 0.22
       },
       {
         "name": "PWRGND",
         "pcb_color": "rgb(159, 0, 9)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgb(159, 0, 9)",
         "track_width": 0.22,
         "via_diameter": 0.8,
@@ -550,7 +563,7 @@
         "clearance": 0.24,
         "name": "Power",
         "pcb_color": "rgb(207, 15, 0)",
-        "priority": 2,
+        "priority": 1,
         "schematic_color": "rgb(207, 15, 0)",
         "track_width": 0.24,
         "via_diameter": 0.8,
@@ -559,16 +572,23 @@
       {
         "name": "Reset",
         "pcb_color": "rgb(76, 177, 3)",
-        "priority": 0,
+        "priority": 4,
         "schematic_color": "rgb(76, 177, 3)"
       },
       {
         "clearance": 0.22,
         "name": "SPI",
         "pcb_color": "rgb(80, 0, 192)",
-        "priority": 4,
+        "priority": 3,
         "schematic_color": "rgb(80, 0, 192)",
         "track_width": 0.22
+      },
+      {
+        "name": "TestClass",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(255, 96, 0)",
+        "wire_width": 12
       }
     ],
     "meta": {
@@ -576,6 +596,18 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Aaa": [
+        "Power"
+      ],
+      "/Bbb": [
+        "Power"
+      ],
+      "/Ccc": [
+        "Power"
+      ],
+      "/Ddd": [
+        "Power"
+      ],
       "/SPI.MISO": [
         "SPI"
       ],
@@ -675,6 +707,9 @@
       ],
       "/uout[0..7]": [
         "GPOutput"
+      ],
+      "/{Aaa Bbb Ccc Ddd}": [
+        "Power"
       ]
     },
     "netclass_patterns": [
@@ -701,7 +736,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "pcba/v1p0/gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -725,7 +760,7 @@
     },
     "bom_presets": [
       {
-        "exclude_dnp": false,
+        "exclude_dnp": true,
         "fields_ordered": [
           {
             "group_by": false,
@@ -807,20 +842,26 @@
           },
           {
             "group_by": false,
-            "label": "LCSC",
-            "name": "LCSC",
-            "show": false
-          },
-          {
-            "group_by": false,
             "label": "MF",
             "name": "MF",
             "show": false
           },
           {
             "group_by": false,
+            "label": "Characteristics",
+            "name": "Characteristics",
+            "show": true
+          },
+          {
+            "group_by": false,
             "label": "MPN",
             "name": "MPN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "LCSC",
+            "name": "LCSC",
             "show": true
           },
           {
@@ -873,12 +914,6 @@
           },
           {
             "group_by": false,
-            "label": "Characteristics",
-            "name": "Characteristics",
-            "show": false
-          },
-          {
-            "group_by": false,
             "label": "Description",
             "name": "Description",
             "show": false
@@ -887,6 +922,12 @@
             "group_by": false,
             "label": "#",
             "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Simulation",
+            "name": "${EXCLUDE_FROM_SIM}",
             "show": false
           }
         ],
@@ -899,7 +940,7 @@
       }
     ],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -981,20 +1022,26 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "MF",
           "name": "MF",
           "show": false
         },
         {
           "group_by": false,
+          "label": "Characteristics",
+          "name": "Characteristics",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "MPN",
           "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
         },
         {
@@ -1047,12 +1094,6 @@
         },
         {
           "group_by": false,
-          "label": "Characteristics",
-          "name": "Characteristics",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
@@ -1062,11 +1103,17 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
