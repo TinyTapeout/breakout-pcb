@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "FabricFox FPGASIC")
-		(date "2025-06-24")
-		(rev "1.0")
+		(date "2025-08-01")
+		(rev "1.1")
 		(company "Psychogenic Technologies INC")
 		(comment 1 "(C) 2025 Pat Deegan")
 	)
@@ -2283,7 +2283,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "psycomponents:PsyResistors_IEC/R_1k_0402_1005-18"
+		(symbol "psycomponents:PsyResistors_IEC/R_10k_0402_1005-12"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2302,7 +2302,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1k"
+			(property "Value" "10k"
 				(at 0 -3.81 90)
 				(effects
 					(font
@@ -2319,7 +2319,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English"
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2328,7 +2328,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
+			(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 				(at 2.032 -4.318 90)
 				(effects
 					(font
@@ -2337,7 +2337,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CRG0402F1K0"
+			(property "MPN" "ERJ-U02F1002X"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -2347,7 +2347,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TE Connectivity Passive Product"
+			(property "Manufacturer" "Panasonic Electronic Components"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2365,7 +2365,7 @@
 					(hide yes)
 				)
 			)
-			(property "Characteristics" "RES SMD 1K OHM 1% 1/16W 0402"
+			(property "Characteristics" "RES 10K OHM 1% 1/10W 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2374,7 +2374,7 @@
 					(hide yes)
 				)
 			)
-			(property "DigikeyPN" "A121534CT-ND"
+			(property "DigikeyPN" "10-ERJ-U02F1002XCT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2421,7 +2421,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PsyResistors_IEC/R_1k_0402_1005-18_0_1"
+			(symbol "PsyResistors_IEC/R_10k_0402_1005-12_0_1"
 				(rectangle
 					(start -1.016 -1.27)
 					(end 1.016 -6.35)
@@ -2434,7 +2434,7 @@
 					)
 				)
 			)
-			(symbol "PsyResistors_IEC/R_1k_0402_1005-18_1_1"
+			(symbol "PsyResistors_IEC/R_10k_0402_1005-12_1_1"
 				(pin passive line
 					(at 0 0 270)
 					(length 1.27)
@@ -2568,7 +2568,7 @@
 		)
 		(uuid "7a1a4a7d-a7d8-4ff9-9ad3-afaf105dd604")
 	)
-	(text "In order to be able to monitor the CDONE output, which \nis an open drain output weakly pulled up to 3v3, we \ncan pass it through to one of the I/O by protecting \nthe drain with a resistor.  On the db side, this pin \nshould be set as an input during programming and \nmonitored for a transition from LOW to HIGH."
+	(text "CDONE output tied to input is complex to manage\nwith the pull-up/down combos present on the \ndemoboard.  Using DONE led (in FPGA sheet)\ninstead, but left as DNP tied to uin0."
 		(exclude_from_sim no)
 		(at 174.752 133.604 0)
 		(effects
@@ -26867,7 +26867,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1df5dae2-e251-447e-bbf8-b8d18c00089c")
 		(property "Reference" "TP7"
 			(at 144.526 175.768 0)
@@ -27088,7 +27088,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "29447fe5-26da-45bb-a2d3-ccd3a2932d4a")
 		(property "Reference" "TP3"
 			(at 111.506 177.292 0)
@@ -28415,7 +28415,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5a99654f-1577-424e-8c87-bb73a2aa38f7")
 		(property "Reference" "TP6"
 			(at 134.366 177.292 0)
@@ -28768,7 +28768,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6c8a1c69-296c-4166-84c4-7d22965be7b6")
 		(property "Reference" "TP4"
 			(at 119.126 177.292 0)
@@ -29709,6 +29709,183 @@
 		)
 	)
 	(symbol
+		(lib_id "psycomponents:PsyResistors_IEC/R_10k_0402_1005-12")
+		(at 180.34 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "95d0aea2-9864-4ca6-9187-986fed2fc308")
+		(property "Reference" "R1"
+			(at 184.15 119.4363 90)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 184.15 121.7238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 180.34 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 184.658 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-U02F1002X"
+			(at 180.34 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "0402 (1005 Metric)"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Characteristics" "RES 10K OHM 1% 1/10W 0402"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "10-ERJ-U02F1002XCT-ND"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60490"
+			(at 180.34 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" ""
+			(at 180.34 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" ""
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display_Value" ""
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Variant" ""
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" ""
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7fa45d94-d6bf-46e4-b300-976bc326ceec")
+		)
+		(pin "1"
+			(uuid "4dfc6e3e-2d44-431a-aecb-d6a4d71d3114")
+		)
+		(instances
+			(project "tt06-fpga-ICE40UP5k"
+				(path "/5f27e142-b8a6-4247-837b-e9330245c956"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V8")
 		(at 55.88 60.96 0)
 		(unit 1)
@@ -29781,7 +29958,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a04ce17b-2fb9-4725-abba-16ae3648e485")
 		(property "Reference" "TP5"
 			(at 126.746 177.292 0)
@@ -30381,158 +30558,6 @@
 			(project "tt06-fpga-ICE40UP5k"
 				(path "/5f27e142-b8a6-4247-837b-e9330245c956"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "psycomponents:PsyResistors_IEC/R_1k_0402_1005-18")
-		(at 180.34 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce742ebb-8be2-4885-9bff-3a9c078ff926")
-		(property "Reference" "R1"
-			(at 184.15 119.4363 90)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 184.15 121.7238 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 180.34 126.238 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English"
-			(at 180.34 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
-			(at 184.658 122.428 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRG0402F1K0"
-			(at 180.34 124.46 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity Passive Product"
-			(at 180.34 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package / Case" "0402 (1005 Metric)"
-			(at 180.34 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Characteristics" "RES SMD 1K OHM 1% 1/16W 0402"
-			(at 180.34 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyPN" "A121534CT-ND"
-			(at 180.34 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C106235"
-			(at 180.34 124.46 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN_ALT" ""
-			(at 180.34 124.46 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display Value" ""
-			(at 180.34 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display_Value" ""
-			(at 180.34 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e489753a-8088-4e5a-9474-fad8fee0eeee")
-		)
-		(pin "1"
-			(uuid "f9cff1e8-54df-4350-a3a9-297f1a996230")
-		)
-		(instances
-			(project ""
-				(path "/5f27e142-b8a6-4247-837b-e9330245c956"
-					(reference "R1")
 					(unit 1)
 				)
 			)
