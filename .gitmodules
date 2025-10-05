@@ -4,3 +4,6 @@
 [submodule "ASIC-simulator/tt04-fpga-ICE40UP5k/tinytapeout-kicad-libs"]
 	path = ASIC-simulator/tt04-fpga-ICE40UP5k/tinytapeout-kicad-libs
 	url = https://github.com/TinyTapeout/tinytapeout-kicad-libs.git
+[submodule "tinytapeout-kicad-libs"]
+	path = tinytapeout-kicad-libs
+	url = https://github.com/psychogenic/tinytapeout-kicad-libs.git
