@@ -1,17 +1,16 @@
 (version 1)
 
 
-(rule "DF40 pads"                                                                                                       
-   (condition "A.Type == 'Pad' && A.memberOfFootprint('TinyTapeout:*DF40C*')")
-   (constraint track_width (min 0.16mm) (opt 0.16mm) (max 0.25mm))                                                                                                                         
-   (constraint clearance (min 0.16mm) (opt 0.16mm) (max 0.2mm))   
+(rule "DF12 pads"                                                                                                       
+   (condition "A.Type == 'Pad' && A.memberOfFootprint('TinyTapeout:*DF12*')")                                                                                                         
+   (constraint clearance (min 0.18mm) (opt 0.2mm) (max 0.2mm))   
 )
   
 
 (rule "DF40 connections"
-  (condition "A.Type != 'Zone' && A.intersectsCourtyard('TinyTapeout:*DF40C*')")
-  (constraint track_width (min 0.16mm) (opt 0.16mm) (max 0.25mm))                                                                                                                         
-  (constraint clearance (min 0.16mm) (opt 0.2mm) (max 0.2mm))    
+  (condition "A.Type != 'Zone' && A.intersectsCourtyard('TinyTapeout:*DF12*')")
+  (constraint track_width (min 0.16mm) (opt 0.2mm) (max 0.3mm))                                                                                                                         
+  (constraint clearance (min 0.18mm) (opt 0.2mm) (max 0.2mm))    
 )  
 
 
@@ -28,3 +27,9 @@
    (condition "A.Type == 'Pad' && A.memberOfFootprint('Package_DFN_QFN:QFN-48*')")                                                                                                        
                                                                                                                                                                                           
 )                                                       
+
+(rule "testpoints under connectors"
+  (severity exclusion)
+  (constraint courtyard_clearance)
+  (condition "A.Reference == 'TP*' && B.Reference == 'J*'")
+)
