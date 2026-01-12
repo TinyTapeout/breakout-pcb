@@ -1,37 +1,36 @@
 # FabricFox PCF
-set_io clk       20
-set_io intclk    35
-set_io projreset 37
+set_io -nowarn clk       20
+set_io -nowarn intclk    35
+set_io -nowarn rst_n 37
 
-set_io led_0 39
-set_io led_1 40
-set_io led_2 41
+set_io -nowarn rgb[0] 39
+set_io -nowarn rgb[1] 40
+set_io -nowarn rgb[2] 41
 
-set_io ui_in0 13
-set_io ui_in1 19
-set_io ui_in2 18
-set_io ui_in3 21
-set_io ui_in4 23
-set_io ui_in5 25
-set_io ui_in6 26
-set_io ui_in7 27
+set_io -nowarn ui_in[0] 13
+set_io -nowarn ui_in[1] 19
+set_io -nowarn ui_in[2] 18
+set_io -nowarn ui_in[3] 21
+set_io -nowarn ui_in[4] 23
+set_io -nowarn ui_in[5] 25
+set_io -nowarn ui_in[6] 26
+set_io -nowarn ui_in[7] 27
 
-set_io uio0 2
-set_io uio1 4
-set_io uio2 3
-set_io uio3 6
-set_io uio4 9
-set_io uio5 10
-set_io uio6 11
-set_io uio7 12
+set_io -nowarn uio[0] 2
+set_io -nowarn uio[1] 4
+set_io -nowarn uio[2] 3
+set_io -nowarn uio[3] 6
+set_io -nowarn uio[4] 9
+set_io -nowarn uio[5] 10
+set_io -nowarn uio[6] 11
+set_io -nowarn uio[7] 12
 
-set_io uo_out0 38
-set_io uo_out1 42
-set_io uo_out2 43
-set_io uo_out3 44
-set_io uo_out4 45
-set_io uo_out5 46
-set_io uo_out6 47
-set_io uo_out7 48
+set_io -nowarn uo_out[0] 38
+set_io -nowarn uo_out[1] 42
+set_io -nowarn uo_out[2] 43
+set_io -nowarn uo_out[3] 44
+set_io -nowarn uo_out[4] 45
+set_io -nowarn uo_out[5] 46
+set_io -nowarn uo_out[6] 47
+set_io -nowarn uo_out[7] 48
 
-set_frequency clk  24.0
