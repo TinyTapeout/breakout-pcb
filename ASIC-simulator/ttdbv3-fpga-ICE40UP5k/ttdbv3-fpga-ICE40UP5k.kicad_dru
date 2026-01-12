@@ -1,0 +1,12 @@
+(version 1)
+
+(rule "u1 clearance override"
+(condition "A.intersectsCourtyard('U1') && A.Type != 'Zone'")
+(constraint clearance (min 0.2mm) (opt 0.2mm))
+)
+
+(rule "DF12 pads"                                                                                                       
+   (condition "A.Type == 'Pad' && A.memberOfFootprint('TinyTapeout:*DF12*')")                                                                                                         
+   (constraint clearance (min 0.18mm) (opt 0.2mm) (max 0.2mm))   
+)
+  

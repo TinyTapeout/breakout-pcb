@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TinyTapeout")(type "KiCad")(uri "../../tinytapeout-kicad-libs/footprints/TinyTapeout.pretty")(options "")(descr ""))
+  (lib (name "FPGASIC")(type "KiCad")(uri "${KIPRJMOD}/FPGASIC.pretty")(options "")(descr ""))
+)
