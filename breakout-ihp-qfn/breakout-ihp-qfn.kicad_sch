@@ -9273,7 +9273,7 @@
 		)
 		(uuid "e2f33c03-cb8b-4e96-b54a-c5c5a09d3314")
 	)
-	(text "QFN and Analog Breakout For TinyTapeout Skywater ASICs"
+	(text "QFN and Analog Breakout For TinyTapeout IHP ASICs"
 		(exclude_from_sim no)
 		(at 231.14 23.495 0)
 		(effects
