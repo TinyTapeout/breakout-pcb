@@ -29181,7 +29181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "10u"
 			(at 320.421 88.8421 0)
 			(effects
 				(font
@@ -32582,7 +32582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "10u"
 			(at 317.881 63.4421 0)
 			(effects
 				(font
@@ -36328,7 +36328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Display Value" "1u"
+		(property "Display Value" "10u"
 			(at 282.321 88.8421 0)
 			(effects
 				(font
