@@ -34,9 +34,15 @@
   (condition "A.Reference == 'TP*' && B.Reference == 'J*'")
 )
 
-(rule "analog to GND clearance"
+(rule "analog to GND trace"
   (condition "A.Type == 'Track' && A.hasNetclass('Analog') && A.Layer == 'B.Cu' && (B.Type == 'Track' || B.Type == 'Via') && B.NetName == 'GND'")
    (constraint clearance (min 0.16mm))
+)
+
+
+(rule "analog to GND zone"
+  (condition "A.Type == 'Track' && A.hasNetclass('Analog') && B.Type == 'Zone' && B.NetName == 'GND'")
+   (constraint clearance (min 0.8mm))
 )
 
 

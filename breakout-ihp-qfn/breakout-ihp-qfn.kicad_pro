@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.14,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.65
+          "min_clearance": 0.7
         }
       },
       "diff_pair_dimensions": [
@@ -707,6 +707,9 @@
       "/chip_an[6..11]": [
         "Analog"
       ],
+      "/enable": [
+        "Management"
+      ],
       "/hd_an0": [
         "Analog"
       ],
@@ -749,8 +752,17 @@
       "/hd_an[6..11]": [
         "Analog"
       ],
+      "/increment": [
+        "Management"
+      ],
+      "/rst_n": [
+        "Management"
+      ],
       "/{MNG}": [
         "MANAGEMENT"
+      ],
+      "/{PMUX}": [
+        "Management"
       ]
     },
     "netclass_patterns": [
@@ -785,10 +797,6 @@
       {
         "netclass": "Highspeed",
         "pattern": "/p_clk"
-      },
-      {
-        "netclass": "Management",
-        "pattern": "/c_*"
       },
       {
         "netclass": "Management",
