@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TinyTapeout")(type "KiCad")(uri "/Users/jeffdi/Documents/_chipfoundry/_partners/networkpcb/tinytapeout/tinytapeout-kicad-libs/symbols/TinyTapeout.kicad_sym")(options "")(descr ""))
+)
