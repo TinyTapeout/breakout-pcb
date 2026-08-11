@@ -16895,7 +16895,7 @@
 			(pintype "power_in")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin_ratio -0.02)
-			(uuid "0a00330d-fc2b-4581-a347-5e5849046cb7")
+			(uuid "013302d1-7bf7-4efb-82d6-4aacbeb24266")
 		)
 		(pad "65" smd roundrect
 			(at 1.35 -1.35 180)
@@ -16907,7 +16907,7 @@
 			(pintype "power_in")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin_ratio -0.02)
-			(uuid "0a00330d-fc2b-4581-a347-5e5849046cb7")
+			(uuid "876cfac5-6c3b-445f-a248-f42a05c8fdee")
 		)
 		(pad "65" smd roundrect
 			(at 1.35 1.35 180)
@@ -16919,7 +16919,7 @@
 			(pintype "power_in")
 			(solder_mask_margin 0.1)
 			(solder_paste_margin_ratio -0.02)
-			(uuid "0a00330d-fc2b-4581-a347-5e5849046cb7")
+			(uuid "af87cc52-a828-4fb8-92a0-2b4a4518c2c9")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm.step"
