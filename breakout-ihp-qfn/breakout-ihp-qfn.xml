@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/malcalypse/Private/kicadProjects/TinyTapeout/breakout-pcb/breakout-sky-qfn/breakout-sky-qfn.kicad_sch</source>
-    <date>2025-12-22T13:13:40-0500</date>
-    <tool>Eeschema 9.0.6-9.0.6~ubuntu24.04.1</tool>
+    <source>/home/malcalypse/Private/kicadProjects/TinyTapeout/breakout-pcb/breakout-ihp-qfn/breakout-ihp-qfn.kicad_sch</source>
+    <date>2026-08-11T01:36:00-0400</date>
+    <tool>Eeschema 9.0.9-9.0.9~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>QFN and Analog Breakout For TinyTapeout Skywater ASICs</title>
+        <title>QFN and Analog Breakout For TinyTapeout IHP ASICs</title>
         <company>Psychogenic Technologies INC</company>
-        <rev>3.1</rev>
-        <date>2025-12-02</date>
-        <source>breakout-sky-qfn.kicad_sch</source>
-        <comment number="1" value="(C) 2025 Pat Deegan"/>
+        <rev>1.2</rev>
+        <date>2026-08-10</date>
+        <source>breakout-ihp-qfn.kicad_sch</source>
+        <comment number="1" value="(C) 2026 Pat Deegan"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -25,447 +25,109 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
-      <fields>
-        <field name="MPN">GRT188R61H105KE13D</field>
-        <field name="DigikeyPN">490-12330-1-ND</field>
-        <field name="Display Value">1u</field>
-        <field name="Characteristics">1u 10V XR 0603</field>
-        <field name="Variant"/>
-        <field name="MPN_ALT"/>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="LCSC">C5673</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
-      </fields>
-      <libsource lib="psypassives" part="C_1u_0603_50V" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GRT188R61H105KE13D"/>
-      <property name="DigikeyPN" value="490-12330-1-ND"/>
-      <property name="Display Value" value="1u"/>
-      <property name="Characteristics" value="1u 10V XR 0603"/>
-      <property name="Variant" value=""/>
-      <property name="MPN_ALT" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="LCSC" value="C5673"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>4eae2a8b-183e-47ff-a0ba-610d67179e9e</tstamps>
-    </comp>
-    <comp ref="C2">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
-      <fields>
-        <field name="MPN">GRT188R61H105KE13D</field>
-        <field name="DigikeyPN">490-12330-1-ND</field>
-        <field name="Display Value">1u</field>
-        <field name="Characteristics">1u 10V XR 0603</field>
-        <field name="Variant"/>
-        <field name="MPN_ALT"/>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="LCSC">C5673</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
-      </fields>
-      <libsource lib="psypassives" part="C_1u_0603_50V" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GRT188R61H105KE13D"/>
-      <property name="DigikeyPN" value="490-12330-1-ND"/>
-      <property name="Display Value" value="1u"/>
-      <property name="Characteristics" value="1u 10V XR 0603"/>
-      <property name="Variant" value=""/>
-      <property name="MPN_ALT" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="LCSC" value="C5673"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0b73a61f-e9d7-47fc-9867-b4c98c68aa2d</tstamps>
-    </comp>
-    <comp ref="C3">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
-      <fields>
-        <field name="MPN">GRT188R61H105KE13D</field>
-        <field name="DigikeyPN">490-12330-1-ND</field>
-        <field name="Display Value">1u</field>
-        <field name="Characteristics">1u 10V XR 0603</field>
-        <field name="Variant"/>
-        <field name="MPN_ALT"/>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="LCSC">C5673</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
-      </fields>
-      <libsource lib="psypassives" part="C_1u_0603_50V" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GRT188R61H105KE13D"/>
-      <property name="DigikeyPN" value="490-12330-1-ND"/>
-      <property name="Display Value" value="1u"/>
-      <property name="Characteristics" value="1u 10V XR 0603"/>
-      <property name="Variant" value=""/>
-      <property name="MPN_ALT" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="LCSC" value="C5673"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>4d708a63-7562-4ad7-b2a9-c56d6ed4594c</tstamps>
-    </comp>
-    <comp ref="C4">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
-      <fields>
-        <field name="MPN">GRT188R61H105KE13D</field>
-        <field name="DigikeyPN">490-12330-1-ND</field>
-        <field name="Display Value">1u</field>
-        <field name="Characteristics">1u 10V XR 0603</field>
-        <field name="Variant"/>
-        <field name="MPN_ALT"/>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="LCSC">C5673</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
-      </fields>
-      <libsource lib="psypassives" part="C_1u_0603_50V" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GRT188R61H105KE13D"/>
-      <property name="DigikeyPN" value="490-12330-1-ND"/>
-      <property name="Display Value" value="1u"/>
-      <property name="Characteristics" value="1u 10V XR 0603"/>
-      <property name="Variant" value=""/>
-      <property name="MPN_ALT" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="LCSC" value="C5673"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>22dd3255-0d9a-4477-829e-c502b1e5c3d5</tstamps>
-    </comp>
-    <comp ref="C5">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
-      <fields>
-        <field name="MPN">GRT188R61H105KE13D</field>
-        <field name="DigikeyPN">490-12330-1-ND</field>
-        <field name="Display Value">1u</field>
-        <field name="Characteristics">1u 10V XR 0603</field>
-        <field name="Variant"/>
-        <field name="MPN_ALT"/>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="LCSC">C5673</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
-      </fields>
-      <libsource lib="psypassives" part="C_1u_0603_50V" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GRT188R61H105KE13D"/>
-      <property name="DigikeyPN" value="490-12330-1-ND"/>
-      <property name="Display Value" value="1u"/>
-      <property name="Characteristics" value="1u 10V XR 0603"/>
-      <property name="Variant" value=""/>
-      <property name="MPN_ALT" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="LCSC" value="C5673"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>cd9f2c4e-9697-4d32-af64-7eafda48665a</tstamps>
-    </comp>
-    <comp ref="C6">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C408142</field>
-        <field name="MPN">GRM21BR71C106KE51L</field>
+        <field name="LCSC"/>
+        <field name="MPN"/>
         <field name="MPN_ALT">LMK212AB7106MG-T</field>
-        <field name="Characteristics">10u 10V XR 0805</field>
+        <field name="Characteristics">1u 10V XR 0603</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Variant"/>
+        <field name="DigikeyPN"/>
+        <field name="Note"/>
+        <field name="Component Class"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C408142"/>
-      <property name="MPN" value="GRM21BR71C106KE51L"/>
+      <property name="LCSC" value=""/>
+      <property name="MPN" value=""/>
       <property name="MPN_ALT" value="LMK212AB7106MG-T"/>
-      <property name="Characteristics" value="10u 10V XR 0805"/>
+      <property name="Characteristics" value="1u 10V XR 0603"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="Variant" value=""/>
+      <property name="DigikeyPN" value=""/>
+      <property name="Note" value=""/>
+      <property name="Component Class" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>06f84660-ee65-4505-9a11-2fc1ceb353c8</tstamps>
     </comp>
-    <comp ref="C7">
+    <comp ref="C2">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C408142</field>
-        <field name="MPN">GRM21BR71C106KE51L</field>
-        <field name="MPN_ALT">LMK212AB7106MG-T</field>
-        <field name="Characteristics">10u 10V XR 0805</field>
+        <field name="MPN"/>
+        <field name="MPN_ALT">C0603C105K4RAC7411</field>
+        <field name="Characteristics">1u 10V XR 0603</field>
+        <field name="LCSC"/>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C408142"/>
-      <property name="MPN" value="GRM21BR71C106KE51L"/>
-      <property name="MPN_ALT" value="LMK212AB7106MG-T"/>
-      <property name="Characteristics" value="10u 10V XR 0805"/>
+      <property name="MPN" value=""/>
+      <property name="MPN_ALT" value="C0603C105K4RAC7411"/>
+      <property name="Characteristics" value="1u 10V XR 0603"/>
+      <property name="LCSC" value=""/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>1644ec79-8936-42b7-bb31-d2e93113792e</tstamps>
+      <tstamps>547e029d-27f7-49f3-9a2c-86c6b5962a9a</tstamps>
     </comp>
-    <comp ref="C8">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
-      <fields>
-        <field name="MPN">GRT188R61H105KE13D</field>
-        <field name="DigikeyPN">490-12330-1-ND</field>
-        <field name="Display Value">1u</field>
-        <field name="Characteristics">1u 10V XR 0603</field>
-        <field name="Variant"/>
-        <field name="MPN_ALT"/>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="LCSC">C5673</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
-      </fields>
-      <libsource lib="psypassives" part="C_1u_0603_50V" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GRT188R61H105KE13D"/>
-      <property name="DigikeyPN" value="490-12330-1-ND"/>
-      <property name="Display Value" value="1u"/>
-      <property name="Characteristics" value="1u 10V XR 0603"/>
-      <property name="Variant" value=""/>
-      <property name="MPN_ALT" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="LCSC" value="C5673"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f0785d65-74c5-4375-b567-df1587999573</tstamps>
-    </comp>
-    <comp ref="C9">
+    <comp ref="C3">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MPN">CL05A104KA5NNNC</field>
-        <field name="MPN_ALT">GRM155R71E104KE14J</field>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="Characteristics">100n 10% 25V XR 0402</field>
         <field name="LCSC">C100072</field>
+        <field name="MPN">CL05A104KA5NNNC</field>
+        <field name="Characteristics">100n 10% 25V XR 0402</field>
+        <field name="MPN_ALT">GRM155R71E104KE14J</field>
+        <field name="MANUFACTURER"/>
+        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CL05A104KA5NNNC"/>
-      <property name="MPN_ALT" value="GRM155R71E104KE14J"/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="Characteristics" value="100n 10% 25V XR 0402"/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C100072"/>
+      <property name="MPN" value="CL05A104KA5NNNC"/>
+      <property name="Characteristics" value="100n 10% 25V XR 0402"/>
+      <property name="MPN_ALT" value="GRM155R71E104KE14J"/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>270d884f-cd7a-4827-bf8b-699a481c7177</tstamps>
+      <tstamps>fe08b071-b873-4d2e-bd7e-87b97dd21b0a</tstamps>
     </comp>
-    <comp ref="C10">
-      <value>1uF</value>
+    <comp ref="C4">
+      <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="MPN">GRT188R61H105KE13D</field>
         <field name="DigikeyPN">490-12330-1-ND</field>
-        <field name="Display Value">1u</field>
-        <field name="Characteristics">1u 10V XR 0603</field>
-        <field name="Variant"/>
-        <field name="MPN_ALT"/>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="LCSC">C5673</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
-      </fields>
-      <libsource lib="psypassives" part="C_1u_0603_50V" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GRT188R61H105KE13D"/>
-      <property name="DigikeyPN" value="490-12330-1-ND"/>
-      <property name="Display Value" value="1u"/>
-      <property name="Characteristics" value="1u 10V XR 0603"/>
-      <property name="Variant" value=""/>
-      <property name="MPN_ALT" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="LCSC" value="C5673"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>88d7c9a7-e754-4a49-94d2-728f359212be</tstamps>
-    </comp>
-    <comp ref="C11">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MPN">CL05A104KA5NNNC</field>
-        <field name="MPN_ALT">GRM155R71E104KE14J</field>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="Characteristics">100n 10% 25V XR 0402</field>
-        <field name="LCSC">C100072</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CL05A104KA5NNNC"/>
-      <property name="MPN_ALT" value="GRM155R71E104KE14J"/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="Characteristics" value="100n 10% 25V XR 0402"/>
-      <property name="LCSC" value="C100072"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000062e54c40</tstamps>
-    </comp>
-    <comp ref="C12">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
-      <fields>
-        <field name="MPN">GRT188R61H105KE13D</field>
-        <field name="DigikeyPN">490-12330-1-ND</field>
-        <field name="Display Value">1u</field>
-        <field name="Characteristics">1u 10V XR 0603</field>
-        <field name="Variant"/>
-        <field name="MPN_ALT"/>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="LCSC">C5673</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
-      </fields>
-      <libsource lib="psypassives" part="C_1u_0603_50V" description="Unpolarized capacitor"/>
-      <property name="MPN" value="GRT188R61H105KE13D"/>
-      <property name="DigikeyPN" value="490-12330-1-ND"/>
-      <property name="Display Value" value="1u"/>
-      <property name="Characteristics" value="1u 10V XR 0603"/>
-      <property name="Variant" value=""/>
-      <property name="MPN_ALT" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="LCSC" value="C5673"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>27508ae6-45af-4262-85a7-e95d0ba870f9</tstamps>
-    </comp>
-    <comp ref="C13">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MPN">CL05A104KA5NNNC</field>
-        <field name="MPN_ALT">GRM155R71E104KE14J</field>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="Characteristics">100n 10% 25V XR 0402</field>
-        <field name="LCSC">C100072</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CL05A104KA5NNNC"/>
-      <property name="MPN_ALT" value="GRM155R71E104KE14J"/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="Characteristics" value="100n 10% 25V XR 0402"/>
-      <property name="LCSC" value="C100072"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a1e13395-8c1e-42f6-988e-b8f7ada97ee6</tstamps>
-    </comp>
-    <comp ref="C14">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
-      <fields>
-        <field name="MPN">GRT188R61H105KE13D</field>
-        <field name="DigikeyPN">490-12330-1-ND</field>
-        <field name="Display Value">1u</field>
+        <field name="Display Value">10u</field>
         <field name="Characteristics">1u 10V XR 0603</field>
         <field name="Variant"/>
         <field name="MPN_ALT"/>
@@ -481,7 +143,7 @@
       <libsource lib="psypassives" part="C_1u_0603_50V" description="Unpolarized capacitor"/>
       <property name="MPN" value="GRT188R61H105KE13D"/>
       <property name="DigikeyPN" value="490-12330-1-ND"/>
-      <property name="Display Value" value="1u"/>
+      <property name="Display Value" value="10u"/>
       <property name="Characteristics" value="1u 10V XR 0603"/>
       <property name="Variant" value=""/>
       <property name="MPN_ALT" value=""/>
@@ -491,11 +153,349 @@
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>fdeb9375-f4ed-46f1-9ab7-0d584d3bfe6a</tstamps>
+      <tstamps>afd37376-a185-49b9-b6cf-79061dbcf31f</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"/>
+        <field name="MPN"/>
+        <field name="MPN_ALT">LMK212AB7106MG-T</field>
+        <field name="Characteristics">1u 10V XR 0603</field>
+        <field name="MANUFACTURER"/>
+        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
+        <field name="Variant"/>
+        <field name="DigikeyPN"/>
+        <field name="Note"/>
+        <field name="Component Class"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value=""/>
+      <property name="MPN" value=""/>
+      <property name="MPN_ALT" value="LMK212AB7106MG-T"/>
+      <property name="Characteristics" value="1u 10V XR 0603"/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="Variant" value=""/>
+      <property name="DigikeyPN" value=""/>
+      <property name="Note" value=""/>
+      <property name="Component Class" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1644ec79-8936-42b7-bb31-d2e93113792e</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN"/>
+        <field name="MPN_ALT">C0603C105K4RAC7411</field>
+        <field name="Characteristics">1u 10V XR 0603</field>
+        <field name="LCSC"/>
+        <field name="MANUFACTURER"/>
+        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value=""/>
+      <property name="MPN_ALT" value="C0603C105K4RAC7411"/>
+      <property name="Characteristics" value="1u 10V XR 0603"/>
+      <property name="LCSC" value=""/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6147cf24-242a-48d2-9b9a-47c731ad4fe2</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C100072</field>
+        <field name="MPN">CL05A104KA5NNNC</field>
+        <field name="Characteristics">100n 10% 25V XR 0402</field>
+        <field name="MPN_ALT">GRM155R71E104KE14J</field>
+        <field name="MANUFACTURER"/>
+        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C100072"/>
+      <property name="MPN" value="CL05A104KA5NNNC"/>
+      <property name="Characteristics" value="100n 10% 25V XR 0402"/>
+      <property name="MPN_ALT" value="GRM155R71E104KE14J"/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5f209a0-05a2-4b9d-be7a-f02f5a2aeab2</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="MPN">GRT188R61H105KE13D</field>
+        <field name="DigikeyPN">490-12330-1-ND</field>
+        <field name="Display Value">10u</field>
+        <field name="Characteristics">1u 10V XR 0603</field>
+        <field name="Variant"/>
+        <field name="MPN_ALT"/>
+        <field name="Manufacturer"/>
+        <field name="Vendor"/>
+        <field name="LCSC">C5673</field>
+        <field name="Note"/>
+        <field name="Component Class"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="psypassives" part="C_1u_0603_50V" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRT188R61H105KE13D"/>
+      <property name="DigikeyPN" value="490-12330-1-ND"/>
+      <property name="Display Value" value="10u"/>
+      <property name="Characteristics" value="1u 10V XR 0603"/>
+      <property name="Variant" value=""/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Vendor" value=""/>
+      <property name="LCSC" value="C5673"/>
+      <property name="Note" value=""/>
+      <property name="Component Class" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4e432e4-007c-4e2d-b8e2-66c977bde2b1</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="MPN">GRT188R61H105KE13D</field>
+        <field name="DigikeyPN">490-12330-1-ND</field>
+        <field name="Display Value">10u</field>
+        <field name="Characteristics">1u 10V XR 0603</field>
+        <field name="Variant"/>
+        <field name="MPN_ALT"/>
+        <field name="Manufacturer"/>
+        <field name="Vendor"/>
+        <field name="LCSC">C5673</field>
+        <field name="Note"/>
+        <field name="Component Class"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="psypassives" part="C_1u_0603_50V" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRT188R61H105KE13D"/>
+      <property name="DigikeyPN" value="490-12330-1-ND"/>
+      <property name="Display Value" value="10u"/>
+      <property name="Characteristics" value="1u 10V XR 0603"/>
+      <property name="Variant" value=""/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Vendor" value=""/>
+      <property name="LCSC" value="C5673"/>
+      <property name="Note" value=""/>
+      <property name="Component Class" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f5bc83c-efde-4cf7-90e5-b3e3d0a18633</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</datasheet>
+      <description>1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="MPN">CL05A105KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Characteristics">CAP CER 1UF 16V X5R 0402</field>
+        <field name="DigikeyPN">1276-1067-1-ND</field>
+        <field name="LCSC"/>
+        <field name="MPN_ALT"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</field>
+        <field name="Description">1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="psycomponents" part="PsyCapacitors/C_1u_0402_1005-20" description="1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="MPN" value="CL05A105KO5NNNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Package / Case" value="0402 (1005 Metric)"/>
+      <property name="Characteristics" value="CAP CER 1UF 16V X5R 0402"/>
+      <property name="DigikeyPN" value="1276-1067-1-ND"/>
+      <property name="LCSC" value=""/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="Capacitor_SMD:C_0402_1005Metric"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0256f5c5-96c3-4147-a735-163d7a42fba0</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</datasheet>
+      <description>1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="MPN">CL05A105KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Characteristics">CAP CER 1UF 16V X5R 0402</field>
+        <field name="DigikeyPN">1276-1067-1-ND</field>
+        <field name="LCSC"/>
+        <field name="MPN_ALT"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</field>
+        <field name="Description">1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="psycomponents" part="PsyCapacitors/C_1u_0402_1005-20" description="1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="MPN" value="CL05A105KO5NNNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Package / Case" value="0402 (1005 Metric)"/>
+      <property name="Characteristics" value="CAP CER 1UF 16V X5R 0402"/>
+      <property name="DigikeyPN" value="1276-1067-1-ND"/>
+      <property name="LCSC" value=""/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="Capacitor_SMD:C_0402_1005Metric"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a7fee48-d302-4206-b97c-faf73407ec16</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</datasheet>
+      <description>1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="MPN">CL05A105KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Characteristics">CAP CER 1UF 16V X5R 0402</field>
+        <field name="DigikeyPN">1276-1067-1-ND</field>
+        <field name="LCSC"/>
+        <field name="MPN_ALT"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</field>
+        <field name="Description">1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="psycomponents" part="PsyCapacitors/C_1u_0402_1005-20" description="1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="MPN" value="CL05A105KO5NNNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Package / Case" value="0402 (1005 Metric)"/>
+      <property name="Characteristics" value="CAP CER 1UF 16V X5R 0402"/>
+      <property name="DigikeyPN" value="1276-1067-1-ND"/>
+      <property name="LCSC" value=""/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="Capacitor_SMD:C_0402_1005Metric"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>596f3ed9-8fc5-4bb5-bff2-7a52d0eb529d</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</datasheet>
+      <description>1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="MPN">CL05A105KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Characteristics">CAP CER 1UF 16V X5R 0402</field>
+        <field name="DigikeyPN">1276-1067-1-ND</field>
+        <field name="LCSC"/>
+        <field name="MPN_ALT"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</field>
+        <field name="Description">1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="psycomponents" part="PsyCapacitors/C_1u_0402_1005-20" description="1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="MPN" value="CL05A105KO5NNNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Package / Case" value="0402 (1005 Metric)"/>
+      <property name="Characteristics" value="CAP CER 1UF 16V X5R 0402"/>
+      <property name="DigikeyPN" value="1276-1067-1-ND"/>
+      <property name="LCSC" value=""/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="Capacitor_SMD:C_0402_1005Metric"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9903fa0-5fbb-4c02-88cf-933a42cbf4c5</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</datasheet>
+      <description>1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="MPN">CL05A105KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Characteristics">CAP CER 1UF 16V X5R 0402</field>
+        <field name="DigikeyPN">1276-1067-1-ND</field>
+        <field name="LCSC"/>
+        <field name="MPN_ALT"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</field>
+        <field name="Description">1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="psycomponents" part="PsyCapacitors/C_1u_0402_1005-20" description="1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="MPN" value="CL05A105KO5NNNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Package / Case" value="0402 (1005 Metric)"/>
+      <property name="Characteristics" value="CAP CER 1UF 16V X5R 0402"/>
+      <property name="DigikeyPN" value="1276-1067-1-ND"/>
+      <property name="LCSC" value=""/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="Capacitor_SMD:C_0402_1005Metric"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebf9f4ba-7313-4bc2-8919-72d99dfa66b5</tstamps>
     </comp>
     <comp ref="C15">
       <value>100nF</value>
@@ -520,301 +520,75 @@
       <property name="Characteristics" value="100n 10% 25V XR 0402"/>
       <property name="LCSC" value="C100072"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000061e8c6b1</tstamps>
-    </comp>
-    <comp ref="C16">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MPN">CL05A104KA5NNNC</field>
-        <field name="MPN_ALT">GRM155R71E104KE14J</field>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="Characteristics">100n 10% 25V XR 0402</field>
-        <field name="LCSC">C100072</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CL05A104KA5NNNC"/>
-      <property name="MPN_ALT" value="GRM155R71E104KE14J"/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="Characteristics" value="100n 10% 25V XR 0402"/>
-      <property name="LCSC" value="C100072"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>165db1a4-242d-4db0-82a5-7a9e7e2bf3fb</tstamps>
-    </comp>
-    <comp ref="C17">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MPN">CL05A104KA5NNNC</field>
-        <field name="MPN_ALT">GRM155R71E104KE14J</field>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="Characteristics">100n 10% 25V XR 0402</field>
-        <field name="LCSC">C100072</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CL05A104KA5NNNC"/>
-      <property name="MPN_ALT" value="GRM155R71E104KE14J"/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="Characteristics" value="100n 10% 25V XR 0402"/>
-      <property name="LCSC" value="C100072"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000063e819d0</tstamps>
-    </comp>
-    <comp ref="C18">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MPN">GRT188R61H105KE13D</field>
-        <field name="MPN_ALT">C0603C105K4RAC7411</field>
-        <field name="Characteristics">1u 10V XR 0603</field>
-        <field name="LCSC">C5673</field>
-        <field name="MANUFACTURER"/>
-        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MPN" value="GRT188R61H105KE13D"/>
-      <property name="MPN_ALT" value="C0603C105K4RAC7411"/>
-      <property name="Characteristics" value="1u 10V XR 0603"/>
-      <property name="LCSC" value="C5673"/>
-      <property name="MANUFACTURER" value=""/>
-      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>547e029d-27f7-49f3-9a2c-86c6b5962a9a</tstamps>
-    </comp>
-    <comp ref="C19">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MPN">GRT188R61H105KE13D</field>
-        <field name="MPN_ALT">C0603C105K4RAC7411</field>
-        <field name="Characteristics">1u 10V XR 0603</field>
-        <field name="LCSC">C5673</field>
-        <field name="MANUFACTURER"/>
-        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MPN" value="GRT188R61H105KE13D"/>
-      <property name="MPN_ALT" value="C0603C105K4RAC7411"/>
-      <property name="Characteristics" value="1u 10V XR 0603"/>
-      <property name="LCSC" value="C5673"/>
-      <property name="MANUFACTURER" value=""/>
-      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>6147cf24-242a-48d2-9b9a-47c731ad4fe2</tstamps>
-    </comp>
-    <comp ref="C20">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MPN">CL05A104KA5NNNC</field>
-        <field name="MPN_ALT">GRM155R71E104KE14J</field>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="Characteristics">100n 10% 25V XR 0402</field>
-        <field name="LCSC">C100072</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CL05A104KA5NNNC"/>
-      <property name="MPN_ALT" value="GRM155R71E104KE14J"/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="Characteristics" value="100n 10% 25V XR 0402"/>
-      <property name="LCSC" value="C100072"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000063c4ee5a</tstamps>
-    </comp>
-    <comp ref="C21">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C100072</field>
-        <field name="MPN">CL05A104KA5NNNC</field>
-        <field name="Characteristics">100n 10% 25V XR 0402</field>
-        <field name="MPN_ALT">GRM155R71E104KE14J</field>
-        <field name="MANUFACTURER"/>
-        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C100072"/>
-      <property name="MPN" value="CL05A104KA5NNNC"/>
-      <property name="Characteristics" value="100n 10% 25V XR 0402"/>
-      <property name="MPN_ALT" value="GRM155R71E104KE14J"/>
-      <property name="MANUFACTURER" value=""/>
-      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>fe08b071-b873-4d2e-bd7e-87b97dd21b0a</tstamps>
-    </comp>
-    <comp ref="C22">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C100072</field>
-        <field name="MPN">CL05A104KA5NNNC</field>
-        <field name="Characteristics">100n 10% 25V XR 0402</field>
-        <field name="MPN_ALT">GRM155R71E104KE14J</field>
-        <field name="MANUFACTURER"/>
-        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C100072"/>
-      <property name="MPN" value="CL05A104KA5NNNC"/>
-      <property name="Characteristics" value="100n 10% 25V XR 0402"/>
-      <property name="MPN_ALT" value="GRM155R71E104KE14J"/>
-      <property name="MANUFACTURER" value=""/>
-      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="capacitor cap"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b5f209a0-05a2-4b9d-be7a-f02f5a2aeab2</tstamps>
-    </comp>
-    <comp ref="C23">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MPN">CL05A104KA5NNNC</field>
-        <field name="MPN_ALT">GRM155R71E104KE14J</field>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="Characteristics">100n 10% 25V XR 0402</field>
-        <field name="LCSC">C100072</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CL05A104KA5NNNC"/>
-      <property name="MPN_ALT" value="GRM155R71E104KE14J"/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="Characteristics" value="100n 10% 25V XR 0402"/>
-      <property name="LCSC" value="C100072"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000062e55902</tstamps>
-    </comp>
-    <comp ref="C24">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MPN">CL05A104KA5NNNC</field>
-        <field name="MPN_ALT">GRM155R71E104KE14J</field>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="Characteristics">100n 10% 25V XR 0402</field>
-        <field name="LCSC">C100072</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CL05A104KA5NNNC"/>
-      <property name="MPN_ALT" value="GRM155R71E104KE14J"/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="Characteristics" value="100n 10% 25V XR 0402"/>
-      <property name="LCSC" value="C100072"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000640b1eec</tstamps>
-    </comp>
-    <comp ref="C25">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MPN">CL05A104KA5NNNC</field>
-        <field name="MPN_ALT">GRM155R71E104KE14J</field>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="Characteristics">100n 10% 25V XR 0402</field>
-        <field name="LCSC">C100072</field>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CL05A104KA5NNNC"/>
-      <property name="MPN_ALT" value="GRM155R71E104KE14J"/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="Characteristics" value="100n 10% 25V XR 0402"/>
-      <property name="LCSC" value="C100072"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ca27d913-6805-4967-bff4-bc5799de1879</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</datasheet>
+      <description>1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="MPN">CL05A105KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Characteristics">CAP CER 1UF 16V X5R 0402</field>
+        <field name="DigikeyPN">1276-1067-1-ND</field>
+        <field name="LCSC"/>
+        <field name="MPN_ALT"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</field>
+        <field name="Description">1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="psycomponents" part="PsyCapacitors/C_1u_0402_1005-20" description="1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="MPN" value="CL05A105KO5NNNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Package / Case" value="0402 (1005 Metric)"/>
+      <property name="Characteristics" value="CAP CER 1UF 16V X5R 0402"/>
+      <property name="DigikeyPN" value="1276-1067-1-ND"/>
+      <property name="LCSC" value=""/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="Capacitor_SMD:C_0402_1005Metric"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc6e025a-2348-47f8-8975-cc1b182c2e8a</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</datasheet>
+      <description>1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
+      <fields>
+        <field name="MPN">CL05A105KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Characteristics">CAP CER 1UF 16V X5R 0402</field>
+        <field name="DigikeyPN">1276-1067-1-ND</field>
+        <field name="LCSC"/>
+        <field name="MPN_ALT"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</field>
+        <field name="Description">1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+      </fields>
+      <libsource lib="psycomponents" part="PsyCapacitors/C_1u_0402_1005-20" description="1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
+      <property name="MPN" value="CL05A105KO5NNNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Package / Case" value="0402 (1005 Metric)"/>
+      <property name="Characteristics" value="CAP CER 1UF 16V X5R 0402"/>
+      <property name="DigikeyPN" value="1276-1067-1-ND"/>
+      <property name="LCSC" value=""/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="Capacitor_SMD:C_0402_1005Metric"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f6c718f-cb46-4f43-9e03-f9799e47475b</tstamps>
     </comp>
     <comp ref="FID1">
       <value>Fiducial</value>
@@ -842,7 +616,7 @@
       <property name="Manufacturer" value=""/>
       <property name="Vendor" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="fiducial marker"/>
@@ -876,7 +650,7 @@
       <property name="Manufacturer" value=""/>
       <property name="Vendor" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="fiducial marker"/>
@@ -910,7 +684,7 @@
       <property name="Manufacturer" value=""/>
       <property name="Vendor" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="fiducial marker"/>
@@ -919,38 +693,6 @@
       <tstamps>b4d48b23-783b-4370-b9b6-594c5ebaa8f9</tstamps>
     </comp>
     <comp ref="J1">
-      <value>DF12NB-60DS-0.5V_51</value>
-      <footprint>TinyTapeout:HRS_DF12NB-60DS-0.5V_51</footprint>
-      <datasheet>https://www.hirose.com/product/download/?distributor=digikey&amp;type=specSheet&amp;lang=en&amp;num=DF12NB(3.0)-10DS-0.5V(51)</datasheet>
-      <description>60 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold</description>
-      <fields>
-        <field name="Characteristics">CONN RCPT 60POS SMD GOLD</field>
-        <field name="MPN">DF12NB-60DS-0.5V(51)</field>
-        <field name="DigikeyPN">26-DF12NB-60DS-0.5V(51)CT-ND</field>
-        <field name="Variant"/>
-        <field name="MPN_ALT"/>
-        <field name="LCSC">C5137127</field>
-        <field name="Note"/>
-        <field name="Component Class"/>
-        <field name="Footprint">TinyTapeout:HRS_DF12NB-60DS-0.5V_51</field>
-        <field name="Datasheet">https://www.hirose.com/product/download/?distributor=digikey&amp;type=specSheet&amp;lang=en&amp;num=DF12NB(3.0)-10DS-0.5V(51)</field>
-        <field name="Description">60 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold</field>
-      </fields>
-      <libsource lib="TinyTapeout" part="DF12NB-60DS-0.5V_51" description="60 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold"/>
-      <property name="Characteristics" value="CONN RCPT 60POS SMD GOLD"/>
-      <property name="MPN" value="DF12NB-60DS-0.5V(51)"/>
-      <property name="DigikeyPN" value="26-DF12NB-60DS-0.5V(51)CT-ND"/>
-      <property name="Variant" value=""/>
-      <property name="MPN_ALT" value=""/>
-      <property name="LCSC" value="C5137127"/>
-      <property name="Note" value=""/>
-      <property name="Component Class" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>758e7622-f67e-4fc2-b116-6c9f4e05ff38</tstamps>
-    </comp>
-    <comp ref="J2">
       <value>Conn_01x12</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
@@ -978,12 +720,44 @@
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>456138e9-c321-4626-8505-c8a1b698304a</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>DF12NB-60DS-0.5V_51</value>
+      <footprint>TinyTapeout:HRS_DF12NB-60DS-0.5V_51</footprint>
+      <datasheet>https://www.hirose.com/product/download/?distributor=digikey&amp;type=specSheet&amp;lang=en&amp;num=DF12NB(3.0)-10DS-0.5V(51)</datasheet>
+      <description>60 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold</description>
+      <fields>
+        <field name="Characteristics">CONN RCPT 60POS SMD GOLD</field>
+        <field name="MPN">DF12NB-60DS-0.5V(51)</field>
+        <field name="DigikeyPN">26-DF12NB-60DS-0.5V(51)CT-ND</field>
+        <field name="Variant"/>
+        <field name="MPN_ALT"/>
+        <field name="LCSC">C5137127</field>
+        <field name="Note"/>
+        <field name="Component Class"/>
+        <field name="Footprint">TinyTapeout:HRS_DF12NB-60DS-0.5V_51</field>
+        <field name="Datasheet">https://www.hirose.com/product/download/?distributor=digikey&amp;type=specSheet&amp;lang=en&amp;num=DF12NB(3.0)-10DS-0.5V(51)</field>
+        <field name="Description">60 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold</field>
+      </fields>
+      <libsource lib="TinyTapeout" part="DF12NB-60DS-0.5V_51" description="60 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold"/>
+      <property name="Characteristics" value="CONN RCPT 60POS SMD GOLD"/>
+      <property name="MPN" value="DF12NB-60DS-0.5V(51)"/>
+      <property name="DigikeyPN" value="26-DF12NB-60DS-0.5V(51)CT-ND"/>
+      <property name="Variant" value=""/>
+      <property name="MPN_ALT" value=""/>
+      <property name="LCSC" value="C5137127"/>
+      <property name="Note" value=""/>
+      <property name="Component Class" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>758e7622-f67e-4fc2-b116-6c9f4e05ff38</tstamps>
     </comp>
     <comp ref="J3">
       <value>DF12NB-50DS-0.5V_51</value>
@@ -1013,7 +787,7 @@
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1c26a417-7ceb-467f-93a5-e281aafb68ef</tstamps>
     </comp>
@@ -1049,7 +823,7 @@
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
@@ -1067,8 +841,11 @@
         <field name="Package / Case">0603 (1608 Metric)</field>
         <field name="Characteristics">RES SMD 0 OHM JUMPER 1/10W 0603</field>
         <field name="DigikeyPN">A106051CT-ND</field>
-        <field name="LCSC">C95177</field>
+        <field name="LCSC"/>
         <field name="MPN_ALT"/>
+        <field name="Variant"/>
+        <field name="Note"/>
+        <field name="Component Class"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://www.te.com/usa-en/product-1623094-1.datasheet.pdf</field>
         <field name="Description">0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film</field>
@@ -1079,14 +856,18 @@
       <property name="Package / Case" value="0603 (1608 Metric)"/>
       <property name="Characteristics" value="RES SMD 0 OHM JUMPER 1/10W 0603"/>
       <property name="DigikeyPN" value="A106051CT-ND"/>
-      <property name="LCSC" value="C95177"/>
+      <property name="LCSC" value=""/>
       <property name="MPN_ALT" value=""/>
+      <property name="Variant" value=""/>
+      <property name="Note" value=""/>
+      <property name="Component Class" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>4fd19038-2036-4b7a-9a10-627f4b7ea519</tstamps>
+      <tstamps>bc2cf8d1-c032-4738-9465-266d9871968f</tstamps>
     </comp>
     <comp ref="R3">
       <value>0</value>
@@ -1099,6 +880,70 @@
         <field name="Package / Case">0603 (1608 Metric)</field>
         <field name="Characteristics">RES SMD 0 OHM JUMPER 1/10W 0603</field>
         <field name="DigikeyPN">A106051CT-ND</field>
+        <field name="LCSC">C95177</field>
+        <field name="MPN_ALT"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.te.com/usa-en/product-1623094-1.datasheet.pdf</field>
+        <field name="Description">0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film</field>
+      </fields>
+      <libsource lib="psycomponents" part="PsyResistors_IEC/R_0_0603_1608-46" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film"/>
+      <property name="MPN" value="CRG0603ZR"/>
+      <property name="Manufacturer" value="TE Connectivity Passive Product"/>
+      <property name="Package / Case" value="0603 (1608 Metric)"/>
+      <property name="Characteristics" value="RES SMD 0 OHM JUMPER 1/10W 0603"/>
+      <property name="DigikeyPN" value="A106051CT-ND"/>
+      <property name="LCSC" value="C95177"/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fd19038-2036-4b7a-9a10-627f4b7ea519</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RC0805JR-100RL</field>
+        <field name="Characteristics">RES SMD 0 OHM JUMPER 0805</field>
+        <field name="DigikeyPN">13-RC0805JR-100RLCT-ND</field>
+        <field name="LCSC">C4143065</field>
+        <field name="MPN_ALT"/>
+        <field name="Variant"/>
+        <field name="Note"/>
+        <field name="Component Class"/>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="psycomponents" part="PsyResistors_IEC/R_0_0603_1608-46" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film"/>
+      <property name="MPN" value="RC0805JR-100RL"/>
+      <property name="Characteristics" value="RES SMD 0 OHM JUMPER 0805"/>
+      <property name="DigikeyPN" value="13-RC0805JR-100RLCT-ND"/>
+      <property name="LCSC" value="C4143065"/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Variant" value=""/>
+      <property name="Note" value=""/>
+      <property name="Component Class" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>191191ce-1eb6-4896-b6b2-bc552fd5a9d6</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.te.com/usa-en/product-1623094-1.datasheet.pdf</datasheet>
+      <description>0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film</description>
+      <fields>
+        <field name="MPN">CRG0603ZR</field>
+        <field name="Manufacturer">TE Connectivity Passive Product</field>
+        <field name="Package / Case">0603 (1608 Metric)</field>
+        <field name="Characteristics">RES SMD 0 OHM JUMPER 1/10W 0603</field>
+        <field name="DigikeyPN">A106051CT-ND</field>
         <field name="LCSC"/>
         <field name="MPN_ALT"/>
         <field name="Variant"/>
@@ -1120,14 +965,14 @@
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>81b7726f-39eb-4e29-9b09-99b4a94d0e9d</tstamps>
     </comp>
-    <comp ref="R4">
+    <comp ref="R6">
       <value>0</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://www.te.com/usa-en/product-1623094-1.datasheet.pdf</datasheet>
@@ -1140,6 +985,9 @@
         <field name="DigikeyPN">A106051CT-ND</field>
         <field name="LCSC">C95177</field>
         <field name="MPN_ALT"/>
+        <field name="Variant"/>
+        <field name="Note"/>
+        <field name="Component Class"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://www.te.com/usa-en/product-1623094-1.datasheet.pdf</field>
         <field name="Description">0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film</field>
@@ -1152,81 +1000,15 @@
       <property name="DigikeyPN" value="A106051CT-ND"/>
       <property name="LCSC" value="C95177"/>
       <property name="MPN_ALT" value=""/>
+      <property name="Variant" value=""/>
+      <property name="Note" value=""/>
+      <property name="Component Class" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d585c648-e726-4b2b-94d2-7fcdf0efccb6</tstamps>
-    </comp>
-    <comp ref="R5">
-      <value>0R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="Characteristics">0R 0402</field>
-        <field name="Variant"/>
-        <field name="MPN">RC0402JR-070RL</field>
-        <field name="MPN_ALT">WR04X000 PTL</field>
-        <field name="DigikeyPN">311-0.0JRCT-ND</field>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="LCSC">C60485</field>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Characteristics" value="0R 0402"/>
-      <property name="Variant" value=""/>
-      <property name="MPN" value="RC0402JR-070RL"/>
-      <property name="MPN_ALT" value="WR04X000 PTL"/>
-      <property name="DigikeyPN" value="311-0.0JRCT-ND"/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="LCSC" value="C60485"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>4c50a175-736f-43d1-95fc-212892509913</tstamps>
-    </comp>
-    <comp ref="R6">
-      <value>0R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="Characteristics">0R 0402</field>
-        <field name="Variant"/>
-        <field name="MPN">RC0402JR-070RL</field>
-        <field name="MPN_ALT">WR04X000 PTL</field>
-        <field name="DigikeyPN">311-0.0JRCT-ND</field>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="LCSC">C60485</field>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Characteristics" value="0R 0402"/>
-      <property name="Variant" value=""/>
-      <property name="MPN" value="RC0402JR-070RL"/>
-      <property name="MPN_ALT" value="WR04X000 PTL"/>
-      <property name="DigikeyPN" value="311-0.0JRCT-ND"/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="LCSC" value="C60485"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="dnp"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>89f3e18b-8501-4264-b585-3eda0e7bb006</tstamps>
+      <tstamps>acb30a49-7d17-4279-b24c-87db3e3f45de</tstamps>
     </comp>
     <comp ref="R7">
       <value>0</value>
@@ -1239,50 +1021,8 @@
         <field name="Package / Case">0603 (1608 Metric)</field>
         <field name="Characteristics">RES SMD 0 OHM JUMPER 1/10W 0603</field>
         <field name="DigikeyPN">A106051CT-ND</field>
-        <field name="LCSC"/>
-        <field name="MPN_ALT"/>
-        <field name="Variant"/>
-        <field name="Note"/>
-        <field name="Component Class"/>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">https://www.te.com/usa-en/product-1623094-1.datasheet.pdf</field>
-        <field name="Description">0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film</field>
-      </fields>
-      <libsource lib="psycomponents" part="PsyResistors_IEC/R_0_0603_1608-46" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film"/>
-      <property name="MPN" value="CRG0603ZR"/>
-      <property name="Manufacturer" value="TE Connectivity Passive Product"/>
-      <property name="Package / Case" value="0603 (1608 Metric)"/>
-      <property name="Characteristics" value="RES SMD 0 OHM JUMPER 1/10W 0603"/>
-      <property name="DigikeyPN" value="A106051CT-ND"/>
-      <property name="LCSC" value=""/>
-      <property name="MPN_ALT" value=""/>
-      <property name="Variant" value=""/>
-      <property name="Note" value=""/>
-      <property name="Component Class" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="dnp"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>bc2cf8d1-c032-4738-9465-266d9871968f</tstamps>
-    </comp>
-    <comp ref="R8">
-      <value>0</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://www.te.com/usa-en/product-1623094-1.datasheet.pdf</datasheet>
-      <description>0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film</description>
-      <fields>
-        <field name="MPN">CRG0603ZR</field>
-        <field name="Manufacturer">TE Connectivity Passive Product</field>
-        <field name="Package / Case">0603 (1608 Metric)</field>
-        <field name="Characteristics">RES SMD 0 OHM JUMPER 1/10W 0603</field>
-        <field name="DigikeyPN">A106051CT-ND</field>
         <field name="LCSC">C95177</field>
         <field name="MPN_ALT"/>
-        <field name="Variant"/>
-        <field name="Note"/>
-        <field name="Component Class"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://www.te.com/usa-en/product-1623094-1.datasheet.pdf</field>
         <field name="Description">0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film</field>
@@ -1295,49 +1035,77 @@
       <property name="DigikeyPN" value="A106051CT-ND"/>
       <property name="LCSC" value="C95177"/>
       <property name="MPN_ALT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d585c648-e726-4b2b-94d2-7fcdf0efccb6</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RC0805JR-100RL</field>
+        <field name="Characteristics">RES SMD 0 OHM JUMPER 0805</field>
+        <field name="DigikeyPN">13-RC0805JR-100RLCT-ND</field>
+        <field name="LCSC">C4143065</field>
+        <field name="MPN_ALT"/>
+        <field name="Variant"/>
+        <field name="Note"/>
+        <field name="Component Class"/>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="psycomponents" part="PsyResistors_IEC/R_0_0603_1608-46" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film"/>
+      <property name="MPN" value="RC0805JR-100RL"/>
+      <property name="Characteristics" value="RES SMD 0 OHM JUMPER 0805"/>
+      <property name="DigikeyPN" value="13-RC0805JR-100RLCT-ND"/>
+      <property name="LCSC" value="C4143065"/>
+      <property name="MPN_ALT" value=""/>
       <property name="Variant" value=""/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>acb30a49-7d17-4279-b24c-87db3e3f45de</tstamps>
+      <tstamps>a1f10223-e8f9-4c44-84c9-050817221b3a</tstamps>
     </comp>
     <comp ref="R9">
-      <value>1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Characteristics">1k 0402</field>
-        <field name="Variant"/>
-        <field name="MPN">CR0402-FX-1001GLF</field>
+        <field name="MPN">RC0805JR-100RL</field>
+        <field name="Characteristics">RES SMD 0 OHM JUMPER 0805</field>
+        <field name="DigikeyPN">13-RC0805JR-100RLCT-ND</field>
+        <field name="LCSC">C4143065</field>
         <field name="MPN_ALT"/>
-        <field name="DigikeyPN"/>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="LCSC">C11702</field>
-        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Variant"/>
+        <field name="Note"/>
+        <field name="Component Class"/>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Characteristics" value="1k 0402"/>
-      <property name="Variant" value=""/>
-      <property name="MPN" value="CR0402-FX-1001GLF"/>
+      <libsource lib="psycomponents" part="PsyResistors_IEC/R_0_0603_1608-46" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film"/>
+      <property name="MPN" value="RC0805JR-100RL"/>
+      <property name="Characteristics" value="RES SMD 0 OHM JUMPER 0805"/>
+      <property name="DigikeyPN" value="13-RC0805JR-100RLCT-ND"/>
+      <property name="LCSC" value="C4143065"/>
       <property name="MPN_ALT" value=""/>
-      <property name="DigikeyPN" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="LCSC" value="C11702"/>
+      <property name="Variant" value=""/>
+      <property name="Note" value=""/>
+      <property name="Component Class" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
+      <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>fce4c079-8bb3-46f1-a81f-5d8aa90a2c90</tstamps>
+      <tstamps>fd903319-84aa-4d93-8954-5877362be293</tstamps>
     </comp>
     <comp ref="R10">
       <value>1k</value>
@@ -1367,50 +1135,45 @@
       <property name="Vendor" value=""/>
       <property name="LCSC" value="C11702"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4e837083-df67-4ebf-ac56-ba0500afa31a</tstamps>
     </comp>
     <comp ref="R11">
-      <value>2k</value>
+      <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <description>2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film</description>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
       <fields>
-        <field name="MPN">RC0402FR-072KL</field>
-        <field name="Manufacturer">YAGEO</field>
-        <field name="Package / Case">0402 (1005 Metric)</field>
-        <field name="Characteristics">RES 2K OHM 1% 1/16W 0402</field>
-        <field name="DigikeyPN">311-2KLRCT-ND</field>
-        <field name="LCSC"/>
-        <field name="MPN_ALT"/>
+        <field name="Characteristics">1k 0402</field>
         <field name="Variant"/>
-        <field name="Note"/>
-        <field name="Component Class"/>
+        <field name="MPN">CR0402-FX-1001GLF</field>
+        <field name="MPN_ALT"/>
+        <field name="DigikeyPN"/>
+        <field name="Manufacturer"/>
+        <field name="Vendor"/>
+        <field name="LCSC">C11702</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
-        <field name="Datasheet">https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</field>
-        <field name="Description">2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
       </fields>
-      <libsource lib="psycomponents" part="PsyResistors_IEC/R_2k_0402_1005-59" description="2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"/>
-      <property name="MPN" value="RC0402FR-072KL"/>
-      <property name="Manufacturer" value="YAGEO"/>
-      <property name="Package / Case" value="0402 (1005 Metric)"/>
-      <property name="Characteristics" value="RES 2K OHM 1% 1/16W 0402"/>
-      <property name="DigikeyPN" value="311-2KLRCT-ND"/>
-      <property name="LCSC" value=""/>
-      <property name="MPN_ALT" value=""/>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Characteristics" value="1k 0402"/>
       <property name="Variant" value=""/>
-      <property name="Note" value=""/>
-      <property name="Component Class" value=""/>
+      <property name="MPN" value="CR0402-FX-1001GLF"/>
+      <property name="MPN_ALT" value=""/>
+      <property name="DigikeyPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Vendor" value=""/>
+      <property name="LCSC" value="C11702"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="dnp"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="Resistor_SMD:R_0402_1005Metric"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e37af97b-9fe6-4b18-ab57-6447502aefdc</tstamps>
+      <tstamps>fce4c079-8bb3-46f1-a81f-5d8aa90a2c90</tstamps>
     </comp>
     <comp ref="R12">
       <value>2k</value>
@@ -1444,108 +1207,51 @@
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="Resistor_SMD:R_0402_1005Metric"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e37af97b-9fe6-4b18-ab57-6447502aefdc</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <description>2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film</description>
+      <fields>
+        <field name="MPN">RC0402FR-072KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Characteristics">RES 2K OHM 1% 1/16W 0402</field>
+        <field name="DigikeyPN">311-2KLRCT-ND</field>
+        <field name="LCSC"/>
+        <field name="MPN_ALT"/>
+        <field name="Variant"/>
+        <field name="Note"/>
+        <field name="Component Class"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</field>
+        <field name="Description">2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film</field>
+      </fields>
+      <libsource lib="psycomponents" part="PsyResistors_IEC/R_2k_0402_1005-59" description="2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"/>
+      <property name="MPN" value="RC0402FR-072KL"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Package / Case" value="0402 (1005 Metric)"/>
+      <property name="Characteristics" value="RES 2K OHM 1% 1/16W 0402"/>
+      <property name="DigikeyPN" value="311-2KLRCT-ND"/>
+      <property name="LCSC" value=""/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Variant" value=""/>
+      <property name="Note" value=""/>
+      <property name="Component Class" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0402_1005Metric"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fb7a6eb8-8e1a-4949-bb5b-a74c84aeec67</tstamps>
-    </comp>
-    <comp ref="R13">
-      <value>0</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="MPN">RC0805JR-100RL</field>
-        <field name="Characteristics">RES SMD 0 OHM JUMPER 0805</field>
-        <field name="DigikeyPN">13-RC0805JR-100RLCT-ND</field>
-        <field name="LCSC">C4143065</field>
-        <field name="MPN_ALT"/>
-        <field name="Variant"/>
-        <field name="Note"/>
-        <field name="Component Class"/>
-        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="psycomponents" part="PsyResistors_IEC/R_0_0603_1608-46" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film"/>
-      <property name="MPN" value="RC0805JR-100RL"/>
-      <property name="Characteristics" value="RES SMD 0 OHM JUMPER 0805"/>
-      <property name="DigikeyPN" value="13-RC0805JR-100RLCT-ND"/>
-      <property name="LCSC" value="C4143065"/>
-      <property name="MPN_ALT" value=""/>
-      <property name="Variant" value=""/>
-      <property name="Note" value=""/>
-      <property name="Component Class" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a1f10223-e8f9-4c44-84c9-050817221b3a</tstamps>
-    </comp>
-    <comp ref="R14">
-      <value>0</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="MPN">RC0805JR-100RL</field>
-        <field name="Characteristics">RES SMD 0 OHM JUMPER 0805</field>
-        <field name="DigikeyPN">13-RC0805JR-100RLCT-ND</field>
-        <field name="LCSC">C4143065</field>
-        <field name="MPN_ALT"/>
-        <field name="Variant"/>
-        <field name="Note"/>
-        <field name="Component Class"/>
-        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="psycomponents" part="PsyResistors_IEC/R_0_0603_1608-46" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film"/>
-      <property name="MPN" value="RC0805JR-100RL"/>
-      <property name="Characteristics" value="RES SMD 0 OHM JUMPER 0805"/>
-      <property name="DigikeyPN" value="13-RC0805JR-100RLCT-ND"/>
-      <property name="LCSC" value="C4143065"/>
-      <property name="MPN_ALT" value=""/>
-      <property name="Variant" value=""/>
-      <property name="Note" value=""/>
-      <property name="Component Class" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>191191ce-1eb6-4896-b6b2-bc552fd5a9d6</tstamps>
-    </comp>
-    <comp ref="R15">
-      <value>0</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="MPN">RC0805JR-100RL</field>
-        <field name="Characteristics">RES SMD 0 OHM JUMPER 0805</field>
-        <field name="DigikeyPN">13-RC0805JR-100RLCT-ND</field>
-        <field name="LCSC">C4143065</field>
-        <field name="MPN_ALT"/>
-        <field name="Variant"/>
-        <field name="Note"/>
-        <field name="Component Class"/>
-        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="psycomponents" part="PsyResistors_IEC/R_0_0603_1608-46" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film"/>
-      <property name="MPN" value="RC0805JR-100RL"/>
-      <property name="Characteristics" value="RES SMD 0 OHM JUMPER 0805"/>
-      <property name="DigikeyPN" value="13-RC0805JR-100RLCT-ND"/>
-      <property name="LCSC" value="C4143065"/>
-      <property name="MPN_ALT" value=""/>
-      <property name="Variant" value=""/>
-      <property name="Note" value=""/>
-      <property name="Component Class" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>3e35bae5-7bf7-4846-9d2c-95cb4122d18b</tstamps>
     </comp>
     <comp ref="TP1">
       <value>TestPoint</value>
@@ -1573,7 +1279,7 @@
       <property name="Manufacturer" value=""/>
       <property name="Vendor" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
@@ -1606,7 +1312,7 @@
       <property name="Manufacturer" value=""/>
       <property name="Vendor" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
@@ -1639,70 +1345,41 @@
       <property name="Manufacturer" value=""/>
       <property name="Vendor" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4adda920-f2fe-4cd0-b6fd-55935e367006</tstamps>
     </comp>
-    <comp ref="TP4">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <description>test point</description>
-      <fields>
-        <field name="Characteristics"/>
-        <field name="Variant"/>
-        <field name="MPN"/>
-        <field name="MPN_ALT"/>
-        <field name="DigikeyPN"/>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Characteristics" value=""/>
-      <property name="Variant" value=""/>
-      <property name="MPN" value=""/>
-      <property name="MPN_ALT" value=""/>
-      <property name="DigikeyPN" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>bacf5d5a-2393-43b6-a7ae-e74351977922</tstamps>
-    </comp>
     <comp ref="U1">
-      <value>AP2112K-1.8</value>
+      <value>AP2112K-1.2</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/AP2112.pdf</datasheet>
       <fields>
-        <field name="MPN">AP2112K-1.8TRG1</field>
-        <field name="DigikeyPN">AP2112K-1.8TRG1DICT-ND</field>
-        <field name="Characteristics">VREG 1.8V SOT-25</field>
-        <field name="LCSC">C176944</field>
-        <field name="MANUFACTURER"/>
-        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
+        <field name="MPN">AP2112K-1.2TRG1</field>
+        <field name="DigikeyPN">31-AP2112K-1.2TRG1CT-ND</field>
+        <field name="Characteristics">VREG 1.2V SOT-25</field>
+        <field name="LCSC"/>
+        <field name="Variant"/>
+        <field name="MPN_ALT"/>
+        <field name="Note"/>
+        <field name="Component Class"/>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
         <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2112.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Regulator_Linear" part="AP2112K-1.8" description="600mA low dropout linear regulator, with enable pin, 2.5V-6V input voltage range, 1.8V fixed positive output, SOT-23-5"/>
-      <property name="MPN" value="AP2112K-1.8TRG1"/>
-      <property name="DigikeyPN" value="AP2112K-1.8TRG1DICT-ND"/>
-      <property name="Characteristics" value="VREG 1.8V SOT-25"/>
-      <property name="LCSC" value="C176944"/>
-      <property name="MANUFACTURER" value=""/>
-      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="MPN" value="AP2112K-1.2TRG1"/>
+      <property name="DigikeyPN" value="31-AP2112K-1.2TRG1CT-ND"/>
+      <property name="Characteristics" value="VREG 1.2V SOT-25"/>
+      <property name="LCSC" value=""/>
+      <property name="Variant" value=""/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Note" value=""/>
+      <property name="Component Class" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
       <property name="ki_fp_filters" value="SOT?23?5*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1739,7 +1416,7 @@
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
       <property name="ki_fp_filters" value="SOT?23?5*"/>
@@ -1747,6 +1424,37 @@
       <tstamps>a8cac529-158a-4bd6-a954-8b53f10c5a5b</tstamps>
     </comp>
     <comp ref="U3">
+      <value>TT_IHP_ASIC</value>
+      <footprint>TinyTapeout:QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm_IHP_B</footprint>
+      <fields>
+        <field name="Characteristics"/>
+        <field name="Variant"/>
+        <field name="MPN"/>
+        <field name="MPN_ALT"/>
+        <field name="DigikeyPN"/>
+        <field name="LCSC"/>
+        <field name="Note"/>
+        <field name="Component Class"/>
+        <field name="Footprint">TinyTapeout:QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm_IHP_B</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="TinyTapeout" part="QFN_TT_IHP_REV25A" description=""/>
+      <property name="Characteristics" value=""/>
+      <property name="Variant" value=""/>
+      <property name="MPN" value=""/>
+      <property name="MPN_ALT" value=""/>
+      <property name="DigikeyPN" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Note" value=""/>
+      <property name="Component Class" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
+      <property name="ki_keywords" value="IHP chips submitted using sg13g2 130nm open source PDK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a2ba6de-2cda-4367-abe7-d226e31be0c1</tstamps>
+    </comp>
+    <comp ref="U4">
       <value>24LC02</value>
       <footprint>Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21709c.pdf</datasheet>
@@ -1774,38 +1482,12 @@
       <property name="Manufacturer" value=""/>
       <property name="Vendor" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
+      <property name="Sheetfile" value="breakout-ihp-qfn.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="I2C Serial EEPROM"/>
       <property name="ki_fp_filters" value="DIP*W7.62mm* SOIC*3.9x4.9mm* TSSOP*4.4x3mm*P0.65mm* DFN*3x2mm*P0.5mm*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>69fd48bd-5c36-4a2b-b711-591a1eae3cd6</tstamps>
-    </comp>
-    <comp ref="U4">
-      <value>Openframe_QFN_TT06_REV2</value>
-      <footprint>Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.65x7.65mm</footprint>
-      <datasheet>https://github.com/TinyTapeout/tt-multiplexer/blob/tt06-staging/docs/INFO.md#pinout</datasheet>
-      <description>Openframe QFN packaging, with TinyTapeout 6+ pin mapping</description>
-      <fields>
-        <field name="Manufacturer"/>
-        <field name="Vendor"/>
-        <field name="Characteristics">ASIC IC</field>
-        <field name="MPN">TT_ASIC</field>
-        <field name="LCSC">TT_ASIC_CHIP</field>
-        <field name="Footprint">Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.65x7.65mm</field>
-        <field name="Datasheet">https://github.com/TinyTapeout/tt-multiplexer/blob/tt06-staging/docs/INFO.md#pinout</field>
-        <field name="Description">Openframe QFN packaging, with TinyTapeout 6+ pin mapping</field>
-      </fields>
-      <libsource lib="TinyTapeout" part="Openframe_QFN_TT06_REV2" description="Openframe QFN packaging, with TinyTapeout 6+ pin mapping"/>
-      <property name="Manufacturer" value=""/>
-      <property name="Vendor" value=""/>
-      <property name="Characteristics" value="ASIC IC"/>
-      <property name="MPN" value="TT_ASIC"/>
-      <property name="LCSC" value="TT_ASIC_CHIP"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="breakout-sky-qfn.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0903a56f-e17b-47c2-82a7-5200659dd87b</tstamps>
     </comp>
   </components>
   <libparts>
@@ -2113,82 +1795,105 @@
         <pin num="60" name="60" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="TinyTapeout" part="Openframe_QFN_TT06_REV2">
-      <description>Openframe QFN packaging, with TinyTapeout 6+ pin mapping</description>
-      <docs>https://github.com/TinyTapeout/tt-multiplexer/blob/tt06-staging/docs/INFO.md#pinout</docs>
+    <libpart lib="TinyTapeout" part="QFN_TT_IHP_REV25A">
       <fields>
-        <field name="Reference">U1</field>
-        <field name="Value">Openframe_QFN_TT06_REV2</field>
-        <field name="Footprint">Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.65x7.65mm</field>
-        <field name="Datasheet">https://github.com/TinyTapeout/tt-multiplexer/blob/tt06-staging/docs/INFO.md#pinout</field>
-        <field name="Description">Openframe QFN packaging, with TinyTapeout 6+ pin mapping</field>
+        <field name="Reference">U?</field>
+        <field name="Value">TT_IHP_ASIC</field>
+        <field name="Footprint">TinyTapeout:QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm_IHP</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
-        <pin num="1" name="vssa2" type="power_in"/>
-        <pin num="2" name="uo_out[1]" type="output"/>
-        <pin num="3" name="uo_out[2]" type="output"/>
-        <pin num="4" name="uo_out[3]" type="output"/>
-        <pin num="5" name="uo_out[4]" type="output"/>
-        <pin num="6" name="uo_out[5]" type="output"/>
-        <pin num="7" name="uo_out[6]" type="output"/>
-        <pin num="8" name="uo_out[7]" type="output"/>
-        <pin num="9" name="vdda2" type="power_in"/>
-        <pin num="10" name="vssd2" type="power_in"/>
-        <pin num="11" name="analog[6]" type="passive"/>
-        <pin num="12" name="analog[7]" type="passive"/>
-        <pin num="13" name="analog[8]" type="passive"/>
-        <pin num="14" name="analog[9]" type="passive"/>
-        <pin num="15" name="analog[10]" type="passive"/>
-        <pin num="16" name="analog[11]" type="passive"/>
-        <pin num="17" name="vddio" type="power_in"/>
-        <pin num="18" name="vccd" type="power_in"/>
-        <pin num="19" name="NC" type="no_connect"/>
-        <pin num="20" name="vssa" type="power_in"/>
-        <pin num="21" name="resetb" type="input"/>
-        <pin num="22" name="ctrl_ena" type="input"/>
-        <pin num="23" name="vssd" type="power_in"/>
-        <pin num="24" name="ctrl_sel_inc" type="output"/>
-        <pin num="25" name="ctrl_sel_rst_n" type="output"/>
-        <pin num="26" name="reserved" type="bidirectional"/>
-        <pin num="27" name="reserved" type="bidirectional"/>
-        <pin num="28" name="reserved" type="bidirectional"/>
-        <pin num="29" name="vssio" type="power_in"/>
-        <pin num="30" name="vdda" type="power_in"/>
-        <pin num="31" name="ui_in[0]" type="input"/>
-        <pin num="32" name="ui_in[1]" type="input"/>
-        <pin num="33" name="ui_in[2]" type="input"/>
-        <pin num="34" name="ui_in[3]" type="input"/>
-        <pin num="35" name="ui_in[4]" type="input"/>
-        <pin num="36" name="ui_in[5]" type="input"/>
-        <pin num="37" name="ui_in[6]" type="input"/>
-        <pin num="38" name="vssa1" type="power_in"/>
-        <pin num="39" name="vssd1" type="power_in"/>
-        <pin num="40" name="vdda1" type="power_in"/>
-        <pin num="41" name="analog[0]" type="passive"/>
-        <pin num="42" name="analog[1]" type="passive"/>
-        <pin num="43" name="analog[2]" type="passive"/>
-        <pin num="44" name="analog[3]" type="passive"/>
-        <pin num="45" name="analog[4]" type="passive"/>
-        <pin num="46" name="analog[5]" type="passive"/>
-        <pin num="47" name="vdda1" type="power_in"/>
-        <pin num="48" name="ui_in[7]" type="input"/>
-        <pin num="49" name="vccd1" type="power_in"/>
-        <pin num="50" name="clk" type="input"/>
-        <pin num="51" name="rst_n" type="input"/>
-        <pin num="52" name="vssa1" type="power_in"/>
-        <pin num="53" name="uio[0]" type="bidirectional"/>
-        <pin num="54" name="uio[1]" type="bidirectional"/>
-        <pin num="55" name="uio[2]" type="bidirectional"/>
-        <pin num="56" name="vssio" type="power_in"/>
-        <pin num="57" name="uio[3]" type="bidirectional"/>
-        <pin num="58" name="uio[4]" type="bidirectional"/>
-        <pin num="59" name="uio[5]" type="bidirectional"/>
-        <pin num="60" name="uio[6]" type="bidirectional"/>
-        <pin num="61" name="uio[7]" type="bidirectional"/>
-        <pin num="62" name="uo_out[0]" type="output"/>
-        <pin num="63" name="vccd2" type="power_in"/>
-        <pin num="64" name="vddio" type="power_in"/>
-        <pin num="65" name="ThermalPad" type="power_in"/>
+        <pin num="1" name="ctrl_ena" type="input"/>
+        <pin num="2" name="ctrl_sel_inc" type="input"/>
+        <pin num="3" name="ctrl_sel_rst_n" type="input"/>
+        <pin num="4" name="rsvd@4" type="no_connect"/>
+        <pin num="5" name="rsvd@5" type="no_connect"/>
+        <pin num="6" name="rsvd@6" type="no_connect"/>
+        <pin num="7" name="rsvd@7" type="no_connect"/>
+        <pin num="8" name="rsvd@8" type="no_connect"/>
+        <pin num="9" name="uo[0]" type="output"/>
+        <pin num="10" name="uo[1]" type="output"/>
+        <pin num="11" name="uo[2]" type="output"/>
+        <pin num="12" name="uo[3]" type="output"/>
+        <pin num="13" name="uo[4]" type="output"/>
+        <pin num="14" name="uo[5]" type="output"/>
+        <pin num="15" name="uo[6]" type="output"/>
+        <pin num="16" name="uo[7]" type="output"/>
+        <pin num="17" name="VDD_IO" type="power_in"/>
+        <pin num="18" name="GND_IO" type="power_in"/>
+        <pin num="19" name="analog[0]" type="bidirectional"/>
+        <pin num="20" name="analog[1]" type="bidirectional"/>
+        <pin num="21" name="analog[2]" type="bidirectional"/>
+        <pin num="22" name="analog[3]" type="bidirectional"/>
+        <pin num="23" name="VAA_Analog" type="power_in"/>
+        <pin num="24" name="GND_Analog" type="power_in"/>
+        <pin num="25" name="analog[4]" type="bidirectional"/>
+        <pin num="26" name="analog[5]" type="bidirectional"/>
+        <pin num="27" name="analog[6]" type="bidirectional"/>
+        <pin num="28" name="analog[7]" type="bidirectional"/>
+        <pin num="29" name="GND_Core" type="power_in"/>
+        <pin num="30" name="VDD_Core" type="power_in"/>
+        <pin num="31" name="GND_IO" type="power_in"/>
+        <pin num="32" name="VDD_IO" type="power_in"/>
+        <pin num="33" name="uio[0]" type="bidirectional"/>
+        <pin num="34" name="uio[1]" type="bidirectional"/>
+        <pin num="35" name="uio[2]" type="bidirectional"/>
+        <pin num="36" name="uio[3]" type="bidirectional"/>
+        <pin num="37" name="uio[4]" type="bidirectional"/>
+        <pin num="38" name="uio[5]" type="bidirectional"/>
+        <pin num="39" name="uio[6]" type="bidirectional"/>
+        <pin num="40" name="uio[7]" type="bidirectional"/>
+        <pin num="41" name="ui[0]" type="input"/>
+        <pin num="42" name="ui[1]" type="input"/>
+        <pin num="43" name="ui[2]" type="input"/>
+        <pin num="44" name="ui[3]" type="input"/>
+        <pin num="45" name="ui[4]" type="input"/>
+        <pin num="46" name="ui[5]" type="input"/>
+        <pin num="47" name="ui[6]" type="input"/>
+        <pin num="48" name="ui[7]" type="input"/>
+        <pin num="49" name="u_rst_n" type="input"/>
+        <pin num="50" name="u_clk" type="input"/>
+        <pin num="51" name="GND_IO" type="power_in"/>
+        <pin num="52" name="VDD_IO" type="power_in"/>
+        <pin num="53" name="analog[8]" type="bidirectional"/>
+        <pin num="54" name="analog[9]" type="bidirectional"/>
+        <pin num="55" name="analog[10]" type="bidirectional"/>
+        <pin num="56" name="analog[11]" type="bidirectional"/>
+        <pin num="57" name="GND_Analog" type="power_in"/>
+        <pin num="58" name="VAA_Analog" type="power_in"/>
+        <pin num="59" name="analog[12]" type="bidirectional"/>
+        <pin num="60" name="analog[13]" type="bidirectional"/>
+        <pin num="61" name="analog[14]" type="bidirectional"/>
+        <pin num="62" name="analog[15]" type="bidirectional"/>
+        <pin num="63" name="GND_Core" type="power_in"/>
+        <pin num="64" name="VDD_Core" type="power_in"/>
+        <pin num="65" name="SUB" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="psycomponents" part="PsyCapacitors/C_1u_0402_1005-20">
+      <description>1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
+      <docs>//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</docs>
+      <footprints>
+        <fp>Capacitor_SMD:C_0402_1005Metric</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1u</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</field>
+        <field name="Description">1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="MPN">CL05A105KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Package / Case">0402 (1005 Metric)</field>
+        <field name="Characteristics">CAP CER 1UF 16V X5R 0402</field>
+        <field name="DigikeyPN">1276-1067-1-ND</field>
+        <field name="LCSC"/>
+        <field name="MPN_ALT"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="psycomponents" part="PsyResistors_IEC/R_0_0603_1608-46">
@@ -2283,7 +1988,7 @@
       <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
     <library logical="TinyTapeout">
-      <uri>/home/malcalypse/Private/kicadProjects/TinyTapeout/breakout-pcb/breakout-sky-qfn/../tinytapeout-kicad-libs/symbols/TinyTapeout.kicad_sym</uri>
+      <uri>/home/malcalypse/Private/kicadProjects/TinyTapeout/breakout-pcb/breakout-ihp-qfn/../tinytapeout-kicad-libs/symbols/TinyTapeout.kicad_sym</uri>
     </library>
     <library logical="psycomponents">
       <uri>/home/malcalypse/kicadProjects/custom/psycomponents.kicad_dbl</uri>
@@ -2294,324 +1999,311 @@
   </libraries>
   <nets>
     <net code="1" name="+3V3" class="PowerRail,Default">
-      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J3" pin="10" pinfunction="10" pintype="passive"/>
       <node ref="J3" pin="8" pinfunction="8" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
     </net>
     <net code="2" name="+5V" class="PowerRail,Default">
       <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
     </net>
     <net code="3" name="/RES1" class="Default">
       <node ref="J3" pin="39" pinfunction="39" pintype="passive"/>
-      <node ref="U4" pin="26" pinfunction="reserved" pintype="bidirectional"/>
     </net>
     <net code="4" name="/RES2" class="Default">
       <node ref="J3" pin="37" pinfunction="37" pintype="passive"/>
-      <node ref="U4" pin="27" pinfunction="reserved" pintype="bidirectional"/>
     </net>
     <net code="5" name="/RES3" class="Default">
       <node ref="J3" pin="35" pinfunction="35" pintype="passive"/>
-      <node ref="U4" pin="28" pinfunction="reserved" pintype="bidirectional"/>
     </net>
-    <net code="6" name="/VCIN" class="Power,Default">
-      <node ref="C6" pin="1" pintype="passive"/>
+    <net code="6" name="/VCOREIN" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VIN" pintype="power_in"/>
       <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
     </net>
     <net code="7" name="/VDIN" class="Power,Default">
-      <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="VIN" pintype="power_in"/>
       <node ref="U2" pin="3" pinfunction="EN" pintype="input"/>
     </net>
     <net code="8" name="/an0" class="Analog,Default">
-      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
-      <node ref="U4" pin="41" pinfunction="analog[0]" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U3" pin="19" pinfunction="analog[0]" pintype="bidirectional"/>
     </net>
     <net code="9" name="/an1" class="Analog,Default">
-      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
-      <node ref="U4" pin="42" pinfunction="analog[1]" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="U3" pin="20" pinfunction="analog[1]" pintype="bidirectional"/>
     </net>
     <net code="10" name="/an2" class="Analog,Default">
-      <node ref="J1" pin="14" pinfunction="14" pintype="passive"/>
-      <node ref="U4" pin="43" pinfunction="analog[2]" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="U3" pin="21" pinfunction="analog[2]" pintype="bidirectional"/>
     </net>
     <net code="11" name="/an3" class="Analog,Default">
-      <node ref="J1" pin="18" pinfunction="18" pintype="passive"/>
-      <node ref="U4" pin="44" pinfunction="analog[3]" pintype="passive"/>
+      <node ref="J2" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="U3" pin="22" pinfunction="analog[3]" pintype="bidirectional"/>
     </net>
     <net code="12" name="/an4" class="Analog,Default">
-      <node ref="J1" pin="22" pinfunction="22" pintype="passive"/>
-      <node ref="U4" pin="45" pinfunction="analog[4]" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="18" pintype="passive"/>
+      <node ref="U3" pin="25" pinfunction="analog[4]" pintype="bidirectional"/>
     </net>
     <net code="13" name="/an5" class="Analog,Default">
-      <node ref="J1" pin="26" pinfunction="26" pintype="passive"/>
-      <node ref="U4" pin="46" pinfunction="analog[5]" pintype="passive"/>
+      <node ref="J2" pin="22" pinfunction="22" pintype="passive"/>
+      <node ref="U3" pin="26" pinfunction="analog[5]" pintype="bidirectional"/>
     </net>
     <net code="14" name="/an6" class="Analog,Default">
-      <node ref="J1" pin="58" pinfunction="58" pintype="passive"/>
-      <node ref="U4" pin="11" pinfunction="analog[6]" pintype="passive"/>
+      <node ref="J2" pin="26" pinfunction="26" pintype="passive"/>
+      <node ref="U3" pin="27" pinfunction="analog[6]" pintype="bidirectional"/>
     </net>
     <net code="15" name="/an7" class="Analog,Default">
-      <node ref="J1" pin="54" pinfunction="54" pintype="passive"/>
-      <node ref="U4" pin="12" pinfunction="analog[7]" pintype="passive"/>
+      <node ref="J2" pin="28" pinfunction="28" pintype="passive"/>
+      <node ref="U3" pin="28" pinfunction="analog[7]" pintype="bidirectional"/>
     </net>
     <net code="16" name="/an8" class="Analog,Default">
-      <node ref="J1" pin="50" pinfunction="50" pintype="passive"/>
-      <node ref="U4" pin="13" pinfunction="analog[8]" pintype="passive"/>
+      <node ref="J2" pin="34" pinfunction="34" pintype="passive"/>
+      <node ref="U3" pin="53" pinfunction="analog[8]" pintype="bidirectional"/>
     </net>
     <net code="17" name="/an9" class="Analog,Default">
-      <node ref="J1" pin="46" pinfunction="46" pintype="passive"/>
-      <node ref="U4" pin="14" pinfunction="analog[9]" pintype="passive"/>
+      <node ref="J2" pin="38" pinfunction="38" pintype="passive"/>
+      <node ref="U3" pin="54" pinfunction="analog[9]" pintype="bidirectional"/>
     </net>
     <net code="18" name="/an10" class="Analog,Default">
-      <node ref="J1" pin="42" pinfunction="42" pintype="passive"/>
-      <node ref="U4" pin="15" pinfunction="analog[10]" pintype="passive"/>
+      <node ref="J2" pin="42" pinfunction="42" pintype="passive"/>
+      <node ref="U3" pin="55" pinfunction="analog[10]" pintype="bidirectional"/>
     </net>
     <net code="19" name="/an11" class="Analog,Default">
-      <node ref="J1" pin="38" pinfunction="38" pintype="passive"/>
-      <node ref="U4" pin="16" pinfunction="analog[11]" pintype="passive"/>
+      <node ref="J2" pin="46" pinfunction="46" pintype="passive"/>
+      <node ref="U3" pin="56" pinfunction="analog[11]" pintype="bidirectional"/>
     </net>
-    <net code="22" name="/c_ena" class="Management,Default">
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    <net code="20" name="/an12" class="Analog,Default">
+      <node ref="J2" pin="50" pinfunction="50" pintype="passive"/>
+      <node ref="U3" pin="59" pinfunction="analog[12]" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/an13" class="Analog,Default">
+      <node ref="J2" pin="52" pinfunction="52" pintype="passive"/>
+      <node ref="U3" pin="60" pinfunction="analog[13]" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/an14" class="Analog,Default">
+      <node ref="J2" pin="54" pinfunction="54" pintype="passive"/>
+      <node ref="U3" pin="61" pinfunction="analog[14]" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/an15" class="Analog,Default">
+      <node ref="J2" pin="58" pinfunction="58" pintype="passive"/>
+      <node ref="U3" pin="62" pinfunction="analog[15]" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/enable" class="Management,Default">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J3" pin="46" pinfunction="46" pintype="passive"/>
-      <node ref="R9" pin="1" pintype="passive"/>
-      <node ref="U4" pin="22" pinfunction="ctrl_ena" pintype="input"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="ctrl_ena" pintype="input"/>
     </net>
-    <net code="23" name="/c_rst_n" class="Management,Default">
-      <node ref="R5" pin="2" pintype="passive"/>
-      <node ref="U4" pin="25" pinfunction="ctrl_sel_rst_n" pintype="output"/>
-    </net>
-    <net code="24" name="/c_sel_inc" class="Management,Default">
-      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    <net code="27" name="/increment" class="Management,Default">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J3" pin="47" pinfunction="47" pintype="passive"/>
-      <node ref="U4" pin="24" pinfunction="ctrl_sel_inc" pintype="output"/>
+      <node ref="U3" pin="2" pinfunction="ctrl_sel_inc" pintype="input"/>
     </net>
-    <net code="25" name="/hd_c_rst_n" class="Management,Default">
-      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J3" pin="43" pinfunction="43" pintype="passive"/>
-      <node ref="R10" pin="1" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-    </net>
-    <net code="26" name="/mngIO0" class="Default">
+    <net code="28" name="/mngIO0" class="Default">
       <node ref="J3" pin="42" pinfunction="42" pintype="passive"/>
     </net>
-    <net code="27" name="/mngIO1" class="Default">
+    <net code="29" name="/mngIO1" class="Default">
       <node ref="J3" pin="40" pinfunction="40" pintype="passive"/>
-      <node ref="R11" pin="2" pintype="passive"/>
-      <node ref="U3" pin="5" pinfunction="SDA" pintype="bidirectional"/>
-    </net>
-    <net code="28" name="/mngIO2" class="Default">
-      <node ref="J3" pin="36" pinfunction="36" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
-      <node ref="U3" pin="6" pinfunction="SCL" pintype="input"/>
+      <node ref="U4" pin="5" pinfunction="SDA" pintype="bidirectional"/>
     </net>
-    <net code="29" name="/mngIO3" class="Default">
+    <net code="30" name="/mngIO2" class="Default">
+      <node ref="J3" pin="36" pinfunction="36" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="31" name="/mngIO3" class="Default">
       <node ref="J3" pin="30" pinfunction="30" pintype="passive"/>
     </net>
-    <net code="30" name="/mngIO4" class="Default">
+    <net code="32" name="/mngIO4" class="Default">
       <node ref="J3" pin="26" pinfunction="26" pintype="passive"/>
     </net>
-    <net code="31" name="/mngIO5" class="Default">
+    <net code="33" name="/mngIO5" class="Default">
       <node ref="J3" pin="22" pinfunction="22" pintype="passive"/>
     </net>
-    <net code="32" name="/mngIO6" class="Default">
+    <net code="34" name="/mngIO6" class="Default">
       <node ref="J3" pin="18" pinfunction="18" pintype="passive"/>
     </net>
-    <net code="33" name="/mngIO7" class="Default">
+    <net code="35" name="/mngIO7" class="Default">
       <node ref="J3" pin="16" pinfunction="16" pintype="passive"/>
     </net>
-    <net code="34" name="/p_clk" class="Highspeed,Default">
-      <node ref="J1" pin="57" pinfunction="57" pintype="passive"/>
-      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U4" pin="50" pinfunction="clk" pintype="input"/>
-    </net>
-    <net code="35" name="/p_rst" class="Default">
-      <node ref="J1" pin="53" pinfunction="53" pintype="passive"/>
+    <net code="36" name="/p_clk" class="Highspeed,Default">
+      <node ref="J2" pin="57" pinfunction="57" pintype="passive"/>
       <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U4" pin="51" pinfunction="rst_n" pintype="input"/>
+      <node ref="U3" pin="50" pinfunction="u_clk" pintype="input"/>
     </net>
-    <net code="36" name="/res_an16" class="Default">
-      <node ref="J1" pin="44" pinfunction="44" pintype="passive"/>
+    <net code="37" name="/res_extra" class="Default">
+      <node ref="J2" pin="60" pinfunction="60" pintype="passive"/>
     </net>
-    <net code="37" name="/res_an19" class="Default">
-      <node ref="J1" pin="52" pinfunction="52" pintype="passive"/>
-    </net>
-    <net code="38" name="/res_extra" class="Default">
-      <node ref="J1" pin="60" pinfunction="60" pintype="passive"/>
-    </net>
-    <net code="39" name="/reserved3" class="Default">
+    <net code="38" name="/reserved3" class="Default">
       <node ref="J3" pin="31" pinfunction="31" pintype="passive"/>
     </net>
-    <net code="40" name="/reserved4" class="Default">
+    <net code="39" name="/reserved4" class="Default">
       <node ref="J3" pin="29" pinfunction="29" pintype="passive"/>
     </net>
-    <net code="41" name="/reset_b" class="Default">
-      <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="U4" pin="21" pinfunction="resetb" pintype="input"/>
+    <net code="40" name="/rst_n" class="Management,Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="43" pinfunction="43" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="ctrl_sel_rst_n" pintype="input"/>
     </net>
-    <net code="42" name="/uin0" class="IOIn,Default">
-      <node ref="J1" pin="31" pinfunction="31" pintype="passive"/>
-      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U4" pin="31" pinfunction="ui_in[0]" pintype="input"/>
+    <net code="41" name="/uin0" class="IOIn,Default">
+      <node ref="J2" pin="31" pinfunction="31" pintype="passive"/>
+      <node ref="U3" pin="41" pinfunction="ui[0]" pintype="input"/>
     </net>
-    <net code="43" name="/uin1" class="IOIn,Default">
-      <node ref="J1" pin="33" pinfunction="33" pintype="passive"/>
-      <node ref="U4" pin="32" pinfunction="ui_in[1]" pintype="input"/>
+    <net code="42" name="/uin1" class="IOIn,Default">
+      <node ref="J2" pin="33" pinfunction="33" pintype="passive"/>
+      <node ref="U3" pin="42" pinfunction="ui[1]" pintype="input"/>
     </net>
-    <net code="44" name="/uin2" class="IOIn,Default">
-      <node ref="J1" pin="37" pinfunction="37" pintype="passive"/>
-      <node ref="U4" pin="33" pinfunction="ui_in[2]" pintype="input"/>
+    <net code="43" name="/uin2" class="IOIn,Default">
+      <node ref="J2" pin="37" pinfunction="37" pintype="passive"/>
+      <node ref="U3" pin="43" pinfunction="ui[2]" pintype="input"/>
     </net>
-    <net code="45" name="/uin3" class="IOIn,Default">
-      <node ref="J1" pin="39" pinfunction="39" pintype="passive"/>
-      <node ref="U4" pin="34" pinfunction="ui_in[3]" pintype="input"/>
+    <net code="44" name="/uin3" class="IOIn,Default">
+      <node ref="J2" pin="39" pinfunction="39" pintype="passive"/>
+      <node ref="U3" pin="44" pinfunction="ui[3]" pintype="input"/>
     </net>
-    <net code="46" name="/uin4" class="IOIn,Default">
-      <node ref="J1" pin="41" pinfunction="41" pintype="passive"/>
-      <node ref="U4" pin="35" pinfunction="ui_in[4]" pintype="input"/>
+    <net code="45" name="/uin4" class="IOIn,Default">
+      <node ref="J2" pin="41" pinfunction="41" pintype="passive"/>
+      <node ref="U3" pin="45" pinfunction="ui[4]" pintype="input"/>
     </net>
-    <net code="47" name="/uin5" class="IOIn,Default">
-      <node ref="J1" pin="45" pinfunction="45" pintype="passive"/>
-      <node ref="U4" pin="36" pinfunction="ui_in[5]" pintype="input"/>
+    <net code="46" name="/uin5" class="IOIn,Default">
+      <node ref="J2" pin="45" pinfunction="45" pintype="passive"/>
+      <node ref="U3" pin="46" pinfunction="ui[5]" pintype="input"/>
     </net>
-    <net code="48" name="/uin6" class="IOIn,Default">
-      <node ref="J1" pin="47" pinfunction="47" pintype="passive"/>
-      <node ref="U4" pin="37" pinfunction="ui_in[6]" pintype="input"/>
+    <net code="47" name="/uin6" class="IOIn,Default">
+      <node ref="J2" pin="47" pinfunction="47" pintype="passive"/>
+      <node ref="U3" pin="47" pinfunction="ui[6]" pintype="input"/>
     </net>
-    <net code="49" name="/uin7" class="IOIn,Default">
-      <node ref="J1" pin="49" pinfunction="49" pintype="passive"/>
-      <node ref="U4" pin="48" pinfunction="ui_in[7]" pintype="input"/>
+    <net code="48" name="/uin7" class="IOIn,Default">
+      <node ref="J2" pin="49" pinfunction="49" pintype="passive"/>
+      <node ref="U3" pin="48" pinfunction="ui[7]" pintype="input"/>
     </net>
-    <net code="51" name="/uio0" class="IOBi,Default">
-      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
-      <node ref="U4" pin="53" pinfunction="uio[0]" pintype="bidirectional"/>
-    </net>
-    <net code="52" name="/uio1" class="IOBi,Default">
-      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+    <net code="50" name="/uio0" class="IOBi,Default">
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U4" pin="54" pinfunction="uio[1]" pintype="bidirectional"/>
+      <node ref="U3" pin="33" pinfunction="uio[0]" pintype="bidirectional"/>
     </net>
-    <net code="53" name="/uio2" class="IOBi,Default">
-      <node ref="J1" pin="9" pinfunction="9" pintype="passive"/>
-      <node ref="U4" pin="55" pinfunction="uio[2]" pintype="bidirectional"/>
+    <net code="51" name="/uio1" class="IOBi,Default">
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="U3" pin="34" pinfunction="uio[1]" pintype="bidirectional"/>
     </net>
-    <net code="54" name="/uio3" class="IOBi,Default">
-      <node ref="J1" pin="13" pinfunction="13" pintype="passive"/>
-      <node ref="U4" pin="57" pinfunction="uio[3]" pintype="bidirectional"/>
+    <net code="52" name="/uio2" class="IOBi,Default">
+      <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="U3" pin="35" pinfunction="uio[2]" pintype="bidirectional"/>
     </net>
-    <net code="55" name="/uio4" class="IOBi,Default">
-      <node ref="J1" pin="15" pinfunction="15" pintype="passive"/>
-      <node ref="U4" pin="58" pinfunction="uio[4]" pintype="bidirectional"/>
+    <net code="53" name="/uio3" class="IOBi,Default">
+      <node ref="J2" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="U3" pin="36" pinfunction="uio[3]" pintype="bidirectional"/>
     </net>
-    <net code="56" name="/uio5" class="IOBi,Default">
-      <node ref="J1" pin="17" pinfunction="17" pintype="passive"/>
-      <node ref="U4" pin="59" pinfunction="uio[5]" pintype="bidirectional"/>
+    <net code="54" name="/uio4" class="IOBi,Default">
+      <node ref="J2" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="U3" pin="37" pinfunction="uio[4]" pintype="bidirectional"/>
     </net>
-    <net code="57" name="/uio6" class="IOBi,Default">
-      <node ref="J1" pin="21" pinfunction="21" pintype="passive"/>
-      <node ref="U4" pin="60" pinfunction="uio[6]" pintype="bidirectional"/>
+    <net code="55" name="/uio5" class="IOBi,Default">
+      <node ref="J2" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="U3" pin="38" pinfunction="uio[5]" pintype="bidirectional"/>
     </net>
-    <net code="58" name="/uio7" class="IOBi,Default">
-      <node ref="J1" pin="23" pinfunction="23" pintype="passive"/>
-      <node ref="U4" pin="61" pinfunction="uio[7]" pintype="bidirectional"/>
+    <net code="56" name="/uio6" class="IOBi,Default">
+      <node ref="J2" pin="21" pinfunction="21" pintype="passive"/>
+      <node ref="U3" pin="39" pinfunction="uio[6]" pintype="bidirectional"/>
     </net>
-    <net code="60" name="/uout0" class="IOOut,Default">
+    <net code="57" name="/uio7" class="IOBi,Default">
+      <node ref="J2" pin="23" pinfunction="23" pintype="passive"/>
+      <node ref="U3" pin="40" pinfunction="uio[7]" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="/uout0" class="IOOut,Default">
       <node ref="J3" pin="19" pinfunction="19" pintype="passive"/>
-      <node ref="U4" pin="62" pinfunction="uo_out[0]" pintype="output"/>
+      <node ref="U3" pin="9" pinfunction="uo[0]" pintype="output"/>
     </net>
-    <net code="61" name="/uout1" class="IOOut,Default">
+    <net code="60" name="/uout1" class="IOOut,Default">
       <node ref="J3" pin="17" pinfunction="17" pintype="passive"/>
-      <node ref="U4" pin="2" pinfunction="uo_out[1]" pintype="output"/>
+      <node ref="U3" pin="10" pinfunction="uo[1]" pintype="output"/>
     </net>
-    <net code="62" name="/uout2" class="IOOut,Default">
+    <net code="61" name="/uout2" class="IOOut,Default">
       <node ref="J3" pin="15" pinfunction="15" pintype="passive"/>
-      <node ref="U4" pin="3" pinfunction="uo_out[2]" pintype="output"/>
+      <node ref="U3" pin="11" pinfunction="uo[2]" pintype="output"/>
     </net>
-    <net code="63" name="/uout3" class="IOOut,Default">
+    <net code="62" name="/uout3" class="IOOut,Default">
       <node ref="J3" pin="13" pinfunction="13" pintype="passive"/>
-      <node ref="U4" pin="4" pinfunction="uo_out[3]" pintype="output"/>
+      <node ref="U3" pin="12" pinfunction="uo[3]" pintype="output"/>
     </net>
-    <net code="64" name="/uout4" class="IOOut,Default">
+    <net code="63" name="/uout4" class="IOOut,Default">
       <node ref="J3" pin="9" pinfunction="9" pintype="passive"/>
-      <node ref="U4" pin="5" pinfunction="uo_out[4]" pintype="output"/>
+      <node ref="U3" pin="13" pinfunction="uo[4]" pintype="output"/>
     </net>
-    <net code="65" name="/uout5" class="IOOut,Default">
+    <net code="64" name="/uout5" class="IOOut,Default">
       <node ref="J3" pin="7" pinfunction="7" pintype="passive"/>
-      <node ref="U4" pin="6" pinfunction="uo_out[5]" pintype="output"/>
+      <node ref="U3" pin="14" pinfunction="uo[5]" pintype="output"/>
     </net>
-    <net code="66" name="/uout6" class="IOOut,Default">
+    <net code="65" name="/uout6" class="IOOut,Default">
       <node ref="J3" pin="5" pinfunction="5" pintype="passive"/>
-      <node ref="U4" pin="7" pinfunction="uo_out[6]" pintype="output"/>
+      <node ref="U3" pin="15" pinfunction="uo[6]" pintype="output"/>
     </net>
-    <net code="67" name="/uout7" class="IOOut,Default">
+    <net code="66" name="/uout7" class="IOOut,Default">
       <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
-      <node ref="U4" pin="8" pinfunction="uo_out[7]" pintype="output"/>
+      <node ref="U3" pin="16" pinfunction="uo[7]" pintype="output"/>
     </net>
-    <net code="69" name="GND" class="Power,Default">
+    <net code="69" name="/~{p_rst}" class="Default">
+      <node ref="J2" pin="53" pinfunction="53" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="49" pinfunction="u_rst_n" pintype="input"/>
+    </net>
+    <net code="70" name="GND" class="Power,Default">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
-      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
-      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C14" pin="2" pintype="passive"/>
-      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
       <node ref="C16" pin="2" pintype="passive"/>
-      <node ref="C17" pin="1" pintype="passive"/>
-      <node ref="C18" pin="2" pintype="passive"/>
-      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="C20" pin="1" pintype="passive"/>
-      <node ref="C21" pin="2" pintype="passive"/>
-      <node ref="C22" pin="2" pintype="passive"/>
-      <node ref="C23" pin="2" pintype="passive"/>
-      <node ref="C24" pin="1" pintype="passive"/>
-      <node ref="C25" pin="1" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
-      <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="J1" pin="11" pinfunction="11" pintype="passive"/>
-      <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
-      <node ref="J1" pin="16" pinfunction="16" pintype="passive"/>
-      <node ref="J1" pin="19" pinfunction="19" pintype="passive"/>
-      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="J1" pin="20" pinfunction="20" pintype="passive"/>
-      <node ref="J1" pin="24" pinfunction="24" pintype="passive"/>
-      <node ref="J1" pin="27" pinfunction="27" pintype="passive"/>
-      <node ref="J1" pin="28" pinfunction="28" pintype="passive"/>
-      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
-      <node ref="J1" pin="30" pinfunction="30" pintype="passive"/>
-      <node ref="J1" pin="32" pinfunction="32" pintype="passive"/>
-      <node ref="J1" pin="34" pinfunction="34" pintype="passive"/>
-      <node ref="J1" pin="35" pinfunction="35" pintype="passive"/>
-      <node ref="J1" pin="36" pinfunction="36" pintype="passive"/>
-      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
-      <node ref="J1" pin="40" pinfunction="40" pintype="passive"/>
-      <node ref="J1" pin="43" pinfunction="43" pintype="passive"/>
-      <node ref="J1" pin="48" pinfunction="48" pintype="passive"/>
-      <node ref="J1" pin="51" pinfunction="51" pintype="passive"/>
-      <node ref="J1" pin="55" pinfunction="55" pintype="passive"/>
-      <node ref="J1" pin="56" pinfunction="56" pintype="passive"/>
-      <node ref="J1" pin="59" pinfunction="59" pintype="passive"/>
-      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
-      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J2" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J2" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="J2" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="J2" pin="24" pinfunction="24" pintype="passive"/>
+      <node ref="J2" pin="27" pinfunction="27" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J2" pin="30" pinfunction="30" pintype="passive"/>
+      <node ref="J2" pin="32" pinfunction="32" pintype="passive"/>
+      <node ref="J2" pin="35" pinfunction="35" pintype="passive"/>
+      <node ref="J2" pin="36" pinfunction="36" pintype="passive"/>
+      <node ref="J2" pin="40" pinfunction="40" pintype="passive"/>
+      <node ref="J2" pin="43" pinfunction="43" pintype="passive"/>
+      <node ref="J2" pin="44" pinfunction="44" pintype="passive"/>
+      <node ref="J2" pin="48" pinfunction="48" pintype="passive"/>
+      <node ref="J2" pin="51" pinfunction="51" pintype="passive"/>
+      <node ref="J2" pin="55" pinfunction="55" pintype="passive"/>
+      <node ref="J2" pin="56" pinfunction="56" pintype="passive"/>
+      <node ref="J2" pin="59" pinfunction="59" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J3" pin="11" pinfunction="11" pintype="passive"/>
       <node ref="J3" pin="12" pinfunction="12" pintype="passive"/>
@@ -2626,127 +2318,127 @@
       <node ref="J3" pin="48" pinfunction="48" pintype="passive"/>
       <node ref="J3" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
-      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
-      <node ref="U3" pin="1" pinfunction="A0" pintype="input"/>
-      <node ref="U3" pin="2" pinfunction="A1" pintype="input"/>
-      <node ref="U3" pin="3" pinfunction="A2" pintype="input"/>
-      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
-      <node ref="U3" pin="7" pinfunction="WP" pintype="input"/>
-      <node ref="U4" pin="1" pinfunction="vssa2" pintype="power_in"/>
-      <node ref="U4" pin="10" pinfunction="vssd2" pintype="power_in"/>
-      <node ref="U4" pin="20" pinfunction="vssa" pintype="power_in"/>
-      <node ref="U4" pin="23" pinfunction="vssd" pintype="power_in"/>
-      <node ref="U4" pin="29" pinfunction="vssio" pintype="power_in"/>
-      <node ref="U4" pin="38" pinfunction="vssa1" pintype="power_in"/>
-      <node ref="U4" pin="39" pinfunction="vssd1" pintype="power_in"/>
-      <node ref="U4" pin="52" pinfunction="vssa1" pintype="power_in"/>
-      <node ref="U4" pin="56" pinfunction="vssio" pintype="power_in"/>
-      <node ref="U4" pin="65" pinfunction="ThermalPad" pintype="power_in"/>
+      <node ref="U3" pin="18" pinfunction="GND_IO" pintype="power_in"/>
+      <node ref="U3" pin="24" pinfunction="GND_Analog" pintype="power_in"/>
+      <node ref="U3" pin="29" pinfunction="GND_Core" pintype="power_in"/>
+      <node ref="U3" pin="31" pinfunction="GND_IO" pintype="power_in"/>
+      <node ref="U3" pin="51" pinfunction="GND_IO" pintype="power_in"/>
+      <node ref="U3" pin="57" pinfunction="GND_Analog" pintype="power_in"/>
+      <node ref="U3" pin="63" pinfunction="GND_Core" pintype="power_in"/>
+      <node ref="U3" pin="65" pinfunction="SUB" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="A1" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="U4" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="7" pinfunction="WP" pintype="input"/>
     </net>
-    <net code="70" name="VCCD" class="Power,Default">
-      <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="C20" pin="2" pintype="passive"/>
-      <node ref="C23" pin="1" pintype="passive"/>
-      <node ref="C24" pin="2" pintype="passive"/>
+    <net code="71" name="VAA" class="Default">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U3" pin="23" pinfunction="VAA_Analog" pintype="power_in"/>
+      <node ref="U3" pin="58" pinfunction="VAA_Analog" pintype="power_in"/>
+    </net>
+    <net code="72" name="VCORE_{REG}" class="Power,Default">
+      <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="R14" pin="2" pintype="passive"/>
-      <node ref="U4" pin="18" pinfunction="vccd" pintype="power_in"/>
-      <node ref="U4" pin="49" pinfunction="vccd1" pintype="power_in"/>
-      <node ref="U4" pin="63" pinfunction="vccd2" pintype="power_in"/>
-    </net>
-    <net code="71" name="VCC_{REG}" class="Power,Default">
-      <node ref="C18" pin="1" pintype="passive"/>
-      <node ref="C21" pin="1" pintype="passive"/>
-      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="R14" pin="1" pintype="passive"/>
-      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="VOUT" pintype="power_out"/>
     </net>
-    <net code="72" name="VDDA" class="Power,Default">
-      <node ref="C10" pin="1" pintype="passive"/>
-      <node ref="C11" pin="2" pintype="passive"/>
-      <node ref="C12" pin="1" pintype="passive"/>
-      <node ref="C13" pin="2" pintype="passive"/>
+    <net code="73" name="VDD_{CORE}" class="Power,Default">
+      <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C14" pin="1" pintype="passive"/>
-      <node ref="C15" pin="1" pintype="passive"/>
-      <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="C9" pin="2" pintype="passive"/>
-      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
-      <node ref="R15" pin="2" pintype="passive"/>
-      <node ref="U4" pin="30" pinfunction="vdda" pintype="power_in"/>
-      <node ref="U4" pin="40" pinfunction="vdda1" pintype="power_in"/>
-      <node ref="U4" pin="47" pinfunction="vdda1" pintype="power_in"/>
-      <node ref="U4" pin="9" pinfunction="vdda2" pintype="power_in"/>
-    </net>
-    <net code="73" name="VDD_{IO}" class="Power,Default">
-      <node ref="C16" pin="1" pintype="passive"/>
-      <node ref="C17" pin="2" pintype="passive"/>
-      <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="C25" pin="2" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
-      <node ref="R11" pin="1" pintype="passive"/>
-      <node ref="R12" pin="1" pintype="passive"/>
-      <node ref="R13" pin="2" pintype="passive"/>
-      <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
-      <node ref="U4" pin="17" pinfunction="vddio" pintype="power_in"/>
-      <node ref="U4" pin="64" pinfunction="vddio" pintype="power_in"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U3" pin="30" pinfunction="VDD_Core" pintype="power_in"/>
+      <node ref="U3" pin="64" pinfunction="VDD_Core" pintype="power_in"/>
     </net>
-    <net code="74" name="VDD_{REG}" class="Power,Default">
-      <node ref="C19" pin="1" pintype="passive"/>
-      <node ref="C22" pin="1" pintype="passive"/>
-      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
-      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    <net code="74" name="VDD_{IO}" class="Power,Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
-      <node ref="R15" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="VDD_IO" pintype="power_in"/>
+      <node ref="U3" pin="32" pinfunction="VDD_IO" pintype="power_in"/>
+      <node ref="U3" pin="52" pinfunction="VDD_IO" pintype="power_in"/>
+      <node ref="U4" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="75" name="VIO_{REG}" class="Default">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="VOUT" pintype="power_out"/>
     </net>
-    <net code="75" name="unconnected-(J1-Pad25)" class="Default">
-      <node ref="J1" pin="25" pinfunction="25" pintype="passive+no_connect"/>
+    <net code="76" name="unconnected-(J2-Pad25)" class="Default">
+      <node ref="J2" pin="25" pinfunction="25" pintype="passive+no_connect"/>
     </net>
-    <net code="76" name="unconnected-(J1-Pad29)" class="Default">
-      <node ref="J1" pin="29" pinfunction="29" pintype="passive+no_connect"/>
+    <net code="77" name="unconnected-(J2-Pad29)" class="Default">
+      <node ref="J2" pin="29" pinfunction="29" pintype="passive+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(J3-Pad14)" class="Default">
+    <net code="78" name="unconnected-(J3-Pad14)" class="Default">
       <node ref="J3" pin="14" pinfunction="14" pintype="passive+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(J3-Pad23)" class="Default">
+    <net code="79" name="unconnected-(J3-Pad23)" class="Default">
       <node ref="J3" pin="23" pinfunction="23" pintype="passive+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(J3-Pad24)" class="Default">
+    <net code="80" name="unconnected-(J3-Pad24)" class="Default">
       <node ref="J3" pin="24" pinfunction="24" pintype="passive+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(J3-Pad25)" class="Default">
+    <net code="81" name="unconnected-(J3-Pad25)" class="Default">
       <node ref="J3" pin="25" pinfunction="25" pintype="passive+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(J3-Pad27)" class="Default">
+    <net code="82" name="unconnected-(J3-Pad27)" class="Default">
       <node ref="J3" pin="27" pinfunction="27" pintype="passive+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(J3-Pad32)" class="Default">
+    <net code="83" name="unconnected-(J3-Pad32)" class="Default">
       <node ref="J3" pin="32" pinfunction="32" pintype="passive+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(J3-Pad34)" class="Default">
+    <net code="84" name="unconnected-(J3-Pad34)" class="Default">
       <node ref="J3" pin="34" pinfunction="34" pintype="passive+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(J3-Pad49)" class="Default">
+    <net code="85" name="unconnected-(J3-Pad49)" class="Default">
       <node ref="J3" pin="49" pinfunction="49" pintype="passive+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(J3-Pad50)" class="Default">
+    <net code="86" name="unconnected-(J3-Pad50)" class="Default">
       <node ref="J3" pin="50" pinfunction="50" pintype="passive+no_connect"/>
     </net>
-    <net code="86" name="unconnected-(U1-NC-Pad4)" class="Default">
+    <net code="87" name="unconnected-(U1-NC-Pad4)" class="Default">
       <node ref="U1" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="87" name="unconnected-(U2-NC-Pad4)" class="Default">
+    <net code="88" name="unconnected-(U2-NC-Pad4)" class="Default">
       <node ref="U2" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="88" name="unconnected-(U4-NC-Pad19)" class="Default">
-      <node ref="U4" pin="19" pinfunction="NC" pintype="no_connect"/>
+    <net code="89" name="unconnected-(U3-rsvd@4-Pad4)" class="Default">
+      <node ref="U3" pin="4" pinfunction="rsvd@4" pintype="no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U3-rsvd@5-Pad5)" class="Default">
+      <node ref="U3" pin="5" pinfunction="rsvd@5" pintype="no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U3-rsvd@6-Pad6)" class="Default">
+      <node ref="U3" pin="6" pinfunction="rsvd@6" pintype="no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U3-rsvd@7-Pad7)" class="Default">
+      <node ref="U3" pin="7" pinfunction="rsvd@7" pintype="no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U3-rsvd@8-Pad8)" class="Default">
+      <node ref="U3" pin="8" pinfunction="rsvd@8" pintype="no_connect"/>
     </net>
   </nets>
 </export>
