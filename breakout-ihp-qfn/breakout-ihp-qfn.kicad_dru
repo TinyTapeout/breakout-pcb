@@ -26,8 +26,18 @@
    (constraint clearance (min 0.16mm) (opt 0.25mm) (max 0.24mm))                                                                                                                          
    (condition "A.Type == 'Pad' && A.memberOfFootprint('Package_DFN_QFN:QFN-48*')")                                                                                                        
                                                                                                                                                                                           
-)                                                       
+)  
 
+(rule "neckdown IHP" 
+   (constraint clearance (min 0.159mm) (opt 0.16mm) (max 0.2mm))                                                                                                                           
+   (condition "A.Type != 'Zone' && A.intersectsCourtyard('TinyTapeout:QFN-64*IHP*')")                                                                                                     
+)                                                          
+
+(rule "neckdown IHP Pads"                                                                                                                                                                    
+																												
+   (constraint clearance (min 0.159mm) (opt 0.16mm) (max 0.2mm))                                                                                                                           
+   (condition "A.Type == 'Pad' && A.memberOfFootprint('TinyTapeout:QFN-64*IHP*')")                                                                                                     
+)                       
 (rule "testpoints under connectors"
   (severity exclusion)
   (constraint courtyard_clearance)
