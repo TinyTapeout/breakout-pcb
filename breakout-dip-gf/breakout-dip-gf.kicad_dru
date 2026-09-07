@@ -1,0 +1,8 @@
+(version 1)
+
+(rule "neckdown COB"
+   (constraint track_width (min 0.12mm) (opt 0.2mm) (max 0.35mm))
+   (constraint clearance (min 0.12mm) (opt 0.16mm) (max 0.2mm))
+   (condition "A.intersectsArea('COB') && A.Layer == 'F.Cu' && A.Type != 'Zone'")
+)
+
