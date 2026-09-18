@@ -7,3 +7,6 @@
 [submodule "tinytapeout-kicad-libs"]
 	path = tinytapeout-kicad-libs
 	url = https://github.com/psychogenic/tinytapeout-kicad-libs.git
+[submodule "breakout-dip-gf/firmware/TT-DIP"]
+	path = breakout-dip-gf/firmware/TT-DIP
+	url = https://github.com/psychogenic/TT-DIP.git
