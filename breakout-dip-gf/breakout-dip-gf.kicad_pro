@@ -289,7 +289,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.9.1"
+      "sch_revision": "1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -576,7 +576,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -772,7 +772,7 @@
           "group_by": false,
           "label": "Characteristics",
           "name": "Characteristics",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

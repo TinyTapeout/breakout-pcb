@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "CoB DIP Breakout")
-		(date "2026-09-03")
-		(rev "0.9.1")
+		(date "2026-10-23")
+		(rev "1.0")
 		(company "Psychogenic Technologies")
 		(comment 1 "(C) 2026 Pat Deegan")
 	)
@@ -6103,6 +6103,27 @@
 		)
 		(uuid "0434d535-c0bd-4535-9490-5ff976123882")
 	)
+	(text "DIP breakout for TinyTapeout GF180 ASICs"
+		(exclude_from_sim no)
+		(at 139.192 24.13 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0cba6656-d36c-41ef-99f7-73f2d8c64ecd")
+	)
+	(text "TT-DIP firmware"
+		(exclude_from_sim no)
+		(at 149.098 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://github.com/psychogenic/TT-DIP")
+		)
+		(uuid "202efbf3-3cdb-4336-abb6-e32feb864204")
+	)
 	(text "Options for basic filtering \nand ESD on USB conn.\nAt a min, populate the ferrite \nand TVS diodes."
 		(exclude_from_sim no)
 		(at 32.385 80.645 0)
@@ -6113,6 +6134,28 @@
 			(justify left bottom)
 		)
 		(uuid "2b215030-8a19-498b-840e-80ec4599464b")
+	)
+	(text "https://github.com/psychogenic/TT-DIP"
+		(exclude_from_sim no)
+		(at 131.064 181.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://github.com/psychogenic/TT-DIP")
+		)
+		(uuid "3453b398-7604-43d5-a412-07c8643c9d22")
+	)
+	(text "Bridge I/O and Core Supplies"
+		(exclude_from_sim no)
+		(at 64.516 144.526 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40923191-8644-4227-8b3c-f25212bcb669")
 	)
 	(text "TVS diodes"
 		(exclude_from_sim no)
@@ -6135,17 +6178,38 @@
 		)
 		(uuid "73e469d3-87a2-4750-8406-5c4afdd5d09a")
 	)
+	(text "This breakout allows direct access to the wire-bonded ASIC through \nthe I/O, MUX and power pins.\n\nWhen used in conjunction with the                  , the system may \nbe configured to automatically setup and clock specific designs on \npower-up, may do automatic detection of externally driven project\nMUX or clock/reset, and provides a Serial TUI interface through \nUSB, for use by commander or directly through serial port.\n\nSee: "
+		(exclude_from_sim no)
+		(at 106.172 171.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f6a9327-221f-4ac8-b4ff-3488fecf5953")
+	)
 	(text "CoB DIP Breakout"
 		(exclude_from_sim no)
 		(at 137.795 18.415 0)
 		(effects
 			(font
-				(size 4 4)
+				(size 5.08 5.08)
 				(thickness 0.8)
 				(bold yes)
 			)
 		)
 		(uuid "a2f5f483-c29e-4c5c-9854-26a2910ff133")
+	)
+	(text "32P DIP connector"
+		(exclude_from_sim no)
+		(at 267.97 140.97 90)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "a4bc4eaa-b3c5-4c65-8be1-ed5ab2ff05be")
 	)
 	(text "Prog Pads"
 		(exclude_from_sim no)
@@ -6183,6 +6247,28 @@
 		)
 		(uuid "bdfd7278-e162-4c01-9a00-9091cc63f8de")
 	)
+	(text "Supply chip with VUSB regulator output"
+		(exclude_from_sim no)
+		(at 64.008 176.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c59c92d0-1b56-4c9d-a756-ab404a49e4e6")
+	)
+	(text "Bridge Core and Analog Supplies"
+		(exclude_from_sim no)
+		(at 64.516 161.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3ab462f-84be-4015-bbe8-1c07a896ce48")
+	)
 	(text "90R Diff"
 		(exclude_from_sim no)
 		(at 48.26 59.69 0)
@@ -6209,7 +6295,7 @@
 	)
 	(text "Bulk/Bypass C"
 		(exclude_from_sim no)
-		(at 55.88 173.99 0)
+		(at 55.88 170.942 0)
 		(effects
 			(font
 				(size 2 2)
@@ -6844,7 +6930,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 167.64) (xy 73.66 167.64)
+			(xy 71.12 154.94) (xy 73.66 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7534,7 +7620,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 165.1) (xy 83.82 167.64)
+			(xy 83.82 152.4) (xy 83.82 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7784,7 +7870,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 175.26) (xy 71.12 177.8)
+			(xy 72.39 184.15) (xy 72.39 186.69)
 		)
 		(stroke
 			(width 0)
@@ -8184,7 +8270,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 167.64) (xy 81.28 167.64)
+			(xy 83.82 154.94) (xy 81.28 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8354,7 +8440,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 187.96) (xy 83.82 187.96)
+			(xy 81.28 171.45) (xy 83.82 171.45)
 		)
 		(stroke
 			(width 0)
@@ -8434,7 +8520,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 165.1) (xy 71.12 167.64)
+			(xy 71.12 152.4) (xy 71.12 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8624,7 +8710,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 175.26) (xy 83.82 177.8)
+			(xy 85.09 184.15) (xy 85.09 186.69)
 		)
 		(stroke
 			(width 0)
@@ -8764,7 +8850,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 187.96) (xy 73.66 187.96)
+			(xy 71.12 171.45) (xy 73.66 171.45)
 		)
 		(stroke
 			(width 0)
@@ -9154,7 +9240,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 187.96) (xy 83.82 185.42)
+			(xy 83.82 171.45) (xy 83.82 168.91)
 		)
 		(stroke
 			(width 0)
@@ -9284,7 +9370,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 185.42) (xy 71.12 187.96)
+			(xy 71.12 168.91) (xy 71.12 171.45)
 		)
 		(stroke
 			(width 0)
@@ -9564,7 +9650,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 177.8) (xy 83.82 177.8)
+			(xy 82.55 186.69) (xy 85.09 186.69)
 		)
 		(stroke
 			(width 0)
@@ -9664,7 +9750,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 177.8) (xy 73.66 177.8)
+			(xy 72.39 186.69) (xy 74.93 186.69)
 		)
 		(stroke
 			(width 0)
@@ -9723,7 +9809,7 @@
 		(uuid "fefc3b6b-03ab-42cc-b545-d180ff1d6d83")
 	)
 	(image
-		(at 218.44 33.02)
+		(at 252.73 31.75)
 		(scale 0.53302)
 		(uuid "e03f398d-44c4-47ca-b930-3ed92ff3f47d")
 		(data "iVBORw0KGgoAAAANSUhEUgAABS4AAAM9CAYAAACSRO3dAAAABHNCSVQICAgIfAhkiAAAABl0RVh0"
@@ -21731,7 +21817,7 @@
 				)
 			)
 		)
-		(property "Characteristics" "1u 10V XR 0603"
+		(property "Characteristics" "1u 10V XR 0402"
 			(at 82.55 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -22750,7 +22836,7 @@
 				)
 			)
 		)
-		(property "Characteristics" "CAP CER 10UF 10V X5R 0603"
+		(property "Characteristics" "1u 10V XR 0603"
 			(at 243.84 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -23424,7 +23510,7 @@
 				)
 			)
 		)
-		(property "Characteristics" ""
+		(property "Characteristics" "CH32X035 MCU"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -23629,7 +23715,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 83.82 165.1 0)
+		(at 83.82 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23639,7 +23725,7 @@
 		(dnp no)
 		(uuid "3b912c50-52fc-4fe9-9847-6b3b84caf704")
 		(property "Reference" "#PWR025"
-			(at 83.82 168.91 0)
+			(at 83.82 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23650,7 +23736,7 @@
 			)
 		)
 		(property "Value" "VDD_{CORE}"
-			(at 82.55 161.29 0)
+			(at 82.55 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23661,7 +23747,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 165.1 0)
+			(at 83.82 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23672,7 +23758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 165.1 0)
+			(at 83.82 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23683,7 +23769,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 83.82 165.1 0)
+			(at 83.82 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23694,7 +23780,7 @@
 			)
 		)
 		(property "Characteristics" ""
-			(at 83.82 165.1 0)
+			(at 83.82 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23705,7 +23791,7 @@
 			)
 		)
 		(property "Variant" ""
-			(at 83.82 165.1 0)
+			(at 83.82 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23716,7 +23802,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 83.82 165.1 0)
+			(at 83.82 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23727,7 +23813,7 @@
 			)
 		)
 		(property "MPN_ALT" ""
-			(at 83.82 165.1 0)
+			(at 83.82 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23738,7 +23824,7 @@
 			)
 		)
 		(property "DigikeyPN" ""
-			(at 83.82 165.1 0)
+			(at 83.82 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23749,7 +23835,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 83.82 165.1 0)
+			(at 83.82 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23760,7 +23846,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 83.82 165.1 0)
+			(at 83.82 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23770,7 +23856,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 83.82 165.1 0)
+			(at 83.82 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23870,7 +23956,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 83.82 175.26 0)
+		(at 85.09 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23881,7 +23967,7 @@
 		(fields_autoplaced yes)
 		(uuid "43770de1-4ce1-4680-b0cc-d135f41b4d26")
 		(property "Reference" "#PWR038"
-			(at 83.82 179.07 0)
+			(at 85.09 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23892,7 +23978,7 @@
 			)
 		)
 		(property "Value" "VDD_{IO}"
-			(at 83.82 171.3441 0)
+			(at 85.09 180.2341 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23902,7 +23988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 175.26 0)
+			(at 85.09 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23913,7 +23999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 175.26 0)
+			(at 85.09 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23924,7 +24010,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 83.82 175.26 0)
+			(at 85.09 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23935,7 +24021,7 @@
 			)
 		)
 		(property "Characteristics" ""
-			(at 83.82 175.26 0)
+			(at 85.09 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23946,7 +24032,7 @@
 			)
 		)
 		(property "Variant" ""
-			(at 83.82 175.26 0)
+			(at 85.09 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23957,7 +24043,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 83.82 175.26 0)
+			(at 85.09 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23968,7 +24054,7 @@
 			)
 		)
 		(property "MPN_ALT" ""
-			(at 83.82 175.26 0)
+			(at 85.09 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23979,7 +24065,7 @@
 			)
 		)
 		(property "DigikeyPN" ""
-			(at 83.82 175.26 0)
+			(at 85.09 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23990,7 +24076,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 83.82 175.26 0)
+			(at 85.09 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24001,7 +24087,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 83.82 175.26 0)
+			(at 85.09 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24011,7 +24097,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 83.82 175.26 0)
+			(at 85.09 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25881,7 +25967,7 @@
 				)
 			)
 		)
-		(property "Characteristics" "RES SMD 0 OHM JUMPER 1/10W 0603"
+		(property "Characteristics" "RES SMD 0 OHM JUMPER 0402"
 			(at 20.32 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -26072,7 +26158,7 @@
 	)
 	(symbol
 		(lib_id "psycomponents:PsyResistors_IEC/R_0_0603_1608-46")
-		(at 73.66 177.8 90)
+		(at 74.93 186.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26082,7 +26168,7 @@
 		(dnp no)
 		(uuid "7997ae79-57cf-4fa4-bf65-b21b6c5074a2")
 		(property "Reference" "R5"
-			(at 76.2 175.895 90)
+			(at 77.47 184.785 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26092,7 +26178,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 77.47 177.8 90)
+			(at 78.74 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26102,7 +26188,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 73.66 179.578 90)
+			(at 74.93 188.468 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26113,7 +26199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 177.8 0)
+			(at 74.93 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26124,7 +26210,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.978 175.768 90)
+			(at 79.248 184.658 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26135,7 +26221,7 @@
 			)
 		)
 		(property "MPN" "0402WGF0000TCE"
-			(at 73.66 177.8 0)
+			(at 74.93 186.69 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -26145,8 +26231,8 @@
 				)
 			)
 		)
-		(property "Characteristics" "RES SMD 0 OHM JUMPER 0805"
-			(at 73.66 177.8 0)
+		(property "Characteristics" "RES SMD 0 OHM JUMPER 0402"
+			(at 74.93 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26157,7 +26243,7 @@
 			)
 		)
 		(property "DigikeyPN" "13-RC0805JR-100RLCT-ND"
-			(at 73.66 177.8 0)
+			(at 74.93 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26168,7 +26254,7 @@
 			)
 		)
 		(property "LCSC" "C17168"
-			(at 73.66 177.8 0)
+			(at 74.93 186.69 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -26179,7 +26265,7 @@
 			)
 		)
 		(property "MPN_ALT" ""
-			(at 73.66 177.8 0)
+			(at 74.93 186.69 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -26190,7 +26276,7 @@
 			)
 		)
 		(property "Variant" ""
-			(at 73.66 177.8 0)
+			(at 74.93 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26201,7 +26287,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 73.66 177.8 0)
+			(at 74.93 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26211,7 +26297,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 73.66 177.8 0)
+			(at 74.93 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26221,7 +26307,7 @@
 			)
 		)
 		(property "Display Value" ""
-			(at 73.66 177.8 90)
+			(at 74.93 186.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26232,7 +26318,7 @@
 			)
 		)
 		(property "JLC" "C17168"
-			(at 73.66 177.8 90)
+			(at 74.93 186.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26882,7 +26968,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 71.12 185.42 0)
+		(at 71.12 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26892,7 +26978,7 @@
 		(dnp no)
 		(uuid "94da3630-8eba-420e-8ddc-d15906d27339")
 		(property "Reference" "#PWR026"
-			(at 71.12 189.23 0)
+			(at 71.12 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26903,7 +26989,7 @@
 			)
 		)
 		(property "Value" "VDD_{CORE}"
-			(at 69.85 181.61 0)
+			(at 69.85 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26914,7 +27000,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 185.42 0)
+			(at 71.12 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26925,7 +27011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 185.42 0)
+			(at 71.12 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26936,7 +27022,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 71.12 185.42 0)
+			(at 71.12 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26947,7 +27033,7 @@
 			)
 		)
 		(property "Characteristics" ""
-			(at 71.12 185.42 0)
+			(at 71.12 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26958,7 +27044,7 @@
 			)
 		)
 		(property "Variant" ""
-			(at 71.12 185.42 0)
+			(at 71.12 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26969,7 +27055,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 71.12 185.42 0)
+			(at 71.12 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26980,7 +27066,7 @@
 			)
 		)
 		(property "MPN_ALT" ""
-			(at 71.12 185.42 0)
+			(at 71.12 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26991,7 +27077,7 @@
 			)
 		)
 		(property "DigikeyPN" ""
-			(at 71.12 185.42 0)
+			(at 71.12 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27002,7 +27088,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 71.12 185.42 0)
+			(at 71.12 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27013,7 +27099,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 71.12 185.42 0)
+			(at 71.12 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27023,7 +27109,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 71.12 185.42 0)
+			(at 71.12 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28207,7 +28293,7 @@
 				)
 			)
 		)
-		(property "Characteristics" ""
+		(property "Characteristics" "TT GF ASIC"
 			(at 172.72 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -28885,7 +28971,7 @@
 				)
 			)
 		)
-		(property "Characteristics" "1u 10V XR 0603"
+		(property "Characteristics" "1u 10V XR 0402"
 			(at 73.66 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -29077,7 +29163,7 @@
 				)
 			)
 		)
-		(property "Characteristics" "CAP CER 10UF 10V X5R 0603"
+		(property "Characteristics" "1u 10V XR 0603"
 			(at 231.14 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -30678,7 +30764,7 @@
 	)
 	(symbol
 		(lib_id "psycomponents:PsyResistors_IEC/R_0_0603_1608-46")
-		(at 73.66 167.64 90)
+		(at 73.66 154.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30688,7 +30774,7 @@
 		(dnp no)
 		(uuid "bc716b82-7bd2-4842-8b2e-0d4be4cac356")
 		(property "Reference" "R4"
-			(at 76.2 165.735 90)
+			(at 76.2 153.035 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30698,7 +30784,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 77.47 167.64 90)
+			(at 77.47 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30708,7 +30794,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 73.66 169.418 90)
+			(at 73.66 156.718 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30719,7 +30805,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 167.64 0)
+			(at 73.66 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30730,7 +30816,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.978 165.608 90)
+			(at 77.978 152.908 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30741,7 +30827,7 @@
 			)
 		)
 		(property "MPN" "0402WGF0000TCE"
-			(at 73.66 167.64 0)
+			(at 73.66 154.94 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -30751,8 +30837,8 @@
 				)
 			)
 		)
-		(property "Characteristics" "RES SMD 0 OHM JUMPER 0805"
-			(at 73.66 167.64 0)
+		(property "Characteristics" "RES SMD 0 OHM JUMPER 0402"
+			(at 73.66 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30763,7 +30849,7 @@
 			)
 		)
 		(property "DigikeyPN" "13-RC0805JR-100RLCT-ND"
-			(at 73.66 167.64 0)
+			(at 73.66 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30774,7 +30860,7 @@
 			)
 		)
 		(property "LCSC" "C17168"
-			(at 73.66 167.64 0)
+			(at 73.66 154.94 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -30785,7 +30871,7 @@
 			)
 		)
 		(property "MPN_ALT" ""
-			(at 73.66 167.64 0)
+			(at 73.66 154.94 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -30796,7 +30882,7 @@
 			)
 		)
 		(property "Variant" ""
-			(at 73.66 167.64 0)
+			(at 73.66 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30807,7 +30893,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 73.66 167.64 0)
+			(at 73.66 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30817,7 +30903,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 73.66 167.64 0)
+			(at 73.66 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30827,7 +30913,7 @@
 			)
 		)
 		(property "Display Value" ""
-			(at 73.66 167.64 90)
+			(at 73.66 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30838,7 +30924,7 @@
 			)
 		)
 		(property "JLC" "C17168"
-			(at 73.66 167.64 90)
+			(at 73.66 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30865,7 +30951,7 @@
 	)
 	(symbol
 		(lib_id "psycomponents:PsyResistors_IEC/R_0_0603_1608-46")
-		(at 73.66 187.96 90)
+		(at 73.66 171.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30875,7 +30961,7 @@
 		(dnp no)
 		(uuid "be06e193-05d9-4de6-91be-56f8b75a7f10")
 		(property "Reference" "R6"
-			(at 76.2 186.055 90)
+			(at 76.2 169.545 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30885,7 +30971,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 77.47 187.96 90)
+			(at 77.47 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30895,7 +30981,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 73.66 189.738 90)
+			(at 73.66 173.228 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30906,7 +30992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 187.96 0)
+			(at 73.66 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30917,7 +31003,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.978 185.928 90)
+			(at 77.978 169.418 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30928,7 +31014,7 @@
 			)
 		)
 		(property "MPN" "0402WGF0000TCE"
-			(at 73.66 187.96 0)
+			(at 73.66 171.45 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -30938,8 +31024,8 @@
 				)
 			)
 		)
-		(property "Characteristics" "RES SMD 0 OHM JUMPER 0805"
-			(at 73.66 187.96 0)
+		(property "Characteristics" "RES SMD 0 OHM JUMPER 0402"
+			(at 73.66 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30950,7 +31036,7 @@
 			)
 		)
 		(property "DigikeyPN" "13-RC0805JR-100RLCT-ND"
-			(at 73.66 187.96 0)
+			(at 73.66 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30961,7 +31047,7 @@
 			)
 		)
 		(property "LCSC" "C17168"
-			(at 73.66 187.96 0)
+			(at 73.66 171.45 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -30972,7 +31058,7 @@
 			)
 		)
 		(property "MPN_ALT" ""
-			(at 73.66 187.96 0)
+			(at 73.66 171.45 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -30983,7 +31069,7 @@
 			)
 		)
 		(property "Variant" ""
-			(at 73.66 187.96 0)
+			(at 73.66 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30994,7 +31080,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 73.66 187.96 0)
+			(at 73.66 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31004,7 +31090,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 73.66 187.96 0)
+			(at 73.66 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31014,7 +31100,7 @@
 			)
 		)
 		(property "Display Value" ""
-			(at 73.66 187.96 90)
+			(at 73.66 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31025,7 +31111,7 @@
 			)
 		)
 		(property "JLC" "C17168"
-			(at 73.66 187.96 90)
+			(at 73.66 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31052,7 +31138,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 71.12 175.26 0)
+		(at 72.39 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31062,7 +31148,7 @@
 		(dnp no)
 		(uuid "bf6fc9f8-bf72-4084-bbf8-bb3c304157d4")
 		(property "Reference" "#PWR037"
-			(at 71.12 179.07 0)
+			(at 72.39 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31073,7 +31159,7 @@
 			)
 		)
 		(property "Value" "VIO_{REG}"
-			(at 69.215 171.45 0)
+			(at 70.485 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31084,7 +31170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 175.26 0)
+			(at 72.39 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31095,7 +31181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 175.26 0)
+			(at 72.39 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31106,7 +31192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 71.12 175.26 0)
+			(at 72.39 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31117,7 +31203,7 @@
 			)
 		)
 		(property "Characteristics" ""
-			(at 71.12 175.26 0)
+			(at 72.39 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31128,7 +31214,7 @@
 			)
 		)
 		(property "Variant" ""
-			(at 71.12 175.26 0)
+			(at 72.39 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31139,7 +31225,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 71.12 175.26 0)
+			(at 72.39 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31150,7 +31236,7 @@
 			)
 		)
 		(property "MPN_ALT" ""
-			(at 71.12 175.26 0)
+			(at 72.39 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31161,7 +31247,7 @@
 			)
 		)
 		(property "DigikeyPN" ""
-			(at 71.12 175.26 0)
+			(at 72.39 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31172,7 +31258,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 71.12 175.26 0)
+			(at 72.39 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31183,7 +31269,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 71.12 175.26 0)
+			(at 72.39 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31193,7 +31279,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 71.12 175.26 0)
+			(at 72.39 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31293,7 +31379,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 83.82 185.42 0)
+		(at 83.82 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31303,7 +31389,7 @@
 		(dnp no)
 		(uuid "c996e220-8236-4f7e-9bff-8e65f57c96bc")
 		(property "Reference" "#PWR040"
-			(at 83.82 189.23 0)
+			(at 83.82 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31314,7 +31400,7 @@
 			)
 		)
 		(property "Value" "VAA"
-			(at 83.82 181.5041 0)
+			(at 83.82 164.9941 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31324,7 +31410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 185.42 0)
+			(at 83.82 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31335,7 +31421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 185.42 0)
+			(at 83.82 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31346,7 +31432,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 83.82 185.42 0)
+			(at 83.82 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31357,7 +31443,7 @@
 			)
 		)
 		(property "Characteristics" ""
-			(at 83.82 185.42 0)
+			(at 83.82 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31368,7 +31454,7 @@
 			)
 		)
 		(property "Variant" ""
-			(at 83.82 185.42 0)
+			(at 83.82 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31379,7 +31465,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 83.82 185.42 0)
+			(at 83.82 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31390,7 +31476,7 @@
 			)
 		)
 		(property "MPN_ALT" ""
-			(at 83.82 185.42 0)
+			(at 83.82 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31401,7 +31487,7 @@
 			)
 		)
 		(property "DigikeyPN" ""
-			(at 83.82 185.42 0)
+			(at 83.82 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31412,7 +31498,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 83.82 185.42 0)
+			(at 83.82 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31423,7 +31509,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 83.82 185.42 0)
+			(at 83.82 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31433,7 +31519,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 83.82 185.42 0)
+			(at 83.82 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32274,7 +32360,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 71.12 165.1 0)
+		(at 71.12 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32285,7 +32371,7 @@
 		(fields_autoplaced yes)
 		(uuid "df79a24f-de36-4265-af79-047a10f4bf79")
 		(property "Reference" "#PWR013"
-			(at 71.12 168.91 0)
+			(at 71.12 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32296,7 +32382,7 @@
 			)
 		)
 		(property "Value" "VDD_{IO}"
-			(at 71.12 161.1841 0)
+			(at 71.12 148.4841 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32306,7 +32392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 165.1 0)
+			(at 71.12 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32317,7 +32403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 165.1 0)
+			(at 71.12 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32328,7 +32414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 71.12 165.1 0)
+			(at 71.12 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32339,7 +32425,7 @@
 			)
 		)
 		(property "Characteristics" ""
-			(at 71.12 165.1 0)
+			(at 71.12 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32350,7 +32436,7 @@
 			)
 		)
 		(property "Variant" ""
-			(at 71.12 165.1 0)
+			(at 71.12 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32361,7 +32447,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 71.12 165.1 0)
+			(at 71.12 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32372,7 +32458,7 @@
 			)
 		)
 		(property "MPN_ALT" ""
-			(at 71.12 165.1 0)
+			(at 71.12 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32383,7 +32469,7 @@
 			)
 		)
 		(property "DigikeyPN" ""
-			(at 71.12 165.1 0)
+			(at 71.12 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32394,7 +32480,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 71.12 165.1 0)
+			(at 71.12 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32405,7 +32491,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 71.12 165.1 0)
+			(at 71.12 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32415,7 +32501,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 71.12 165.1 0)
+			(at 71.12 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32792,10 +32878,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e173a560-4c37-4ee1-bf8d-6f52fdfb3e9c")
-		(property "Reference" "C3"
-			(at 267.97 115.3625 0)
+		(property "Reference" "CONN1"
+			(at 267.716 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32858,7 +32943,7 @@
 				)
 			)
 		)
-		(property "Characteristics" ""
+		(property "Characteristics" "CONN SOCKET 32P"
 			(at 261.62 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -33043,7 +33128,7 @@
 		(instances
 			(project "breakout-dip-gf"
 				(path "/c110e856-5eae-4e29-a5dc-1f27e18e072d"
-					(reference "C3")
+					(reference "CONN1")
 					(unit 1)
 				)
 			)
