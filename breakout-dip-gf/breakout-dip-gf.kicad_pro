@@ -562,14 +562,188 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "Analog",
+        "pcb_color": "rgb(129, 129, 129)",
+        "priority": 6,
+        "schematic_color": "rgb(129, 129, 129)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Bidir",
+        "pcb_color": "rgb(35, 192, 190)",
+        "priority": 3,
+        "schematic_color": "rgb(35, 192, 190)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "HighSpeed",
+        "pcb_color": "rgb(233, 157, 15)",
+        "priority": 1,
+        "schematic_color": "rgb(233, 157, 15)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Input",
+        "pcb_color": "rgb(6, 220, 116)",
+        "priority": 5,
+        "schematic_color": "rgb(6, 220, 116)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Management",
+        "pcb_color": "rgb(172, 0, 224)",
+        "priority": 2,
+        "schematic_color": "rgb(172, 0, 224)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Output",
+        "pcb_color": "rgb(46, 136, 218)",
+        "priority": 4,
+        "schematic_color": "rgb(46, 136, 218)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Power",
+        "pcb_color": "rgb(214, 9, 24)",
+        "priority": 0,
+        "schematic_color": "rgb(214, 9, 24)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": {},
-    "netclass_assignments": {},
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "/VDIN": [
+        "Power"
+      ],
+      "/enable": [
+        "Management"
+      ],
+      "/increment": [
+        "HighSpeed",
+        "Management"
+      ],
+      "/p_clk": [
+        "HighSpeed"
+      ],
+      "/rst_n": [
+        "Management"
+      ],
+      "/uin0": [
+        "Input"
+      ],
+      "/uin1": [
+        "Input"
+      ],
+      "/uin2": [
+        "Input"
+      ],
+      "/uin3": [
+        "Input"
+      ],
+      "/uin4": [
+        "Input"
+      ],
+      "/uin5": [
+        "Input"
+      ],
+      "/uin6": [
+        "Input"
+      ],
+      "/uin7": [
+        "Input"
+      ],
+      "/uin[0..7]": [
+        "Input"
+      ],
+      "/uio0": [
+        "Bidir"
+      ],
+      "/uio1": [
+        "Bidir"
+      ],
+      "/uio2": [
+        "Bidir"
+      ],
+      "/uio3": [
+        "Bidir"
+      ],
+      "/uio4": [
+        "Bidir"
+      ],
+      "/uio5": [
+        "Bidir"
+      ],
+      "/uio6": [
+        "Bidir"
+      ],
+      "/uio7": [
+        "Bidir"
+      ],
+      "/uio[0..7]": [
+        "Bidir"
+      ],
+      "/uout0": [
+        "Output"
+      ],
+      "/uout1": [
+        "Output"
+      ],
+      "/uout2": [
+        "Output"
+      ],
+      "/uout3": [
+        "Output"
+      ],
+      "/uout4": [
+        "Output"
+      ],
+      "/uout5": [
+        "Output"
+      ],
+      "/uout6": [
+        "Output"
+      ],
+      "/uout7": [
+        "Output"
+      ],
+      "/uout[0..7]": [
+        "Output"
+      ],
+      "/{PMUX}": [
+        "Management"
+      ],
+      "/~{p_rst}": [
+        "Management"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "V*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/an*"
+      },
+      {
+        "netclass": "HighSpeed",
+        "pattern": "usb*"
+      },
+      {
+        "netclass": "Management",
+        "pattern": "/CH32*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -794,7 +968,13 @@
       "sort_asc": true,
       "sort_field": "Footprint"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "PMUX": [
+        "enable",
+        "rst_n",
+        "increment"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,

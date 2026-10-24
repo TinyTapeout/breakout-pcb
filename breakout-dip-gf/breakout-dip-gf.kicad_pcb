@@ -137,6 +137,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(aux_axis_origin 25 100)
 		(grid_origin 25 100)
 		(pcbplotparams
@@ -23689,7 +23690,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1x16P TH Pin Header"
+		(property "Value" "PZ254-1-16-Z-8.5"
 			(at -0.025 -18.975 90)
 			(layer "B.Fab")
 			(uuid "eb1d277b-2861-40d1-8ade-25cb6981f37b")
@@ -25254,7 +25255,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1x16P TH Pin Header"
+		(property "Value" "PZ254-1-16-Z-8.5"
 			(at 0 -18.9 270)
 			(layer "B.Fab")
 			(uuid "7f890a3d-876e-4c0d-90fe-4fb520926edc")
