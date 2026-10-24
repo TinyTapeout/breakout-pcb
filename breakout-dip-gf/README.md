@@ -20,4 +20,4 @@ Updating the firmware involves holding the BOOT button during power-up, and uplo
 
 ## Schematic
 
-![DIP Pinout](images/tt-dip-pinout.png)
+![DIP Pinout](images/cobdipschematic.png)
