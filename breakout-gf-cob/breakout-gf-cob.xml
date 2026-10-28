@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/malcalypse/Private/kicadProjects/TinyTapeout/breakout-gf-cob/breakout-gf-cob.kicad_sch</source>
-    <date>2026-10-28T15:24:56</date>
+    <source>/home/malcalypse/Private/kicadProjects/TinyTapeout/breakout-pcb/breakout-gf-cob/breakout-gf-cob.kicad_sch</source>
+    <date>2026-10-28T15:54:48</date>
     <tool>Eeschema 10.0.7-10.0.7~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -28,10 +28,10 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC"/>
-        <field name="MPN"/>
+        <field name="LCSC">C19702</field>
+        <field name="MPN">CL10A106KP8NNNC</field>
         <field name="MPN_ALT">LMK212AB7106MG-T</field>
-        <field name="Characteristics">1u 10V XR 0603</field>
+        <field name="Characteristics">10u 10V XR 0603</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
         <field name="Variant"/>
@@ -43,10 +43,10 @@
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value=""/>
-      <property name="MPN" value=""/>
+      <property name="LCSC" value="C19702"/>
+      <property name="MPN" value="CL10A106KP8NNNC"/>
       <property name="MPN_ALT" value="LMK212AB7106MG-T"/>
-      <property name="Characteristics" value="1u 10V XR 0603"/>
+      <property name="Characteristics" value="10u 10V XR 0603"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
       <property name="Variant" value=""/>
@@ -72,10 +72,10 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN"/>
+        <field name="MPN">CL10A106KP8NNNC</field>
         <field name="MPN_ALT">C0603C105K4RAC7411</field>
-        <field name="Characteristics">1u 10V XR 0603</field>
-        <field name="LCSC"/>
+        <field name="Characteristics">10u 10V XR 0603</field>
+        <field name="LCSC">C19702</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
@@ -83,10 +83,10 @@
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MPN" value=""/>
+      <property name="MPN" value="CL10A106KP8NNNC"/>
       <property name="MPN_ALT" value="C0603C105K4RAC7411"/>
-      <property name="Characteristics" value="1u 10V XR 0603"/>
-      <property name="LCSC" value=""/>
+      <property name="Characteristics" value="10u 10V XR 0603"/>
+      <property name="LCSC" value="C19702"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
       <property name="Sheetname" value="breakout-gf-cob"/>
@@ -192,10 +192,10 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC"/>
-        <field name="MPN"/>
+        <field name="LCSC">C19702</field>
+        <field name="MPN">CL10A106KP8NNNC</field>
         <field name="MPN_ALT">LMK212AB7106MG-T</field>
-        <field name="Characteristics">1u 10V XR 0603</field>
+        <field name="Characteristics">10u 10V XR 0603</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
         <field name="Variant"/>
@@ -207,10 +207,10 @@
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value=""/>
-      <property name="MPN" value=""/>
+      <property name="LCSC" value="C19702"/>
+      <property name="MPN" value="CL10A106KP8NNNC"/>
       <property name="MPN_ALT" value="LMK212AB7106MG-T"/>
-      <property name="Characteristics" value="1u 10V XR 0603"/>
+      <property name="Characteristics" value="10u 10V XR 0603"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
       <property name="Variant" value=""/>
@@ -236,10 +236,10 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN"/>
+        <field name="MPN">CL10A106KP8NNNC</field>
         <field name="MPN_ALT">C0603C105K4RAC7411</field>
-        <field name="Characteristics">1u 10V XR 0603</field>
-        <field name="LCSC"/>
+        <field name="Characteristics">10u 10V XR 0603</field>
+        <field name="LCSC">C19702</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
@@ -247,10 +247,10 @@
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MPN" value=""/>
+      <property name="MPN" value="CL10A106KP8NNNC"/>
       <property name="MPN_ALT" value="C0603C105K4RAC7411"/>
-      <property name="Characteristics" value="1u 10V XR 0603"/>
-      <property name="LCSC" value=""/>
+      <property name="Characteristics" value="10u 10V XR 0603"/>
+      <property name="LCSC" value="C19702"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
       <property name="Sheetname" value="breakout-gf-cob"/>
@@ -406,24 +406,24 @@
       <datasheet>//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</datasheet>
       <description>1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
       <fields>
-        <field name="MPN">CL05A105KO5NNNC</field>
+        <field name="MPN">CL05A105KA5NQNC</field>
         <field name="Manufacturer">Samsung Electro-Mechanics</field>
         <field name="Package / Case">0402 (1005 Metric)</field>
         <field name="Characteristics">CAP CER 1UF 16V X5R 0402</field>
         <field name="DigikeyPN">1276-1067-1-ND</field>
-        <field name="LCSC"/>
+        <field name="LCSC">C52923</field>
         <field name="MPN_ALT"/>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</field>
         <field name="Description">1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
       </fields>
       <libsource lib="psycomponents" part="PsyCapacitors/C_1u_0402_1005-20" description="1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
-      <property name="MPN" value="CL05A105KO5NNNC"/>
+      <property name="MPN" value="CL05A105KA5NQNC"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="Package / Case" value="0402 (1005 Metric)"/>
       <property name="Characteristics" value="CAP CER 1UF 16V X5R 0402"/>
       <property name="DigikeyPN" value="1276-1067-1-ND"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C52923"/>
       <property name="MPN_ALT" value=""/>
       <property name="Sheetname" value="breakout-gf-cob"/>
       <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
@@ -446,24 +446,24 @@
       <datasheet>//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</datasheet>
       <description>1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
       <fields>
-        <field name="MPN">CL05A105KO5NNNC</field>
+        <field name="MPN">CL05A105KA5NQNC</field>
         <field name="Manufacturer">Samsung Electro-Mechanics</field>
         <field name="Package / Case">0402 (1005 Metric)</field>
         <field name="Characteristics">CAP CER 1UF 16V X5R 0402</field>
         <field name="DigikeyPN">1276-1067-1-ND</field>
-        <field name="LCSC"/>
+        <field name="LCSC">C52923</field>
         <field name="MPN_ALT"/>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</field>
         <field name="Description">1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
       </fields>
       <libsource lib="psycomponents" part="PsyCapacitors/C_1u_0402_1005-20" description="1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
-      <property name="MPN" value="CL05A105KO5NNNC"/>
+      <property name="MPN" value="CL05A105KA5NQNC"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="Package / Case" value="0402 (1005 Metric)"/>
       <property name="Characteristics" value="CAP CER 1UF 16V X5R 0402"/>
       <property name="DigikeyPN" value="1276-1067-1-ND"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C52923"/>
       <property name="MPN_ALT" value=""/>
       <property name="Sheetname" value="breakout-gf-cob"/>
       <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
@@ -486,24 +486,24 @@
       <datasheet>//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</datasheet>
       <description>1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
       <fields>
-        <field name="MPN">CL05A105KO5NNNC</field>
+        <field name="MPN">CL05A105KA5NQNC</field>
         <field name="Manufacturer">Samsung Electro-Mechanics</field>
         <field name="Package / Case">0402 (1005 Metric)</field>
         <field name="Characteristics">CAP CER 1UF 16V X5R 0402</field>
         <field name="DigikeyPN">1276-1067-1-ND</field>
-        <field name="LCSC"/>
+        <field name="LCSC">C52923</field>
         <field name="MPN_ALT"/>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</field>
         <field name="Description">1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
       </fields>
       <libsource lib="psycomponents" part="PsyCapacitors/C_1u_0402_1005-20" description="1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
-      <property name="MPN" value="CL05A105KO5NNNC"/>
+      <property name="MPN" value="CL05A105KA5NQNC"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="Package / Case" value="0402 (1005 Metric)"/>
       <property name="Characteristics" value="CAP CER 1UF 16V X5R 0402"/>
       <property name="DigikeyPN" value="1276-1067-1-ND"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C52923"/>
       <property name="MPN_ALT" value=""/>
       <property name="Sheetname" value="breakout-gf-cob"/>
       <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
@@ -526,24 +526,24 @@
       <datasheet>//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</datasheet>
       <description>1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
       <fields>
-        <field name="MPN">CL05A105KO5NNNC</field>
+        <field name="MPN">CL05A105KA5NQNC</field>
         <field name="Manufacturer">Samsung Electro-Mechanics</field>
         <field name="Package / Case">0402 (1005 Metric)</field>
         <field name="Characteristics">CAP CER 1UF 16V X5R 0402</field>
         <field name="DigikeyPN">1276-1067-1-ND</field>
-        <field name="LCSC"/>
+        <field name="LCSC">C52923</field>
         <field name="MPN_ALT"/>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</field>
         <field name="Description">1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
       </fields>
       <libsource lib="psycomponents" part="PsyCapacitors/C_1u_0402_1005-20" description="1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
-      <property name="MPN" value="CL05A105KO5NNNC"/>
+      <property name="MPN" value="CL05A105KA5NQNC"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="Package / Case" value="0402 (1005 Metric)"/>
       <property name="Characteristics" value="CAP CER 1UF 16V X5R 0402"/>
       <property name="DigikeyPN" value="1276-1067-1-ND"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C52923"/>
       <property name="MPN_ALT" value=""/>
       <property name="Sheetname" value="breakout-gf-cob"/>
       <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
@@ -566,24 +566,24 @@
       <datasheet>//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</datasheet>
       <description>1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
       <fields>
-        <field name="MPN">CL05A105KO5NNNC</field>
+        <field name="MPN">CL05A105KA5NQNC</field>
         <field name="Manufacturer">Samsung Electro-Mechanics</field>
         <field name="Package / Case">0402 (1005 Metric)</field>
         <field name="Characteristics">CAP CER 1UF 16V X5R 0402</field>
         <field name="DigikeyPN">1276-1067-1-ND</field>
-        <field name="LCSC"/>
+        <field name="LCSC">C52923</field>
         <field name="MPN_ALT"/>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</field>
         <field name="Description">1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
       </fields>
       <libsource lib="psycomponents" part="PsyCapacitors/C_1u_0402_1005-20" description="1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
-      <property name="MPN" value="CL05A105KO5NNNC"/>
+      <property name="MPN" value="CL05A105KA5NQNC"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="Package / Case" value="0402 (1005 Metric)"/>
       <property name="Characteristics" value="CAP CER 1UF 16V X5R 0402"/>
       <property name="DigikeyPN" value="1276-1067-1-ND"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C52923"/>
       <property name="MPN_ALT" value=""/>
       <property name="Sheetname" value="breakout-gf-cob"/>
       <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
@@ -642,24 +642,24 @@
       <datasheet>//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</datasheet>
       <description>1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
       <fields>
-        <field name="MPN">CL05A105KO5NNNC</field>
+        <field name="MPN">CL05A105KA5NQNC</field>
         <field name="Manufacturer">Samsung Electro-Mechanics</field>
         <field name="Package / Case">0402 (1005 Metric)</field>
         <field name="Characteristics">CAP CER 1UF 16V X5R 0402</field>
         <field name="DigikeyPN">1276-1067-1-ND</field>
-        <field name="LCSC"/>
+        <field name="LCSC">C52923</field>
         <field name="MPN_ALT"/>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</field>
         <field name="Description">1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
       </fields>
       <libsource lib="psycomponents" part="PsyCapacitors/C_1u_0402_1005-20" description="1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
-      <property name="MPN" value="CL05A105KO5NNNC"/>
+      <property name="MPN" value="CL05A105KA5NQNC"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="Package / Case" value="0402 (1005 Metric)"/>
       <property name="Characteristics" value="CAP CER 1UF 16V X5R 0402"/>
       <property name="DigikeyPN" value="1276-1067-1-ND"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C52923"/>
       <property name="MPN_ALT" value=""/>
       <property name="Sheetname" value="breakout-gf-cob"/>
       <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
@@ -682,24 +682,24 @@
       <datasheet>//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</datasheet>
       <description>1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
       <fields>
-        <field name="MPN">CL05A105KO5NNNC</field>
+        <field name="MPN">CL05A105KA5NQNC</field>
         <field name="Manufacturer">Samsung Electro-Mechanics</field>
         <field name="Package / Case">0402 (1005 Metric)</field>
         <field name="Characteristics">CAP CER 1UF 16V X5R 0402</field>
         <field name="DigikeyPN">1276-1067-1-ND</field>
-        <field name="LCSC"/>
+        <field name="LCSC">C52923</field>
         <field name="MPN_ALT"/>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05A105KO5NNNC_Spec_5-2-19.pdf</field>
         <field name="Description">1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
       </fields>
       <libsource lib="psycomponents" part="PsyCapacitors/C_1u_0402_1005-20" description="1 µF ±10% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"/>
-      <property name="MPN" value="CL05A105KO5NNNC"/>
+      <property name="MPN" value="CL05A105KA5NQNC"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="Package / Case" value="0402 (1005 Metric)"/>
       <property name="Characteristics" value="CAP CER 1UF 16V X5R 0402"/>
       <property name="DigikeyPN" value="1276-1067-1-ND"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C52923"/>
       <property name="MPN_ALT" value=""/>
       <property name="Sheetname" value="breakout-gf-cob"/>
       <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
@@ -1121,12 +1121,12 @@
       <datasheet>https://www.te.com/usa-en/product-1623094-1.datasheet.pdf</datasheet>
       <description>0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film</description>
       <fields>
-        <field name="MPN">CRG0603ZR</field>
+        <field name="MPN">0603WAF0000T5E</field>
         <field name="Manufacturer">TE Connectivity Passive Product</field>
         <field name="Package / Case">0603 (1608 Metric)</field>
         <field name="Characteristics">RES SMD 0 OHM JUMPER 1/10W 0603</field>
         <field name="DigikeyPN">A106051CT-ND</field>
-        <field name="LCSC"/>
+        <field name="LCSC">C21189</field>
         <field name="MPN_ALT"/>
         <field name="Variant"/>
         <field name="Note"/>
@@ -1136,12 +1136,12 @@
         <field name="Description">0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film</field>
       </fields>
       <libsource lib="psycomponents" part="PsyResistors_IEC/R_0_0603_1608-46" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film"/>
-      <property name="MPN" value="CRG0603ZR"/>
+      <property name="MPN" value="0603WAF0000T5E"/>
       <property name="Manufacturer" value="TE Connectivity Passive Product"/>
       <property name="Package / Case" value="0603 (1608 Metric)"/>
       <property name="Characteristics" value="RES SMD 0 OHM JUMPER 1/10W 0603"/>
       <property name="DigikeyPN" value="A106051CT-ND"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C21189"/>
       <property name="MPN_ALT" value=""/>
       <property name="Variant" value=""/>
       <property name="Note" value=""/>
@@ -1167,24 +1167,24 @@
       <datasheet>https://www.te.com/usa-en/product-1623094-1.datasheet.pdf</datasheet>
       <description>0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film</description>
       <fields>
-        <field name="MPN">CRG0603ZR</field>
+        <field name="MPN">0603WAF0000T5E</field>
         <field name="Manufacturer">TE Connectivity Passive Product</field>
         <field name="Package / Case">0603 (1608 Metric)</field>
         <field name="Characteristics">RES SMD 0 OHM JUMPER 1/10W 0603</field>
         <field name="DigikeyPN">A106051CT-ND</field>
-        <field name="LCSC">C95177</field>
+        <field name="LCSC">C21189</field>
         <field name="MPN_ALT"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://www.te.com/usa-en/product-1623094-1.datasheet.pdf</field>
         <field name="Description">0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film</field>
       </fields>
       <libsource lib="psycomponents" part="PsyResistors_IEC/R_0_0603_1608-46" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film"/>
-      <property name="MPN" value="CRG0603ZR"/>
+      <property name="MPN" value="0603WAF0000T5E"/>
       <property name="Manufacturer" value="TE Connectivity Passive Product"/>
       <property name="Package / Case" value="0603 (1608 Metric)"/>
       <property name="Characteristics" value="RES SMD 0 OHM JUMPER 1/10W 0603"/>
       <property name="DigikeyPN" value="A106051CT-ND"/>
-      <property name="LCSC" value="C95177"/>
+      <property name="LCSC" value="C21189"/>
       <property name="MPN_ALT" value=""/>
       <property name="Sheetname" value="breakout-gf-cob"/>
       <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
@@ -1205,10 +1205,10 @@
       <value>0</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="MPN">RC0805JR-100RL</field>
+        <field name="MPN">0805W8F0000T5E</field>
         <field name="Characteristics">RES SMD 0 OHM JUMPER 0805</field>
         <field name="DigikeyPN">13-RC0805JR-100RLCT-ND</field>
-        <field name="LCSC">C4143065</field>
+        <field name="LCSC">C17477</field>
         <field name="MPN_ALT"/>
         <field name="Variant"/>
         <field name="Note"/>
@@ -1218,10 +1218,10 @@
         <field name="Description"/>
       </fields>
       <libsource lib="psycomponents" part="PsyResistors_IEC/R_0_0603_1608-46" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film"/>
-      <property name="MPN" value="RC0805JR-100RL"/>
+      <property name="MPN" value="0805W8F0000T5E"/>
       <property name="Characteristics" value="RES SMD 0 OHM JUMPER 0805"/>
       <property name="DigikeyPN" value="13-RC0805JR-100RLCT-ND"/>
-      <property name="LCSC" value="C4143065"/>
+      <property name="LCSC" value="C17477"/>
       <property name="MPN_ALT" value=""/>
       <property name="Variant" value=""/>
       <property name="Note" value=""/>
@@ -1294,12 +1294,12 @@
       <datasheet>https://www.te.com/usa-en/product-1623094-1.datasheet.pdf</datasheet>
       <description>0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film</description>
       <fields>
-        <field name="MPN">CRG0603ZR</field>
+        <field name="MPN">0603WAF0000T5E</field>
         <field name="Manufacturer">TE Connectivity Passive Product</field>
         <field name="Package / Case">0603 (1608 Metric)</field>
         <field name="Characteristics">RES SMD 0 OHM JUMPER 1/10W 0603</field>
         <field name="DigikeyPN">A106051CT-ND</field>
-        <field name="LCSC">C95177</field>
+        <field name="LCSC">C21189</field>
         <field name="MPN_ALT"/>
         <field name="Variant"/>
         <field name="Note"/>
@@ -1309,12 +1309,12 @@
         <field name="Description">0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film</field>
       </fields>
       <libsource lib="psycomponents" part="PsyResistors_IEC/R_0_0603_1608-46" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film"/>
-      <property name="MPN" value="CRG0603ZR"/>
+      <property name="MPN" value="0603WAF0000T5E"/>
       <property name="Manufacturer" value="TE Connectivity Passive Product"/>
       <property name="Package / Case" value="0603 (1608 Metric)"/>
       <property name="Characteristics" value="RES SMD 0 OHM JUMPER 1/10W 0603"/>
       <property name="DigikeyPN" value="A106051CT-ND"/>
-      <property name="LCSC" value="C95177"/>
+      <property name="LCSC" value="C21189"/>
       <property name="MPN_ALT" value=""/>
       <property name="Variant" value=""/>
       <property name="Note" value=""/>
@@ -1340,24 +1340,24 @@
       <datasheet>https://www.te.com/usa-en/product-1623094-1.datasheet.pdf</datasheet>
       <description>0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film</description>
       <fields>
-        <field name="MPN">CRG0603ZR</field>
+        <field name="MPN">0603WAF0000T5E</field>
         <field name="Manufacturer">TE Connectivity Passive Product</field>
         <field name="Package / Case">0603 (1608 Metric)</field>
         <field name="Characteristics">RES SMD 0 OHM JUMPER 1/10W 0603</field>
         <field name="DigikeyPN">A106051CT-ND</field>
-        <field name="LCSC">C95177</field>
+        <field name="LCSC">C21189</field>
         <field name="MPN_ALT"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://www.te.com/usa-en/product-1623094-1.datasheet.pdf</field>
         <field name="Description">0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film</field>
       </fields>
       <libsource lib="psycomponents" part="PsyResistors_IEC/R_0_0603_1608-46" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film"/>
-      <property name="MPN" value="CRG0603ZR"/>
+      <property name="MPN" value="0603WAF0000T5E"/>
       <property name="Manufacturer" value="TE Connectivity Passive Product"/>
       <property name="Package / Case" value="0603 (1608 Metric)"/>
       <property name="Characteristics" value="RES SMD 0 OHM JUMPER 1/10W 0603"/>
       <property name="DigikeyPN" value="A106051CT-ND"/>
-      <property name="LCSC" value="C95177"/>
+      <property name="LCSC" value="C21189"/>
       <property name="MPN_ALT" value=""/>
       <property name="Sheetname" value="breakout-gf-cob"/>
       <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
@@ -1378,10 +1378,10 @@
       <value>0</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="MPN">RC0805JR-100RL</field>
+        <field name="MPN">0805W8F0000T5E</field>
         <field name="Characteristics">RES SMD 0 OHM JUMPER 0805</field>
         <field name="DigikeyPN">13-RC0805JR-100RLCT-ND</field>
-        <field name="LCSC">C4143065</field>
+        <field name="LCSC">C17477</field>
         <field name="MPN_ALT"/>
         <field name="Variant"/>
         <field name="Note"/>
@@ -1391,10 +1391,10 @@
         <field name="Description"/>
       </fields>
       <libsource lib="psycomponents" part="PsyResistors_IEC/R_0_0603_1608-46" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film"/>
-      <property name="MPN" value="RC0805JR-100RL"/>
+      <property name="MPN" value="0805W8F0000T5E"/>
       <property name="Characteristics" value="RES SMD 0 OHM JUMPER 0805"/>
       <property name="DigikeyPN" value="13-RC0805JR-100RLCT-ND"/>
-      <property name="LCSC" value="C4143065"/>
+      <property name="LCSC" value="C17477"/>
       <property name="MPN_ALT" value=""/>
       <property name="Variant" value=""/>
       <property name="Note" value=""/>
@@ -1418,10 +1418,10 @@
       <value>0</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="MPN">RC0805JR-100RL</field>
+        <field name="MPN">0805W8F0000T5E</field>
         <field name="Characteristics">RES SMD 0 OHM JUMPER 0805</field>
         <field name="DigikeyPN">13-RC0805JR-100RLCT-ND</field>
-        <field name="LCSC">C4143065</field>
+        <field name="LCSC">C17477</field>
         <field name="MPN_ALT"/>
         <field name="Variant"/>
         <field name="Note"/>
@@ -1431,10 +1431,10 @@
         <field name="Description"/>
       </fields>
       <libsource lib="psycomponents" part="PsyResistors_IEC/R_0_0603_1608-46" description="0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Thick Film"/>
-      <property name="MPN" value="RC0805JR-100RL"/>
+      <property name="MPN" value="0805W8F0000T5E"/>
       <property name="Characteristics" value="RES SMD 0 OHM JUMPER 0805"/>
       <property name="DigikeyPN" value="13-RC0805JR-100RLCT-ND"/>
-      <property name="LCSC" value="C4143065"/>
+      <property name="LCSC" value="C17477"/>
       <property name="MPN_ALT" value=""/>
       <property name="Variant" value=""/>
       <property name="Note" value=""/>

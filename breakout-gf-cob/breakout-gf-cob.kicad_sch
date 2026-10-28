@@ -25100,7 +25100,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A105KO5NNNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 22.86 241.3 0)
 			(hide yes)
 			(show_name yes)
@@ -25155,7 +25155,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 22.86 241.3 0)
 			(hide yes)
 			(show_name yes)
@@ -25258,7 +25258,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19702"
 			(at 38.1 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -25269,7 +25269,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10A106KP8NNNC"
 			(at 38.1 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -25291,7 +25291,7 @@
 				)
 			)
 		)
-		(property "Characteristics" "1u 10V XR 0603"
+		(property "Characteristics" "10u 10V XR 0603"
 			(at 38.1 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -26157,7 +26157,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19702"
 			(at 38.1 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -26168,7 +26168,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10A106KP8NNNC"
 			(at 38.1 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -26190,7 +26190,7 @@
 				)
 			)
 		)
-		(property "Characteristics" "1u 10V XR 0603"
+		(property "Characteristics" "10u 10V XR 0603"
 			(at 38.1 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -26912,7 +26912,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0805JR-100RL"
+		(property "MPN" "0805W8F0000T5E"
 			(at 304.8 55.88 0)
 			(hide yes)
 			(show_name yes)
@@ -26945,7 +26945,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4143065"
+		(property "LCSC" "C17477"
 			(at 304.8 55.88 0)
 			(hide yes)
 			(show_name yes)
@@ -30395,7 +30395,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRG0603ZR"
+		(property "MPN" "0603WAF0000T5E"
 			(at 25.4 38.1 0)
 			(hide yes)
 			(show_name yes)
@@ -30450,7 +30450,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C95177"
+		(property "LCSC" "C21189"
 			(at 25.4 38.1 0)
 			(hide yes)
 			(show_name yes)
@@ -30740,7 +30740,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10A106KP8NNNC"
 			(at 66.04 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -30762,7 +30762,7 @@
 				)
 			)
 		)
-		(property "Characteristics" "1u 10V XR 0603"
+		(property "Characteristics" "10u 10V XR 0603"
 			(at 66.04 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -30773,7 +30773,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19702"
 			(at 66.04 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -30967,7 +30967,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A105KO5NNNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 33.02 241.3 0)
 			(hide yes)
 			(show_name yes)
@@ -31022,7 +31022,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 33.02 241.3 0)
 			(hide yes)
 			(show_name yes)
@@ -31125,7 +31125,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A105KO5NNNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 27.94 241.3 0)
 			(hide yes)
 			(show_name yes)
@@ -31180,7 +31180,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 27.94 241.3 0)
 			(hide yes)
 			(show_name yes)
@@ -31878,7 +31878,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10A106KP8NNNC"
 			(at 66.04 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -31900,7 +31900,7 @@
 				)
 			)
 		)
-		(property "Characteristics" "1u 10V XR 0603"
+		(property "Characteristics" "10u 10V XR 0603"
 			(at 66.04 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -31911,7 +31911,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19702"
 			(at 66.04 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -32452,7 +32452,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A105KO5NNNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 27.94 266.7 0)
 			(hide yes)
 			(show_name yes)
@@ -32507,7 +32507,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 27.94 266.7 0)
 			(hide yes)
 			(show_name yes)
@@ -34251,7 +34251,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0805JR-100RL"
+		(property "MPN" "0805W8F0000T5E"
 			(at 307.34 81.28 0)
 			(hide yes)
 			(show_name yes)
@@ -34284,7 +34284,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4143065"
+		(property "LCSC" "C17477"
 			(at 307.34 81.28 0)
 			(hide yes)
 			(show_name yes)
@@ -35092,7 +35092,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRG0603ZR"
+		(property "MPN" "0603WAF0000T5E"
 			(at 50.8 66.04 0)
 			(hide yes)
 			(show_name yes)
@@ -35147,7 +35147,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C95177"
+		(property "LCSC" "C21189"
 			(at 50.8 66.04 0)
 			(hide yes)
 			(show_name yes)
@@ -35941,7 +35941,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A105KO5NNNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 45.72 241.3 0)
 			(hide yes)
 			(show_name yes)
@@ -35996,7 +35996,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 45.72 241.3 0)
 			(hide yes)
 			(show_name yes)
@@ -36339,7 +36339,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRG0603ZR"
+		(property "MPN" "0603WAF0000T5E"
 			(at 50.8 35.56 0)
 			(hide yes)
 			(show_name yes)
@@ -36394,7 +36394,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21189"
 			(at 50.8 35.56 0)
 			(hide yes)
 			(show_name yes)
@@ -37955,7 +37955,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRG0603ZR"
+		(property "MPN" "0603WAF0000T5E"
 			(at 25.4 68.58 0)
 			(hide yes)
 			(show_name yes)
@@ -38010,7 +38010,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C95177"
+		(property "LCSC" "C21189"
 			(at 25.4 68.58 0)
 			(hide yes)
 			(show_name yes)
@@ -39014,7 +39014,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A105KO5NNNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 50.8 241.3 0)
 			(hide yes)
 			(show_name yes)
@@ -39069,7 +39069,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 50.8 241.3 0)
 			(hide yes)
 			(show_name yes)
@@ -40615,7 +40615,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A105KO5NNNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 22.86 266.7 0)
 			(hide yes)
 			(show_name yes)
@@ -40670,7 +40670,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 22.86 266.7 0)
 			(hide yes)
 			(show_name yes)
@@ -41183,7 +41183,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0805JR-100RL"
+		(property "MPN" "0805W8F0000T5E"
 			(at 269.24 83.82 0)
 			(hide yes)
 			(show_name yes)
@@ -41216,7 +41216,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4143065"
+		(property "LCSC" "C17477"
 			(at 269.24 83.82 0)
 			(hide yes)
 			(show_name yes)
