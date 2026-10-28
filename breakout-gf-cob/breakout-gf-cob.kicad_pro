@@ -539,7 +539,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "breakout-ttgf0p2-cob.kicad_pro",
+    "filename": "breakout-gf-cob.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1170,8 +1170,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "breakout-ttgf0p2-cob.kicad_sch",
-        "name": "breakout-ttgf0p2-cob",
+        "filename": "breakout-gf-cob.kicad_sch",
+        "name": "breakout-gf-cob",
         "uuid": "d95c6dd1-3c1b-4b55-be71-d7515de96b64"
       }
     ],
@@ -1181,7 +1181,7 @@
   "sheets": [
     [
       "d95c6dd1-3c1b-4b55-be71-d7515de96b64",
-      "breakout-ttgf0p2-cob"
+      "breakout-gf-cob"
     ]
   ],
   "text_variables": {},

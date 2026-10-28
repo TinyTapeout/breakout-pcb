@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/malcalypse/Private/kicadProjects/TinyTapeout/breakout-ttgf0p2-cob/breakout-ttgf0p2-cob.kicad_sch</source>
+    <source>/home/malcalypse/Private/kicadProjects/TinyTapeout/breakout-gf-cob/breakout-gf-cob.kicad_sch</source>
     <date>2026-10-28T15:24:56</date>
     <tool>Eeschema 10.0.7-10.0.7~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
@@ -10,7 +10,7 @@
         <company>Psychogenic Technologies INC</company>
         <rev>1.2</rev>
         <date>2026-10-28</date>
-        <source>breakout-ttgf0p2-cob.kicad_sch</source>
+        <source>breakout-gf-cob.kicad_sch</source>
         <comment number="1" value="(C) 2026 Pat Deegan"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -53,8 +53,8 @@
       <property name="DigikeyPN" value=""/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -89,8 +89,8 @@
       <property name="LCSC" value=""/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -125,8 +125,8 @@
       <property name="MPN_ALT" value="GRM155R71E104KE14J"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -172,8 +172,8 @@
       <property name="LCSC" value="C5673"/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
@@ -217,8 +217,8 @@
       <property name="DigikeyPN" value=""/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -253,8 +253,8 @@
       <property name="LCSC" value=""/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -289,8 +289,8 @@
       <property name="MPN_ALT" value="GRM155R71E104KE14J"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -336,8 +336,8 @@
       <property name="LCSC" value="C5673"/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
@@ -384,8 +384,8 @@
       <property name="LCSC" value="C5673"/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
@@ -425,8 +425,8 @@
       <property name="DigikeyPN" value="1276-1067-1-ND"/>
       <property name="LCSC" value=""/>
       <property name="MPN_ALT" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="Capacitor_SMD:C_0402_1005Metric"/>
       <sheetpath names="/" tstamps="/"/>
@@ -465,8 +465,8 @@
       <property name="DigikeyPN" value="1276-1067-1-ND"/>
       <property name="LCSC" value=""/>
       <property name="MPN_ALT" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="Capacitor_SMD:C_0402_1005Metric"/>
       <sheetpath names="/" tstamps="/"/>
@@ -505,8 +505,8 @@
       <property name="DigikeyPN" value="1276-1067-1-ND"/>
       <property name="LCSC" value=""/>
       <property name="MPN_ALT" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="Capacitor_SMD:C_0402_1005Metric"/>
       <sheetpath names="/" tstamps="/"/>
@@ -545,8 +545,8 @@
       <property name="DigikeyPN" value="1276-1067-1-ND"/>
       <property name="LCSC" value=""/>
       <property name="MPN_ALT" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="Capacitor_SMD:C_0402_1005Metric"/>
       <sheetpath names="/" tstamps="/"/>
@@ -585,8 +585,8 @@
       <property name="DigikeyPN" value="1276-1067-1-ND"/>
       <property name="LCSC" value=""/>
       <property name="MPN_ALT" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="Capacitor_SMD:C_0402_1005Metric"/>
       <sheetpath names="/" tstamps="/"/>
@@ -621,8 +621,8 @@
       <property name="Vendor" value=""/>
       <property name="Characteristics" value="100n 10% 25V XR 0402"/>
       <property name="LCSC" value="C100072"/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -661,8 +661,8 @@
       <property name="DigikeyPN" value="1276-1067-1-ND"/>
       <property name="LCSC" value=""/>
       <property name="MPN_ALT" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="Capacitor_SMD:C_0402_1005Metric"/>
       <sheetpath names="/" tstamps="/"/>
@@ -701,8 +701,8 @@
       <property name="DigikeyPN" value="1276-1067-1-ND"/>
       <property name="LCSC" value=""/>
       <property name="MPN_ALT" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="Capacitor_SMD:C_0402_1005Metric"/>
       <sheetpath names="/" tstamps="/"/>
@@ -740,8 +740,8 @@
       <property name="DigikeyPN" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Vendor" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="fiducial marker"/>
@@ -778,8 +778,8 @@
       <property name="DigikeyPN" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Vendor" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="fiducial marker"/>
@@ -816,8 +816,8 @@
       <property name="DigikeyPN" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Vendor" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="fiducial marker"/>
@@ -856,8 +856,8 @@
       <property name="LCSC" value=""/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
@@ -909,8 +909,8 @@
       <property name="LCSC" value="C5137127"/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>758e7622-f67e-4fc2-b116-6c9f4e05ff38</tstamps>
       <units>
@@ -1007,8 +1007,8 @@
       <property name="LCSC" value="C2858672"/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1c26a417-7ceb-467f-93a5-e281aafb68ef</tstamps>
       <units>
@@ -1099,8 +1099,8 @@
       <property name="Variant" value=""/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
@@ -1146,8 +1146,8 @@
       <property name="Variant" value=""/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1186,8 +1186,8 @@
       <property name="DigikeyPN" value="A106051CT-ND"/>
       <property name="LCSC" value="C95177"/>
       <property name="MPN_ALT" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1226,8 +1226,8 @@
       <property name="Variant" value=""/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1272,8 +1272,8 @@
       <property name="Variant" value=""/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
@@ -1319,8 +1319,8 @@
       <property name="Variant" value=""/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1359,8 +1359,8 @@
       <property name="DigikeyPN" value="A106051CT-ND"/>
       <property name="LCSC" value="C95177"/>
       <property name="MPN_ALT" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1399,8 +1399,8 @@
       <property name="Variant" value=""/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1439,8 +1439,8 @@
       <property name="Variant" value=""/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0603_1608Metric"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1480,8 +1480,8 @@
       <property name="Manufacturer" value=""/>
       <property name="Vendor" value=""/>
       <property name="LCSC" value="C11702"/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1521,8 +1521,8 @@
       <property name="Manufacturer" value=""/>
       <property name="Vendor" value=""/>
       <property name="LCSC" value="C11702"/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1567,8 +1567,8 @@
       <property name="Variant" value=""/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0402_1005Metric"/>
@@ -1614,8 +1614,8 @@
       <property name="Variant" value=""/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0402_1005Metric"/>
@@ -1654,8 +1654,8 @@
       <property name="DigikeyPN" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Vendor" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
@@ -1693,8 +1693,8 @@
       <property name="DigikeyPN" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Vendor" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
@@ -1732,8 +1732,8 @@
       <property name="DigikeyPN" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Vendor" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
@@ -1773,8 +1773,8 @@
       <property name="MPN_ALT" value=""/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
       <property name="ki_fp_filters" value="SOT?23?5*"/>
@@ -1822,8 +1822,8 @@
       <property name="MPN_ALT" value=""/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
       <property name="ki_fp_filters" value="SOT?23?5*"/>
@@ -1866,8 +1866,8 @@
       <property name="LCSC" value=""/>
       <property name="Note" value=""/>
       <property name="Component Class" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="ki_keywords" value="IHP chips submitted using sg13g2 130nm open source PDK"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0a2ba6de-2cda-4367-abe7-d226e31be0c1</tstamps>
@@ -1980,8 +1980,8 @@
       <property name="LCSC" value="C612280"/>
       <property name="Manufacturer" value=""/>
       <property name="Vendor" value=""/>
-      <property name="Sheetname" value="breakout-ttgf0p2-cob"/>
-      <property name="Sheetfile" value="breakout-ttgf0p2-cob.kicad_sch"/>
+      <property name="Sheetname" value="breakout-gf-cob"/>
+      <property name="Sheetfile" value="breakout-gf-cob.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="I2C Serial EEPROM"/>
       <property name="ki_fp_filters" value="DIP*W7.62mm* SOIC*3.9x4.9mm* TSSOP*4.4x3mm*P0.65mm* DFN*3x2mm*P0.5mm*"/>
