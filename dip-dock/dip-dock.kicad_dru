@@ -1,0 +1,67 @@
+(version 1)
+
+(rule "neckdown Carrier DF40"
+   (constraint track_width (min 0.16mm) (opt 0.2mm) (max 0.45mm))
+   (constraint clearance (min 0.16mm) (opt 0.16mm) (max 0.2mm))
+   (condition "A.intersectsCourtyard('TinyTapeout:TT_HRS_CARRIER_REV*') && A.Layer == 'F.Cu' && A.Type != 'Zone'")
+)
+
+
+(rule "neckdown Carrier DF40 Pads"
+   (constraint clearance (min 0.16mm) (opt 0.16mm) (max 0.2mm))
+   (condition "A.Type == 'Pad' && A.memberOfFootprint('TinyTapeout:TT_HRS_CARRIER_REV*')")
+)
+
+
+(rule "neckdown QFN80"
+   (constraint track_width (min 0.16mm) (opt 0.20mm) (max 0.25mm))
+   (constraint clearance (min 0.16mm) (opt 0.16mm) (max 0.2mm))
+   (condition "A.intersectsCourtyard('Package_DFN_QFN:QFN-80*') && A.Layer == 'F.Cu' && A.Type != 'Zone'")
+
+)
+
+(rule "neckdown QFN80 pads"
+   (constraint clearance (min 0.18mm) (opt 0.20mm) (max 0.2mm))
+   (condition "A.Type == 'Pad' && A.memberOfFootprint('Package_DFN_QFN:QFN-80*')")
+
+)
+
+(rule "PMOD SILs"
+   (severity exclusion)
+   (condition "A.hasComponentClass('PMODSIL')")
+   (constraint courtyard_clearance)
+)
+
+(rule "carrier placeholders"
+   (condition "A.memberOfFootprint('TinyTapeout:TT_BREAKOUT_PINHEADER_PLACEHOLDER_WITHPAD')")
+	(constraint disallow pad)
+    (severity exclusion)
+)
+
+(rule "USB pads clearance"
+   (condition "A.Type == 'Pad' && A.memberOfFootprint('TinyTapeout:USB_C_Receptacle*')")
+   (constraint clearance (min 0.2mm) (opt 0.25mm))
+)
+
+
+(rule "USB sigs clearance"
+   (condition "A.intersectsCourtyard('TinyTapeout:USB_C_Receptacle*') && A.Layer == 'F.Cu' && A.Type != 'Zone'")
+   (constraint clearance (min 0.2mm) (opt 0.25mm))
+)
+
+(rule "analog breakout"
+   (condition "A.Layer == 'F.Cu' && A.Type == 'Track' && A.enclosedByArea('ANALOGBREAKOUT')")
+    (constraint clearance (min 0.16mm) (opt 0.2mm))
+)
+
+
+(rule "carrier breakout"
+   (condition "A.Layer == 'F.Cu' && A.Type == 'Track' && A.enclosedByArea('CARRIERBREAKOUT')")
+    (constraint clearance (min 0.16mm) (opt 0.2mm))
+)
+
+
+(rule "layer markers"
+   (condition "A.Type == 'Text' && A.enclosedByArea('LAYERMARKERS')")
+   (severity exclusion)
+)
