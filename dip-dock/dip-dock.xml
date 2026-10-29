@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/malcalypse/Private/kicadProjects/TinyTapeout/dip-db-baseboard/dip-db-baseboard.kicad_sch</source>
-    <date>2026-10-19T17:36:11</date>
+    <source>/home/malcalypse/Private/kicadProjects/TinyTapeout/breakout-pcb/dip-dock/dip-dock.kicad_sch</source>
+    <date>2026-10-29T11:55:16</date>
     <tool>Eeschema 10.0.7-10.0.7~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>Tiny Tapeout DIP Demoboard</title>
+        <title>Tiny Tapeout DIP Dock</title>
         <company>Psychogenic Technologies INC</company>
         <rev>1.0</rev>
         <date>2026-10-19</date>
-        <source>dip-db-baseboard.kicad_sch</source>
+        <source>dip-dock.kicad_sch</source>
         <comment number="1" value="(C) 2026 Pat Deegan"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -67,8 +67,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -125,8 +125,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -150,7 +150,7 @@
         <field name="LCSC">C5673</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C23829972</field>
+        <field name="JLC">C5673</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -172,7 +172,7 @@
       <property name="LCSC" value="C5673"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C23829972"/>
+      <property name="JLC" value="C5673"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -183,8 +183,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -241,8 +241,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -299,8 +299,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -325,7 +325,7 @@
         <field name="Characteristics">1u 10V XR 0603</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C23829972</field>
+        <field name="JLC">C5673</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -348,7 +348,7 @@
       <property name="Characteristics" value="1u 10V XR 0603"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C23829972"/>
+      <property name="JLC" value="C5673"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -359,8 +359,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -417,8 +417,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -443,7 +443,7 @@
         <field name="Characteristics">1u 10V XR 0603</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C23829972</field>
+        <field name="JLC">C5673</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -466,7 +466,7 @@
       <property name="Characteristics" value="1u 10V XR 0603"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C23829972"/>
+      <property name="JLC" value="C5673"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -477,8 +477,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -535,8 +535,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -561,7 +561,7 @@
         <field name="Characteristics">1u 10V XR 0603</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C23829972</field>
+        <field name="JLC">C5673</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -584,7 +584,7 @@
       <property name="Characteristics" value="1u 10V XR 0603"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C23829972"/>
+      <property name="JLC" value="C5673"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -595,8 +595,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -631,8 +631,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ee8cdbc7-f915-432a-aa5f-83fe96f32968</tstamps>
       <units>
@@ -684,7 +684,7 @@
         <field name="Characteristics">Yellow LED, Low 1.8 V Vf</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C6784997</field>
+        <field name="JLC">C2297</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -706,7 +706,7 @@
       <property name="Characteristics" value="Yellow LED, Low 1.8 V Vf"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C6784997"/>
+      <property name="JLC" value="C2297"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -717,8 +717,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="LED diode light-emitting-diode"/>
       <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -765,8 +765,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="fiducial marker"/>
       <property name="ki_fp_filters" value="Fiducial*"/>
@@ -811,8 +811,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="fiducial marker"/>
       <property name="ki_fp_filters" value="Fiducial*"/>
@@ -857,8 +857,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="fiducial marker"/>
       <property name="ki_fp_filters" value="Fiducial*"/>
@@ -892,8 +892,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
@@ -917,8 +917,6 @@
         <field name="DNP"/>
         <field name="Digikey_PN"/>
         <field name="Display Value"/>
-        <field name="Field11"/>
-        <field name="MF"/>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
@@ -928,10 +926,8 @@
       <property name="DNP" value=""/>
       <property name="Digikey_PN" value=""/>
       <property name="Display Value" value=""/>
-      <property name="Field11" value=""/>
-      <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -967,8 +963,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
@@ -992,8 +988,6 @@
         <field name="DNP"/>
         <field name="Digikey_PN"/>
         <field name="Display Value"/>
-        <field name="Field11"/>
-        <field name="MF"/>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
@@ -1003,10 +997,8 @@
       <property name="DNP" value=""/>
       <property name="Digikey_PN" value=""/>
       <property name="Display Value" value=""/>
-      <property name="Field11" value=""/>
-      <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1032,7 +1024,7 @@
         <field name="LCSC">C6147817</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C5333437</field>
+        <field name="JLC">C2897426</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -1056,7 +1048,7 @@
       <property name="LCSC" value="C6147817"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C5333437"/>
+      <property name="JLC" value="C2897426"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -1067,8 +1059,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f86f7b7a-56bf-40c7-86a0-19afcab0afef</tstamps>
       <units>
@@ -1102,7 +1094,7 @@
         <field name="LCSC">C6147817</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C5333437</field>
+        <field name="JLC">C2897426</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -1126,7 +1118,7 @@
       <property name="LCSC" value="C6147817"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C5333437"/>
+      <property name="JLC" value="C2897426"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -1137,8 +1129,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7323b46d-449b-44a1-b1ba-0a2aea7c6a8b</tstamps>
       <units>
@@ -1172,7 +1164,7 @@
         <field name="LCSC">C6147817</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C5333437</field>
+        <field name="JLC">C2897426</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -1196,7 +1188,7 @@
       <property name="LCSC" value="C6147817"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C5333437"/>
+      <property name="JLC" value="C2897426"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -1207,8 +1199,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0dce4419-fcd4-4cac-a61d-dc757f404f7c</tstamps>
       <units>
@@ -1276,8 +1268,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
@@ -1346,8 +1338,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
@@ -1415,8 +1407,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
@@ -1485,8 +1477,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
@@ -1555,8 +1547,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
@@ -1621,8 +1613,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="solder jumper SPST"/>
       <property name="ki_fp_filters" value="SolderJumper*Bridged*"/>
@@ -1670,8 +1662,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="solder jumper SPST"/>
       <property name="ki_fp_filters" value="SolderJumper*Bridged*"/>
@@ -1719,8 +1711,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="solder jumper SPST"/>
       <property name="ki_fp_filters" value="SolderJumper*Bridged*"/>
@@ -1768,8 +1760,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="solder jumper SPST"/>
       <property name="ki_fp_filters" value="SolderJumper*Bridged*"/>
@@ -1817,8 +1809,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="solder jumper SPST"/>
       <property name="ki_fp_filters" value="SolderJumper*Bridged*"/>
@@ -1866,8 +1858,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="solder jumper SPST"/>
       <property name="ki_fp_filters" value="SolderJumper*Bridged*"/>
@@ -1915,8 +1907,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="solder jumper SPST"/>
       <property name="ki_fp_filters" value="SolderJumper*Bridged*"/>
@@ -1964,8 +1956,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="solder jumper SPST"/>
       <property name="ki_fp_filters" value="SolderJumper*Bridged*"/>
@@ -2017,8 +2009,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="mounting hole"/>
       <property name="ki_fp_filters" value="MountingHole*Pad*"/>
@@ -2069,8 +2061,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="mounting hole"/>
       <property name="ki_fp_filters" value="MountingHole*Pad*"/>
@@ -2127,8 +2119,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2143,16 +2135,16 @@
       </units>
     </comp>
     <comp ref="R2">
-      <value>1k</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C202394</field>
-        <field name="MPN">CR0402-FX-1001GLF</field>
-        <field name="MPN_ALT">WR04X1001FTL</field>
-        <field name="Characteristics">1k 0402</field>
+        <field name="LCSC">C471764</field>
+        <field name="MPN">RC0402FR-0710KL</field>
+        <field name="MPN_ALT"/>
+        <field name="Characteristics">10k 0402</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C11702</field>
+        <field name="JLC">C25744</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -2168,13 +2160,13 @@
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C202394"/>
-      <property name="MPN" value="CR0402-FX-1001GLF"/>
-      <property name="MPN_ALT" value="WR04X1001FTL"/>
-      <property name="Characteristics" value="1k 0402"/>
+      <property name="LCSC" value="C471764"/>
+      <property name="MPN" value="RC0402FR-0710KL"/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Characteristics" value="10k 0402"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C11702"/>
+      <property name="JLC" value="C25744"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -2185,8 +2177,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2243,8 +2235,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2259,16 +2251,16 @@
       </units>
     </comp>
     <comp ref="R4">
-      <value>1k</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C202394</field>
-        <field name="MPN">CR0402-FX-1001GLF</field>
-        <field name="MPN_ALT">WR04X1001FTL</field>
-        <field name="Characteristics">1k 0402</field>
+        <field name="LCSC">C471764</field>
+        <field name="MPN">RC0402FR-0710KL</field>
+        <field name="MPN_ALT"/>
+        <field name="Characteristics">10k 0402</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C11702</field>
+        <field name="JLC">C25744</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -2284,13 +2276,13 @@
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C202394"/>
-      <property name="MPN" value="CR0402-FX-1001GLF"/>
-      <property name="MPN_ALT" value="WR04X1001FTL"/>
-      <property name="Characteristics" value="1k 0402"/>
+      <property name="LCSC" value="C471764"/>
+      <property name="MPN" value="RC0402FR-0710KL"/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Characteristics" value="10k 0402"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C11702"/>
+      <property name="JLC" value="C25744"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -2301,8 +2293,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2317,16 +2309,16 @@
       </units>
     </comp>
     <comp ref="R5">
-      <value>1k</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C202394</field>
-        <field name="MPN">CR0402-FX-1001GLF</field>
-        <field name="MPN_ALT">WR04X1001FTL</field>
-        <field name="Characteristics">1k 0402</field>
+        <field name="LCSC">C471764</field>
+        <field name="MPN">RC0402FR-0710KL</field>
+        <field name="MPN_ALT"/>
+        <field name="Characteristics">10k 0402</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C11702</field>
+        <field name="JLC">C25744</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -2342,13 +2334,13 @@
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C202394"/>
-      <property name="MPN" value="CR0402-FX-1001GLF"/>
-      <property name="MPN_ALT" value="WR04X1001FTL"/>
-      <property name="Characteristics" value="1k 0402"/>
+      <property name="LCSC" value="C471764"/>
+      <property name="MPN" value="RC0402FR-0710KL"/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Characteristics" value="10k 0402"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C11702"/>
+      <property name="JLC" value="C25744"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -2359,8 +2351,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2384,7 +2376,7 @@
         <field name="LCSC">C202394</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C11702</field>
+        <field name="JLC">C202394</field>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
         <field name="Sim.Name"/>
@@ -2405,7 +2397,7 @@
       <property name="LCSC" value="C202394"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C11702"/>
+      <property name="JLC" value="C202394"/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
       <property name="Sim.Name" value=""/>
@@ -2415,8 +2407,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2431,16 +2423,16 @@
       </units>
     </comp>
     <comp ref="R7">
-      <value>1k</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C202394</field>
-        <field name="MPN">CR0402-FX-1001GLF</field>
-        <field name="MPN_ALT">WR04X1001FTL</field>
-        <field name="Characteristics">1k 0402</field>
+        <field name="LCSC">C471764</field>
+        <field name="MPN">RC0402FR-0710KL</field>
+        <field name="MPN_ALT"/>
+        <field name="Characteristics">10k 0402</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C11702</field>
+        <field name="JLC">C25744</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -2456,13 +2448,13 @@
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C202394"/>
-      <property name="MPN" value="CR0402-FX-1001GLF"/>
-      <property name="MPN_ALT" value="WR04X1001FTL"/>
-      <property name="Characteristics" value="1k 0402"/>
+      <property name="LCSC" value="C471764"/>
+      <property name="MPN" value="RC0402FR-0710KL"/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Characteristics" value="10k 0402"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C11702"/>
+      <property name="JLC" value="C25744"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -2473,8 +2465,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2498,7 +2490,7 @@
         <field name="LCSC">C202394</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C11702</field>
+        <field name="JLC">C202394</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -2520,7 +2512,7 @@
       <property name="LCSC" value="C202394"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C11702"/>
+      <property name="JLC" value="C202394"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -2531,8 +2523,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2547,16 +2539,16 @@
       </units>
     </comp>
     <comp ref="R9">
-      <value>1k</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C202394</field>
-        <field name="MPN">CR0402-FX-1001GLF</field>
-        <field name="MPN_ALT">WR04X1001FTL</field>
-        <field name="Characteristics">1k 0402</field>
+        <field name="LCSC">C471764</field>
+        <field name="MPN">RC0402FR-0710KL</field>
+        <field name="MPN_ALT"/>
+        <field name="Characteristics">10k 0402</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C11702</field>
+        <field name="JLC">C25744</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -2572,13 +2564,13 @@
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C202394"/>
-      <property name="MPN" value="CR0402-FX-1001GLF"/>
-      <property name="MPN_ALT" value="WR04X1001FTL"/>
-      <property name="Characteristics" value="1k 0402"/>
+      <property name="LCSC" value="C471764"/>
+      <property name="MPN" value="RC0402FR-0710KL"/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Characteristics" value="10k 0402"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C11702"/>
+      <property name="JLC" value="C25744"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -2589,8 +2581,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2605,16 +2597,16 @@
       </units>
     </comp>
     <comp ref="R10">
-      <value>1k</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C202394</field>
-        <field name="MPN">CR0402-FX-1001GLF</field>
-        <field name="MPN_ALT">WR04X1001FTL</field>
-        <field name="Characteristics">1k 0402</field>
+        <field name="LCSC">C471764</field>
+        <field name="MPN">RC0402FR-0710KL</field>
+        <field name="MPN_ALT"/>
+        <field name="Characteristics">10k 0402</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C11702</field>
+        <field name="JLC">C25744</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -2630,13 +2622,13 @@
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C202394"/>
-      <property name="MPN" value="CR0402-FX-1001GLF"/>
-      <property name="MPN_ALT" value="WR04X1001FTL"/>
-      <property name="Characteristics" value="1k 0402"/>
+      <property name="LCSC" value="C471764"/>
+      <property name="MPN" value="RC0402FR-0710KL"/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Characteristics" value="10k 0402"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C11702"/>
+      <property name="JLC" value="C25744"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -2647,8 +2639,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2663,16 +2655,16 @@
       </units>
     </comp>
     <comp ref="R11">
-      <value>1k</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C202394</field>
-        <field name="MPN">CR0402-FX-1001GLF</field>
-        <field name="MPN_ALT">WR04X1001FTL</field>
-        <field name="Characteristics">1k 0402</field>
+        <field name="LCSC">C471764</field>
+        <field name="MPN">RC0402FR-0710KL</field>
+        <field name="MPN_ALT"/>
+        <field name="Characteristics">10k 0402</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C11702</field>
+        <field name="JLC">C25744</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -2688,13 +2680,13 @@
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C202394"/>
-      <property name="MPN" value="CR0402-FX-1001GLF"/>
-      <property name="MPN_ALT" value="WR04X1001FTL"/>
-      <property name="Characteristics" value="1k 0402"/>
+      <property name="LCSC" value="C471764"/>
+      <property name="MPN" value="RC0402FR-0710KL"/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Characteristics" value="10k 0402"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C11702"/>
+      <property name="JLC" value="C25744"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -2705,8 +2697,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2721,16 +2713,16 @@
       </units>
     </comp>
     <comp ref="R12">
-      <value>1k</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C202394</field>
-        <field name="MPN">CR0402-FX-1001GLF</field>
-        <field name="MPN_ALT">WR04X1001FTL</field>
-        <field name="Characteristics">1k 0402</field>
+        <field name="LCSC">C471764</field>
+        <field name="MPN">RC0402FR-0710KL</field>
+        <field name="MPN_ALT"/>
+        <field name="Characteristics">10k 0402</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C11702</field>
+        <field name="JLC">C25744</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -2746,13 +2738,13 @@
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C202394"/>
-      <property name="MPN" value="CR0402-FX-1001GLF"/>
-      <property name="MPN_ALT" value="WR04X1001FTL"/>
-      <property name="Characteristics" value="1k 0402"/>
+      <property name="LCSC" value="C471764"/>
+      <property name="MPN" value="RC0402FR-0710KL"/>
+      <property name="MPN_ALT" value=""/>
+      <property name="Characteristics" value="10k 0402"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C11702"/>
+      <property name="JLC" value="C25744"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -2763,8 +2755,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2831,8 +2823,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="Resistor_SMD:R_0402_1005Metric"/>
@@ -2857,7 +2849,7 @@
         <field name="LCSC">C202394</field>
         <field name="MANUFACTURER"/>
         <field name="MAXIMUM_PACKAGE_HEIGHT"/>
-        <field name="JLC">C11702</field>
+        <field name="JLC">C202394</field>
         <field name="DNC"/>
         <field name="Sim.Device"/>
         <field name="Sim.Library"/>
@@ -2879,7 +2871,7 @@
       <property name="LCSC" value="C202394"/>
       <property name="MANUFACTURER" value=""/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
-      <property name="JLC" value="C11702"/>
+      <property name="JLC" value="C202394"/>
       <property name="DNC" value=""/>
       <property name="Sim.Device" value=""/>
       <property name="Sim.Library" value=""/>
@@ -2890,12 +2882,42 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9422a697-b369-4c41-8504-7f0409c51469</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="JLC">C17477</field>
+        <field name="MPN">0805W8F0000T5E</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="" part="R_Small_1" description="Resistor, small symbol"/>
+      <property name="JLC" value="C17477"/>
+      <property name="MPN" value="0805W8F0000T5E"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c96302d-aaa6-4804-b4d4-6b046b927b97</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -2948,8 +2970,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3006,8 +3028,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3064,8 +3086,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3122,8 +3144,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3180,8 +3202,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3238,8 +3260,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3296,8 +3318,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3354,8 +3376,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3412,8 +3434,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3470,8 +3492,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3528,8 +3550,9 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3586,8 +3609,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3644,12 +3667,534 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7a6bf19e-c0a6-4ea5-812c-03f6bc577f03</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R29">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07510RL</field>
+        <field name="Characteristics">510R 0402</field>
+        <field name="MPN_ALT">CR0402-FX-5100GLF</field>
+        <field name="LCSC">C276273</field>
+        <field name="MANUFACTURER"/>
+        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
+        <field name="JLC">C276273</field>
+        <field name="DNC"/>
+        <field name="Sim.Device"/>
+        <field name="Sim.Library"/>
+        <field name="Sim.Name"/>
+        <field name="Sim.Pins"/>
+        <field name="DNP"/>
+        <field name="Digikey_PN"/>
+        <field name="Display Value"/>
+        <field name="Field11"/>
+        <field name="MF"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0402FR-07510RL"/>
+      <property name="Characteristics" value="510R 0402"/>
+      <property name="MPN_ALT" value="CR0402-FX-5100GLF"/>
+      <property name="LCSC" value="C276273"/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="JLC" value="C276273"/>
+      <property name="DNC" value=""/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Library" value=""/>
+      <property name="Sim.Name" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Digikey_PN" value=""/>
+      <property name="Display Value" value=""/>
+      <property name="Field11" value=""/>
+      <property name="MF" value=""/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0a70473-5b49-4f81-b743-92c48fda9aa6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R30">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07510RL</field>
+        <field name="Characteristics">510R 0402</field>
+        <field name="MPN_ALT">CR0402-FX-5100GLF</field>
+        <field name="LCSC">C276273</field>
+        <field name="MANUFACTURER"/>
+        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
+        <field name="JLC">C276273</field>
+        <field name="DNC"/>
+        <field name="Sim.Device"/>
+        <field name="Sim.Library"/>
+        <field name="Sim.Name"/>
+        <field name="Sim.Pins"/>
+        <field name="DNP"/>
+        <field name="Digikey_PN"/>
+        <field name="Display Value"/>
+        <field name="Field11"/>
+        <field name="MF"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0402FR-07510RL"/>
+      <property name="Characteristics" value="510R 0402"/>
+      <property name="MPN_ALT" value="CR0402-FX-5100GLF"/>
+      <property name="LCSC" value="C276273"/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="JLC" value="C276273"/>
+      <property name="DNC" value=""/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Library" value=""/>
+      <property name="Sim.Name" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Digikey_PN" value=""/>
+      <property name="Display Value" value=""/>
+      <property name="Field11" value=""/>
+      <property name="MF" value=""/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>915f4a2f-348f-487a-821b-987714cdc24c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R31">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07510RL</field>
+        <field name="Characteristics">510R 0402</field>
+        <field name="MPN_ALT">CR0402-FX-5100GLF</field>
+        <field name="LCSC">C276273</field>
+        <field name="MANUFACTURER"/>
+        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
+        <field name="JLC">C276273</field>
+        <field name="DNC"/>
+        <field name="Sim.Device"/>
+        <field name="Sim.Library"/>
+        <field name="Sim.Name"/>
+        <field name="Sim.Pins"/>
+        <field name="DNP"/>
+        <field name="Digikey_PN"/>
+        <field name="Display Value"/>
+        <field name="Field11"/>
+        <field name="MF"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0402FR-07510RL"/>
+      <property name="Characteristics" value="510R 0402"/>
+      <property name="MPN_ALT" value="CR0402-FX-5100GLF"/>
+      <property name="LCSC" value="C276273"/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="JLC" value="C276273"/>
+      <property name="DNC" value=""/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Library" value=""/>
+      <property name="Sim.Name" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Digikey_PN" value=""/>
+      <property name="Display Value" value=""/>
+      <property name="Field11" value=""/>
+      <property name="MF" value=""/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abb04f0e-c056-47a3-aac0-85035c311347</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R32">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07510RL</field>
+        <field name="Characteristics">510R 0402</field>
+        <field name="MPN_ALT">CR0402-FX-5100GLF</field>
+        <field name="LCSC">C276273</field>
+        <field name="MANUFACTURER"/>
+        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
+        <field name="JLC">C276273</field>
+        <field name="DNC"/>
+        <field name="Sim.Device"/>
+        <field name="Sim.Library"/>
+        <field name="Sim.Name"/>
+        <field name="Sim.Pins"/>
+        <field name="DNP"/>
+        <field name="Digikey_PN"/>
+        <field name="Display Value"/>
+        <field name="Field11"/>
+        <field name="MF"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0402FR-07510RL"/>
+      <property name="Characteristics" value="510R 0402"/>
+      <property name="MPN_ALT" value="CR0402-FX-5100GLF"/>
+      <property name="LCSC" value="C276273"/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="JLC" value="C276273"/>
+      <property name="DNC" value=""/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Library" value=""/>
+      <property name="Sim.Name" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Digikey_PN" value=""/>
+      <property name="Display Value" value=""/>
+      <property name="Field11" value=""/>
+      <property name="MF" value=""/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ec3eb0d-8a7f-4d69-acb0-dfbf00378f84</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R33">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07510RL</field>
+        <field name="Characteristics">510R 0402</field>
+        <field name="MPN_ALT">CR0402-FX-5100GLF</field>
+        <field name="LCSC">C276273</field>
+        <field name="MANUFACTURER"/>
+        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
+        <field name="JLC">C276273</field>
+        <field name="DNC"/>
+        <field name="Sim.Device"/>
+        <field name="Sim.Library"/>
+        <field name="Sim.Name"/>
+        <field name="Sim.Pins"/>
+        <field name="DNP"/>
+        <field name="Digikey_PN"/>
+        <field name="Display Value"/>
+        <field name="Field11"/>
+        <field name="MF"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0402FR-07510RL"/>
+      <property name="Characteristics" value="510R 0402"/>
+      <property name="MPN_ALT" value="CR0402-FX-5100GLF"/>
+      <property name="LCSC" value="C276273"/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="JLC" value="C276273"/>
+      <property name="DNC" value=""/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Library" value=""/>
+      <property name="Sim.Name" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Digikey_PN" value=""/>
+      <property name="Display Value" value=""/>
+      <property name="Field11" value=""/>
+      <property name="MF" value=""/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1426e1e-0457-48c3-af49-788276cb2bdb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R34">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07510RL</field>
+        <field name="Characteristics">510R 0402</field>
+        <field name="MPN_ALT">CR0402-FX-5100GLF</field>
+        <field name="LCSC">C276273</field>
+        <field name="MANUFACTURER"/>
+        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
+        <field name="JLC">C276273</field>
+        <field name="DNC"/>
+        <field name="Sim.Device"/>
+        <field name="Sim.Library"/>
+        <field name="Sim.Name"/>
+        <field name="Sim.Pins"/>
+        <field name="DNP"/>
+        <field name="Digikey_PN"/>
+        <field name="Display Value"/>
+        <field name="Field11"/>
+        <field name="MF"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0402FR-07510RL"/>
+      <property name="Characteristics" value="510R 0402"/>
+      <property name="MPN_ALT" value="CR0402-FX-5100GLF"/>
+      <property name="LCSC" value="C276273"/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="JLC" value="C276273"/>
+      <property name="DNC" value=""/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Library" value=""/>
+      <property name="Sim.Name" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Digikey_PN" value=""/>
+      <property name="Display Value" value=""/>
+      <property name="Field11" value=""/>
+      <property name="MF" value=""/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b1336b4-9eac-44a7-9702-64add90ce61a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R35">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07510RL</field>
+        <field name="Characteristics">510R 0402</field>
+        <field name="MPN_ALT">CR0402-FX-5100GLF</field>
+        <field name="LCSC">C276273</field>
+        <field name="MANUFACTURER"/>
+        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
+        <field name="JLC">C276273</field>
+        <field name="DNC"/>
+        <field name="Sim.Device"/>
+        <field name="Sim.Library"/>
+        <field name="Sim.Name"/>
+        <field name="Sim.Pins"/>
+        <field name="DNP"/>
+        <field name="Digikey_PN"/>
+        <field name="Display Value"/>
+        <field name="Field11"/>
+        <field name="MF"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0402FR-07510RL"/>
+      <property name="Characteristics" value="510R 0402"/>
+      <property name="MPN_ALT" value="CR0402-FX-5100GLF"/>
+      <property name="LCSC" value="C276273"/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="JLC" value="C276273"/>
+      <property name="DNC" value=""/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Library" value=""/>
+      <property name="Sim.Name" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Digikey_PN" value=""/>
+      <property name="Display Value" value=""/>
+      <property name="Field11" value=""/>
+      <property name="MF" value=""/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3af7ec2c-ee12-49c7-ae22-4ea65a61e9c5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R36">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07510RL</field>
+        <field name="Characteristics">510R 0402</field>
+        <field name="MPN_ALT">CR0402-FX-5100GLF</field>
+        <field name="LCSC">C276273</field>
+        <field name="MANUFACTURER"/>
+        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
+        <field name="JLC">C276273</field>
+        <field name="DNC"/>
+        <field name="Sim.Device"/>
+        <field name="Sim.Library"/>
+        <field name="Sim.Name"/>
+        <field name="Sim.Pins"/>
+        <field name="DNP"/>
+        <field name="Digikey_PN"/>
+        <field name="Display Value"/>
+        <field name="Field11"/>
+        <field name="MF"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="RC0402FR-07510RL"/>
+      <property name="Characteristics" value="510R 0402"/>
+      <property name="MPN_ALT" value="CR0402-FX-5100GLF"/>
+      <property name="LCSC" value="C276273"/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="JLC" value="C276273"/>
+      <property name="DNC" value=""/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Library" value=""/>
+      <property name="Sim.Name" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Digikey_PN" value=""/>
+      <property name="Display Value" value=""/>
+      <property name="Field11" value=""/>
+      <property name="MF" value=""/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8a4f2ad-0d30-4337-92fd-2b8e7ba666b2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R37">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">CR0402-FX-1001GLF</field>
+        <field name="Characteristics">1k 0402</field>
+        <field name="MPN_ALT">CR0402-FX-5100GLF</field>
+        <field name="LCSC">C202394</field>
+        <field name="MANUFACTURER"/>
+        <field name="MAXIMUM_PACKAGE_HEIGHT"/>
+        <field name="JLC">C202394</field>
+        <field name="DNC"/>
+        <field name="Sim.Device"/>
+        <field name="Sim.Library"/>
+        <field name="Sim.Name"/>
+        <field name="Sim.Pins"/>
+        <field name="DNP"/>
+        <field name="Digikey_PN"/>
+        <field name="Display Value"/>
+        <field name="Field11"/>
+        <field name="MF"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="CR0402-FX-1001GLF"/>
+      <property name="Characteristics" value="1k 0402"/>
+      <property name="MPN_ALT" value="CR0402-FX-5100GLF"/>
+      <property name="LCSC" value="C202394"/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="JLC" value="C202394"/>
+      <property name="DNC" value=""/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Library" value=""/>
+      <property name="Sim.Name" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="DNP" value=""/>
+      <property name="Digikey_PN" value=""/>
+      <property name="Display Value" value=""/>
+      <property name="Field11" value=""/>
+      <property name="MF" value=""/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9827d261-25cd-440d-bb20-3e526aff8ee0</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -3703,8 +4248,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b7037f07-8a3c-40ce-a1de-279c4bc838f2</tstamps>
@@ -3761,8 +4306,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a4d77b4a-6fa4-483e-9885-a65e877a223a</tstamps>
@@ -3823,8 +4368,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="dip switch"/>
       <property name="ki_fp_filters" value="SW?DIP?x8*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3862,7 +4407,7 @@
         <field name="MPN_ALT">C52098159</field>
         <field name="DigikeyPN">NC7SV14P5XCT-ND</field>
         <field name="LCSC">C184058</field>
-        <field name="JLC">C19829606</field>
+        <field name="JLC">C8207</field>
         <field name="Characteristics">Schmitt trigger Inverter</field>
         <field name="Variant"/>
         <field name="Note"/>
@@ -3885,7 +4430,7 @@
       <property name="MPN_ALT" value="C52098159"/>
       <property name="DigikeyPN" value="NC7SV14P5XCT-ND"/>
       <property name="LCSC" value="C184058"/>
-      <property name="JLC" value="C19829606"/>
+      <property name="JLC" value="C8207"/>
       <property name="Characteristics" value="Schmitt trigger Inverter"/>
       <property name="Variant" value=""/>
       <property name="Note" value=""/>
@@ -3899,8 +4444,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="inverter"/>
       <property name="ki_fp_filters" value="SOT*353*SC*70*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3927,7 +4472,7 @@
         <field name="MPN_ALT">C52098159</field>
         <field name="DigikeyPN">NC7SV14P5XCT-ND</field>
         <field name="LCSC">C184058</field>
-        <field name="JLC">C19829606</field>
+        <field name="JLC">C8207</field>
         <field name="Characteristics">Schmitt trigger Inverter</field>
         <field name="Variant"/>
         <field name="Note"/>
@@ -3950,7 +4495,7 @@
       <property name="MPN_ALT" value="C52098159"/>
       <property name="DigikeyPN" value="NC7SV14P5XCT-ND"/>
       <property name="LCSC" value="C184058"/>
-      <property name="JLC" value="C19829606"/>
+      <property name="JLC" value="C8207"/>
       <property name="Characteristics" value="Schmitt trigger Inverter"/>
       <property name="Variant" value=""/>
       <property name="Note" value=""/>
@@ -3964,8 +4509,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="inverter"/>
       <property name="ki_fp_filters" value="SOT*353*SC*70*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4034,8 +4579,8 @@
       <property name="Display Value" value=""/>
       <property name="Field11" value=""/>
       <property name="MF" value=""/>
-      <property name="Sheetname" value="dip-db-baseboard"/>
-      <property name="Sheetfile" value="dip-db-baseboard.kicad_sch"/>
+      <property name="Sheetname" value="dip-dock"/>
+      <property name="Sheetfile" value="dip-dock.kicad_sch"/>
       <property name="ki_keywords" value="display LED 7-segment"/>
       <property name="ki_fp_filters" value="KCSC02?106*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4082,6 +4627,23 @@
         <pin num="3" name="" type="power_in"/>
         <pin num="4" name="" type="output"/>
         <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="R_Small_1">
+      <description>Resistor, small symbol</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x02">
@@ -4521,8 +5083,8 @@
       <node ref="U2" pin="5" pinfunction="VCC_5" pintype="power_in"/>
     </net>
     <net code="2" name="/man_clk" class="Default">
-      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
       <node ref="U2" pin="4" pintype="output"/>
     </net>
     <net code="3" name="/man_clk_trig" class="Default">
@@ -4534,21 +5096,25 @@
     <net code="4" name="/ui_in4" class="IOIn,Default">
       <node ref="CON1" pin="6" pinfunction="UIN4_6" pintype="input"/>
       <node ref="J5" pin="7" pinfunction="IO5_7" pintype="bidirectional"/>
+      <node ref="R33" pin="2" pintype="passive"/>
       <node ref="SW3" pin="12" pintype="passive"/>
     </net>
     <net code="5" name="/ui_in5" class="IOIn,Default">
       <node ref="CON1" pin="7" pinfunction="UIN5_7" pintype="input"/>
       <node ref="J5" pin="8" pinfunction="IO6_8" pintype="bidirectional"/>
+      <node ref="R34" pin="2" pintype="passive"/>
       <node ref="SW3" pin="11" pintype="passive"/>
     </net>
     <net code="6" name="/ui_in6" class="IOIn,Default">
       <node ref="CON1" pin="8" pinfunction="UIN6_8" pintype="input"/>
       <node ref="J5" pin="9" pinfunction="IO7_9" pintype="bidirectional"/>
+      <node ref="R35" pin="2" pintype="passive"/>
       <node ref="SW3" pin="10" pintype="passive"/>
     </net>
     <net code="7" name="/ui_in7" class="IOIn,Default">
       <node ref="CON1" pin="9" pinfunction="UIN7_9" pintype="input"/>
       <node ref="J5" pin="10" pinfunction="IO8_10" pintype="bidirectional"/>
+      <node ref="R36" pin="2" pintype="passive"/>
       <node ref="SW3" pin="9" pintype="passive"/>
     </net>
     <net code="9" name="/uio4" class="IOBidir,Default">
@@ -4615,6 +5181,14 @@
       <node ref="MT1" pin="1" pinfunction="1_1" pintype="input"/>
       <node ref="MT2" pin="1" pinfunction="1_1" pintype="input"/>
       <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
       <node ref="SW2" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U1" pin="3" pintype="power_in"/>
       <node ref="U2" pin="3" pintype="power_in"/>
@@ -4631,234 +5205,244 @@
       <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="R28" pin="2" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(JP1-B)" class="IOOutput,Default">
+    <net code="22" name="Net-(J4-Pin_1)" class="Default">
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(JP1-B)" class="IOOutput,Default">
       <node ref="JP1" pin="2" pinfunction="B_2" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(JP2-B)" class="IOOutput,Default">
+    <net code="24" name="Net-(JP2-B)" class="IOOutput,Default">
       <node ref="JP2" pin="2" pinfunction="B_2" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(JP3-B)" class="IOOutput,Default">
+    <net code="25" name="Net-(JP3-B)" class="IOOutput,Default">
       <node ref="JP3" pin="2" pinfunction="B_2" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(JP4-B)" class="IOOutput,Default">
+    <net code="26" name="Net-(JP4-B)" class="IOOutput,Default">
       <node ref="JP4" pin="2" pinfunction="B_2" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(JP5-B)" class="IOOutput,Default">
+    <net code="27" name="Net-(JP5-B)" class="IOOutput,Default">
       <node ref="JP5" pin="2" pinfunction="B_2" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(JP6-B)" class="IOOutput,Default">
+    <net code="28" name="Net-(JP6-B)" class="IOOutput,Default">
       <node ref="JP6" pin="2" pinfunction="B_2" pintype="passive"/>
       <node ref="R22" pin="1" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(JP7-B)" class="IOOutput,Default">
+    <net code="29" name="Net-(JP7-B)" class="IOOutput,Default">
       <node ref="JP7" pin="2" pinfunction="B_2" pintype="passive"/>
       <node ref="R23" pin="1" pintype="passive"/>
     </net>
-    <net code="29" name="Net-(JP8-B)" class="IOOutput,Default">
+    <net code="30" name="Net-(JP8-B)" class="IOOutput,Default">
       <node ref="JP8" pin="2" pinfunction="B_2" pintype="passive"/>
       <node ref="R24" pin="1" pintype="passive"/>
     </net>
-    <net code="30" name="Net-(R2-Pad2)" class="Default">
+    <net code="31" name="Net-(R2-Pad2)" class="Default">
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="SW3" pin="8" pintype="passive"/>
     </net>
-    <net code="31" name="Net-(R3-Pad2)" class="Default">
+    <net code="32" name="Net-(R3-Pad2)" class="Default">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="SW2" pin="2" pinfunction="2_2" pintype="passive"/>
     </net>
-    <net code="32" name="Net-(R4-Pad2)" class="Default">
+    <net code="33" name="Net-(R4-Pad2)" class="Default">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="SW3" pin="7" pintype="passive"/>
     </net>
-    <net code="33" name="Net-(R5-Pad2)" class="Default">
+    <net code="34" name="Net-(R5-Pad2)" class="Default">
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="SW3" pin="6" pintype="passive"/>
     </net>
-    <net code="34" name="Net-(R7-Pad2)" class="Default">
+    <net code="35" name="Net-(R7-Pad2)" class="Default">
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="SW3" pin="5" pintype="passive"/>
     </net>
-    <net code="35" name="Net-(R8-Pad2)" class="Default">
+    <net code="36" name="Net-(R8-Pad2)" class="Default">
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pintype="input"/>
     </net>
-    <net code="36" name="Net-(R9-Pad2)" class="Default">
+    <net code="37" name="Net-(R9-Pad2)" class="Default">
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="SW3" pin="4" pintype="passive"/>
     </net>
-    <net code="37" name="Net-(R10-Pad2)" class="Default">
+    <net code="38" name="Net-(R10-Pad2)" class="Default">
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="SW3" pin="3" pintype="passive"/>
     </net>
-    <net code="38" name="Net-(R11-Pad2)" class="Default">
+    <net code="39" name="Net-(R11-Pad2)" class="Default">
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="SW3" pin="2" pintype="passive"/>
     </net>
-    <net code="39" name="Net-(R12-Pad2)" class="Default">
+    <net code="40" name="Net-(R12-Pad2)" class="Default">
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="SW3" pin="1" pintype="passive"/>
     </net>
-    <net code="40" name="Net-(R14-Pad1)" class="Default">
+    <net code="41" name="Net-(R14-Pad1)" class="Default">
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="U1" pin="4" pintype="output"/>
     </net>
-    <net code="41" name="Net-(U3-A)" class="IOOutput,Default">
+    <net code="42" name="Net-(U3-A)" class="IOOutput,Default">
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="U3" pin="7" pinfunction="A_7" pintype="input"/>
     </net>
-    <net code="42" name="Net-(U3-B)" class="IOOutput,Default">
+    <net code="43" name="Net-(U3-B)" class="IOOutput,Default">
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="B_6" pintype="input"/>
     </net>
-    <net code="43" name="Net-(U3-C)" class="IOOutput,Default">
+    <net code="44" name="Net-(U3-C)" class="IOOutput,Default">
       <node ref="R19" pin="2" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="C_4" pintype="input"/>
     </net>
-    <net code="44" name="Net-(U3-D)" class="IOOutput,Default">
+    <net code="45" name="Net-(U3-D)" class="IOOutput,Default">
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="D_2" pintype="input"/>
     </net>
-    <net code="45" name="Net-(U3-DP)" class="IOOutput,Default">
+    <net code="46" name="Net-(U3-DP)" class="IOOutput,Default">
       <node ref="R24" pin="2" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="DP_5" pintype="input"/>
     </net>
-    <net code="46" name="Net-(U3-E)" class="IOOutput,Default">
+    <net code="47" name="Net-(U3-E)" class="IOOutput,Default">
       <node ref="R21" pin="2" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="E_1" pintype="input"/>
     </net>
-    <net code="47" name="Net-(U3-F)" class="IOOutput,Default">
+    <net code="48" name="Net-(U3-F)" class="IOOutput,Default">
       <node ref="R22" pin="2" pintype="passive"/>
       <node ref="U3" pin="9" pinfunction="F_9" pintype="input"/>
     </net>
-    <net code="48" name="Net-(U3-G)" class="IOOutput,Default">
+    <net code="49" name="Net-(U3-G)" class="IOOutput,Default">
       <node ref="R23" pin="2" pintype="passive"/>
       <node ref="U3" pin="10" pinfunction="G_10" pintype="input"/>
     </net>
-    <net code="49" name="VBUS" class="HiV,Default">
+    <net code="50" name="VBUS" class="HiV,Default">
       <node ref="J12" pin="16" pinfunction="Pin_16_16" pintype="passive"/>
     </net>
-    <net code="50" name="VCORE" class="Default">
+    <net code="51" name="VCORE" class="Default">
       <node ref="CON1" pin="1" pinfunction="VCORE_1" pintype="power_out"/>
       <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
     </net>
-    <net code="51" name="ctrl_ena" class="Managemnt,Default">
+    <net code="52" name="ctrl_ena" class="Managemnt,Default">
       <node ref="CON1" pin="12" pinfunction="EN_12" pintype="input"/>
       <node ref="J12" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
       <node ref="R25" pin="1" pintype="passive"/>
     </net>
-    <net code="52" name="ctrl_sel_inc" class="Managemnt,Default">
+    <net code="53" name="ctrl_sel_inc" class="Managemnt,Default">
       <node ref="CON1" pin="14" pinfunction="INC_14" pintype="input"/>
       <node ref="J12" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
     </net>
-    <net code="53" name="project_clk" class="HighSpeed,Default">
+    <net code="54" name="project_clk" class="HighSpeed,Default">
       <node ref="CON1" pin="11" pinfunction="PCLK_11" pintype="input"/>
       <node ref="J11" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
       <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
       <node ref="R26" pin="1" pintype="passive"/>
     </net>
-    <net code="54" name="res0" class="Default">
+    <net code="55" name="res0" class="Default">
       <node ref="J12" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
     </net>
-    <net code="55" name="res1" class="Default">
+    <net code="56" name="res1" class="Default">
       <node ref="J12" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
     </net>
-    <net code="56" name="res2" class="Default">
+    <net code="57" name="res2" class="Default">
       <node ref="J12" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
     </net>
-    <net code="57" name="res3" class="Default">
+    <net code="58" name="res3" class="Default">
       <node ref="J12" pin="11" pinfunction="Pin_11_11" pintype="passive"/>
     </net>
-    <net code="58" name="res4" class="Default">
+    <net code="59" name="res4" class="Default">
       <node ref="J12" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
     </net>
-    <net code="59" name="ui_in0" class="IOIn,Default">
+    <net code="60" name="ui_in0" class="IOIn,Default">
       <node ref="CON1" pin="2" pinfunction="UIN0_2" pintype="input"/>
       <node ref="J10" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
       <node ref="J5" pin="1" pinfunction="IO1_1" pintype="bidirectional"/>
+      <node ref="R29" pin="2" pintype="passive"/>
       <node ref="SW3" pin="16" pintype="passive"/>
     </net>
-    <net code="60" name="ui_in1" class="IOIn,Default">
+    <net code="61" name="ui_in1" class="IOIn,Default">
       <node ref="CON1" pin="3" pinfunction="UIN1_3" pintype="input"/>
       <node ref="J10" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="J5" pin="2" pinfunction="IO2_2" pintype="bidirectional"/>
+      <node ref="R30" pin="2" pintype="passive"/>
       <node ref="SW3" pin="15" pintype="passive"/>
     </net>
-    <net code="61" name="ui_in2" class="IOIn,Default">
+    <net code="62" name="ui_in2" class="IOIn,Default">
       <node ref="CON1" pin="4" pinfunction="UIN2_4" pintype="input"/>
       <node ref="J10" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
       <node ref="J5" pin="3" pinfunction="IO3_3" pintype="bidirectional"/>
+      <node ref="R31" pin="2" pintype="passive"/>
       <node ref="SW3" pin="14" pintype="passive"/>
     </net>
-    <net code="62" name="ui_in3" class="IOIn,Default">
+    <net code="63" name="ui_in3" class="IOIn,Default">
       <node ref="CON1" pin="5" pinfunction="UIN3_5" pintype="input"/>
       <node ref="J10" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
       <node ref="J5" pin="4" pinfunction="IO4_4" pintype="bidirectional"/>
+      <node ref="R32" pin="2" pintype="passive"/>
       <node ref="SW3" pin="13" pintype="passive"/>
     </net>
-    <net code="63" name="uio0" class="IOBidir,Default">
+    <net code="64" name="uio0" class="IOBidir,Default">
       <node ref="CON1" pin="24" pinfunction="UIO0_24" pintype="input"/>
       <node ref="J6" pin="1" pinfunction="IO1_1" pintype="bidirectional"/>
       <node ref="J9" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
     </net>
-    <net code="64" name="uio1" class="IOBidir,Default">
+    <net code="65" name="uio1" class="IOBidir,Default">
       <node ref="CON1" pin="25" pinfunction="UIO1_25" pintype="input"/>
       <node ref="J6" pin="2" pinfunction="IO2_2" pintype="bidirectional"/>
       <node ref="J9" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
     </net>
-    <net code="65" name="uio2" class="IOBidir,Default">
+    <net code="66" name="uio2" class="IOBidir,Default">
       <node ref="CON1" pin="26" pinfunction="UIO2_26" pintype="input"/>
       <node ref="J6" pin="3" pinfunction="IO3_3" pintype="bidirectional"/>
       <node ref="J9" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
     </net>
-    <net code="66" name="uio3" class="IOBidir,Default">
+    <net code="67" name="uio3" class="IOBidir,Default">
       <node ref="CON1" pin="27" pinfunction="UIO3_27" pintype="input"/>
       <node ref="J11" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
       <node ref="J6" pin="4" pinfunction="IO4_4" pintype="bidirectional"/>
     </net>
-    <net code="67" name="unconnected-(U1-NC-Pad1)" class="Default">
+    <net code="68" name="unconnected-(U1-NC-Pad1)" class="Default">
       <node ref="U1" pin="1" pinfunction="NC_1" pintype="no_connect"/>
     </net>
-    <net code="68" name="unconnected-(U2-NC-Pad1)" class="Default">
+    <net code="69" name="unconnected-(U2-NC-Pad1)" class="Default">
       <node ref="U2" pin="1" pinfunction="NC_1" pintype="no_connect"/>
     </net>
-    <net code="69" name="uo_out0" class="IOOutput,Default">
+    <net code="70" name="uo_out0" class="IOOutput,Default">
       <node ref="CON1" pin="15" pinfunction="UO0_15" pintype="input"/>
       <node ref="J7" pin="1" pinfunction="IO1_1" pintype="bidirectional"/>
       <node ref="J8" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
       <node ref="JP1" pin="1" pinfunction="A_1" pintype="passive"/>
     </net>
-    <net code="70" name="uo_out1" class="IOOutput,Default">
+    <net code="71" name="uo_out1" class="IOOutput,Default">
       <node ref="CON1" pin="17" pinfunction="UO1_17" pintype="input"/>
       <node ref="J7" pin="2" pinfunction="IO2_2" pintype="bidirectional"/>
       <node ref="J8" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="JP2" pin="1" pinfunction="A_1" pintype="passive"/>
     </net>
-    <net code="71" name="uo_out2" class="IOOutput,Default">
+    <net code="72" name="uo_out2" class="IOOutput,Default">
       <node ref="CON1" pin="18" pinfunction="UO2_18" pintype="input"/>
       <node ref="J7" pin="3" pinfunction="IO3_3" pintype="bidirectional"/>
       <node ref="J8" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
       <node ref="JP3" pin="1" pinfunction="A_1" pintype="passive"/>
     </net>
-    <net code="72" name="uo_out3" class="IOOutput,Default">
+    <net code="73" name="uo_out3" class="IOOutput,Default">
       <node ref="CON1" pin="19" pinfunction="UO3_19" pintype="input"/>
       <node ref="J7" pin="4" pinfunction="IO4_4" pintype="bidirectional"/>
       <node ref="J8" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
       <node ref="JP4" pin="1" pinfunction="A_1" pintype="passive"/>
     </net>
-    <net code="73" name="~{ctrl_sel_rst}" class="Managemnt,Default">
+    <net code="74" name="~{ctrl_sel_rst}" class="Managemnt,Default">
       <node ref="CON1" pin="13" pinfunction="~{RST}_13" pintype="input"/>
       <node ref="J12" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
       <node ref="R27" pin="2" pintype="passive"/>
     </net>
-    <net code="74" name="~{project_rst}" class="Managemnt,Default">
+    <net code="75" name="~{project_rst}" class="Managemnt,Default">
       <node ref="CON1" pin="10" pinfunction="~{PRST}_10" pintype="input"/>
       <node ref="J11" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
