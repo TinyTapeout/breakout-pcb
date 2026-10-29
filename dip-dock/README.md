@@ -16,7 +16,7 @@ as the [Tiny Tapeout Demoboard](https://github.com/TinyTapeout/tt-demo-pcb) for 
 Just pop it in (you may use pin headers but there's space for a ZIF socket) and can connect extension boards through the pmod headers, or interact with it as on a regular demoboard.
 
 
-![DIP Dock PCB](images/dipdock-proto.png)
+![DIP Dock PCB](images/dipdock-proto.jpg)
 
 It can be powered and interacted with via USB (through the [TT DIP firmware](https://github.com/psychogenic/TT-DIP)'s USB serial interface and (maybe?) [commander](https://commander.tinytapeout.com/), or power may be provided externally through the VIO/VCORE headers.
 
